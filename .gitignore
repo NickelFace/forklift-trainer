@@ -1,0 +1,14 @@
+# исходные учебные PDF — чужой контент, в репозиторий не попадают
+sources/
+
+# офлайн-сборка одним файлом, собирается из index.html + data.json
+dist/
+
+# мусор ОС и редакторов
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+__pycache__/
+*.pyc
