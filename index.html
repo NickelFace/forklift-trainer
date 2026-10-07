@@ -114,7 +114,7 @@ a{color:var(--acc)}
 <div class="wrap">
 <header>
   <h1>Forklift <b>TLILIC0003</b> — тренажёр</h1>
-  <span class="sub">68 экзаменационных вопросов + 60 тестовых · расчёты · 25 схем · 6 документов</span>
+  <span class="sub">68 экзаменационных вопросов + 60 тестовых · расчёты · 25 схем · 3 PDF-документа</span>
 </header>
 
 <nav>
@@ -146,13 +146,7 @@ const DOCS = [
   { id:'theory', title:'Учебное пособие', sub:'20 разделов, шпаргалка, тренировочные вопросы · 45 стр.', pages:45, dir:'doc/theory/', pdf:'doc/Forklift_Theory_TLILIC0003.pdf',
     toc:[[1,'Обложка'],[2,'Как пользоваться'],[4,'1 · Законодательство и обязанности'],[6,'2 · Опасности и меры контроля'],[7,'3 · Работа рядом с ЛЭП'],[10,'4 · Типы погрузчиков'],[11,'5 · Rear end swing, погода, аккумулятор'],[13,'6 · Заправка и коммуникация'],[14,'7 · Планирование работы'],[15,'8 · Pre-start inspection'],[17,'9 · Start-up checks'],[18,'10 · Работа с грузом'],[20,'11 · Опрокидывание'],[22,'12 · Штабелирование'],[23,'13 · Навесное оборудование'],[25,'14 · Доки и аварийные ситуации'],[26,'15 · Load centres и data plates'],[31,'16 · Расчёты'],[33,'17 · Парковка, смена, пешеходы'],[35,'18 · Сверка с законодательством 2026'],[39,'19 · Шпаргалка — цифры и формулы'],[43,'20 · Тренировочные вопросы']] },
   { id:'guide', title:'Study Guide — конспект', sub:'§1–16 по National Study Guide · 39 стр.', pages:39, dir:'doc/guide/', pdf:'doc/TLILIC0003_Forklift_Theory_konspekt.pdf',
-    toc:[[1,'Обложка'],[2,'§1 · Legislative requirements'],[7,'§2 · Опасности в зоне работы'],[9,'§3 · Линии электропередачи'],[12,'§4 · Types of forklifts'],[14,'§5 · Communications'],[15,'§6 · Planning your job'],[16,'§7 · Pre-start inspection'],[18,'§8 · Start-up checks'],[19,'§9 · General operations'],[23,'§10 · Attachments'],[25,'§11 · Load centres и data plates'],[29,'§12 · Calculations'],[30,'§13 · Аварии, доки, парковка'],[32,'§14 · Дополнительная информация'],[34,'§15 · Шпаргалка по цифрам'],[36,'§16 · Самопроверка — 76 вопросов']] },
-  { id:'quiz', title:'Квиз — бланк (фото)', sub:'Licence to Operate a Forklift Truck — Quiz, Q1–68 · 8 стр.', pages:8, dir:'doc/quiz/', pdf:'doc/Forklift_Quiz_sheets.pdf', photo:true,
-    toc:[[1,'Обложка'],[2,'Q1–18'],[3,'Q19–37'],[4,'Q38–49 · задача Q47'],[5,'Q50–60 · fulcrum Q60'],[6,'Q61 · навесное оборудование'],[7,'Q62–67 · поверхности'],[8,'Q68 · traffic management']] },
-  { id:'workbook', title:'Рабочая тетрадь (фото)', sub:'Post Training Activity Book: вопросы, расчёты, data plate · 12 стр.', pages:12, dir:'doc/workbook/', pdf:'doc/Assessment_Workbook_sheets.pdf', photo:true,
-    toc:[[1,'Evidence of identity'],[2,'Структура экзамена'],[3,'Part 1 · Q1–10'],[4,'Q11–20'],[5,'Q21–28'],[6,'Q29–37'],[7,'Q38–41 · fulcrum, задача'],[8,'Q42–49'],[9,'Q50–57 · attachments'],[10,'Part 2 · Calculation activity'],[11,'Part 3 · Load chart / data plate'],[12,'Data plate GDLRAIS · вопросы 5–7']] },
-  { id:'studyguide', title:'Study Guide — оригинал (фото)', sub:'Licences4Work National Study Guide v1.3 · 38 стр.', pages:38, dir:'doc/studyguide/', pdf:'doc/Forklift_Theory_Study_Guide_sheets.pdf', photo:true,
-    toc:[[1,'Обложка'],[2,'Legislative requirements'],[3,'Employer must PROVIDE'],[4,'Hazards'],[5,'Power lines'],[6,'Power lines · contact procedure'],[7,'Controls and planning'],[8,'Wet surfaces · night · forklift types'],[9,'Confined areas'],[10,'Rear end swing · weather · battery'],[11,'Battery · refuelling · communications'],[12,'Planning your job'],[13,'Pre-start inspection'],[14,'Pre-start · tyres'],[15,'Pre-start · faults, attachments'],[16,'Start-up operational checks'],[17,'General operations · load weight'],[18,'Passengers · ramps'],[19,'Loads over people · one fork'],[20,'Tip over sideways'],[21,'Tip over forwards · attachments'],[22,'Attachments'],[23,'Stacking'],[24,'Seatbelt · tip over'],[25,'Failures · loading docks'],[26,'Load centres · data plate'],[27,'Load centres'],[28,'Load centres (continued)'],[29,'Parking'],[30,'Calculations'],[31,'Load centre distances'],[32,'Data plates'],[33,'Data plates (continued)'],[34,'Load information · yes or no'],[35,'Surfaces · traffic management'],[36,'Barriers'],[37,'Temporary barriers · signs'],[38,'Notes']] }
+    toc:[[1,'Обложка'],[2,'§1 · Legislative requirements'],[7,'§2 · Опасности в зоне работы'],[9,'§3 · Линии электропередачи'],[12,'§4 · Types of forklifts'],[14,'§5 · Communications'],[15,'§6 · Planning your job'],[16,'§7 · Pre-start inspection'],[18,'§8 · Start-up checks'],[19,'§9 · General operations'],[23,'§10 · Attachments'],[25,'§11 · Load centres и data plates'],[29,'§12 · Calculations'],[30,'§13 · Аварии, доки, парковка'],[32,'§14 · Дополнительная информация'],[34,'§15 · Шпаргалка по цифрам'],[36,'§16 · Самопроверка — 76 вопросов']] }
 ];
 const pageOf = n => ANS_STARTS.filter(s=>s<=n).length;
 
@@ -239,8 +233,8 @@ function home(){
     <p><b>Квиз 68</b> — те же 68 вопросов, но с четырьмя вариантами ответа. Порядок вариантов перемешивается.
     Ошибки копятся в «Ошибках». <b>Экзамен 60</b> — отдельный банк из 60 тестовых вопросов, порог 80 %.
     <b>Расчёты</b> — задачи на вес груза и data plate из рабочей тетради с разбором, плюс генератор новых.</p>
-    <p><b>Схемы</b> — все рисунки одним списком. <b>Документ</b> — шесть документов постранично с оглавлением и скачиванием PDF: ответы на 68 вопросов, учебное пособие,
-    конспект Study Guide и фото оригиналов — бланк квиза, рабочая тетрадь с задачами, Study Guide. У каждой карточки есть ссылка на свою страницу ответов.</p>
+    <p><b>Схемы</b> — все рисунки одним списком. <b>Документ</b> — три PDF постранично с оглавлением и скачиванием: ответы на 68 вопросов, учебное пособие,
+    конспект Study Guide. У каждой карточки есть ссылка на свою страницу ответов.</p>
     <div class="hint">Прогресс хранится в этом браузере. <a href="#" onclick="reset();return false" style="color:var(--bad)">Сбросить всё</a></div>
   </div>
   ${last.length?`<div class="card"><div class="meta">Последние экзамены</div>${
@@ -509,8 +503,7 @@ function calc(){
     <p style="margin:0 0 8px"><b>Вес груза</b> = количество × вес одного + паллет. Паллет не забывать.</p>
     <p style="margin:0 0 8px"><b>Load centre</b> ровного груза = длина ÷ 2. Если он больше 600 mm — грузоподъёмность падает: <code>rated × 600 ÷ load centre</code>.</p>
     <p style="margin:0"><b>Data plate</b>: отдельные цифры для мачты вертикально и с наклоном вперёд; максимальная высота — строка max height / Dim. A.</p>
-    <div class="row"><button class="b" onclick="ctx={list:[],i:0,state:{}};nextGen()">Генератор случайных задач</button>
-      <button class="b" onclick="go('doc',{d:'workbook',p:10})">Открыть задачи в тетради</button></div>
+    <div class="row"><button class="b" onclick="ctx={list:[],i:0,state:{}};nextGen()">Генератор случайных задач</button></div>
   </div>`;
   const el=document.getElementById('ans'); if(el && !done) el.focus();
 }
