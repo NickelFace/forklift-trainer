@@ -2414,5 +2414,181 @@
    "explain_ru": "Поднимать или опускать груз над людьми нельзя никогда: Risk of injury or death if load falls.",
    "source": "Разд. 10: Risk of injury or death if load falls"
   }
+ ],
+ "tasks": [
+  {
+   "id": "t1",
+   "part": "Part 2 — Calculation activity",
+   "src": "Workbook, стр. 10",
+   "q": "You have 4 steel drums of water. Each drum weighs 212 kg and they are on a pallet weighing 45 kg. What is the total weight of this load?",
+   "q_ru": "4 стальные бочки по 212 кг на паллете весом 45 кг. Общий вес груза?",
+   "type": "num",
+   "answer": 893,
+   "unit": "kg",
+   "steps": [
+    "4 drums × 212 kg = 848 kg",
+    "848 kg + 45 kg (pallet) = 893 kg",
+    "Total load = 893 kg — always add the pallet"
+   ]
+  },
+  {
+   "id": "t2",
+   "part": "Part 2 — Calculation activity",
+   "src": "Workbook, стр. 10",
+   "q": "There are 6 cartons per layer and 6 layers on a pallet, each carton weighs 36 kg. The load is placed on a pallet weighing 40 kg. What is the total weight of this load?",
+   "q_ru": "6 коробок в слое, 6 слоёв, каждая коробка 36 кг, паллет 40 кг. Общий вес?",
+   "type": "num",
+   "answer": 1336,
+   "unit": "kg",
+   "steps": [
+    "6 cartons × 6 layers = 36 cartons",
+    "36 × 36 kg = 1296 kg",
+    "1296 kg + 40 kg (pallet) = 1336 kg"
+   ]
+  },
+  {
+   "id": "t3",
+   "part": "Part 2 — Calculation activity",
+   "src": "Workbook, стр. 10",
+   "q": "A load contains 56 boxes, each box weighs 33 kg, placed on a pallet weighing 42 kg. What is the total weight of this load?",
+   "q_ru": "56 коробок по 33 кг на паллете 42 кг. Общий вес?",
+   "type": "num",
+   "answer": 1890,
+   "unit": "kg",
+   "steps": [
+    "56 × 33 kg = 1848 kg",
+    "1848 kg + 42 kg (pallet) = 1890 kg"
+   ]
+  },
+  {
+   "id": "t4",
+   "part": "Part 3 — Load chart / data plate XTQ300a",
+   "src": "Workbook, стр. 11",
+   "plate": "XTQ300a · max height 3700 mm · max back tilt 10° · forks 1070 mm · load centre 600 mm · SWL mast vertical 1890 kg · SWL mast forward tilt 6° 1480 kg",
+   "q": "What is the lifting capacity of the forklift with the mast tilted forward 6 degrees?",
+   "q_ru": "Грузоподъёмность при наклоне мачты вперёд на 6°?",
+   "type": "num",
+   "answer": 1480,
+   "unit": "kg",
+   "steps": [
+    "Read the 'MAST FORWARD TILT 6 DEGREES' table: Safe Working Load = 1480 kg",
+    "Tilting the mast forward moves the load centre forward → capacity drops from 1890 to 1480 kg"
+   ]
+  },
+  {
+   "id": "t5",
+   "part": "Part 3 — Load chart / data plate XTQ300a",
+   "src": "Workbook, стр. 11",
+   "q": "What is the lifting capacity of the forklift with the mast in the vertical position?",
+   "q_ru": "Грузоподъёмность при вертикальной мачте?",
+   "type": "num",
+   "answer": 1890,
+   "unit": "kg",
+   "steps": [
+    "Read the 'MAST VERTICAL' table: Safe Working Load = 1890 kg at 600 mm load centre"
+   ]
+  },
+  {
+   "id": "t6",
+   "part": "Part 3 — Load chart / data plate XTQ300a",
+   "src": "Workbook, стр. 11",
+   "q": "Can a load weighing 1890 kg with a load centre of 700 mm be raised with the mast in the vertical position?",
+   "q_ru": "Можно ли поднять 1890 кг с load centre 700 мм при вертикальной мачте?",
+   "type": "yn",
+   "answer": "NO",
+   "steps": [
+    "1890 kg is the capacity at 600 mm load centre only",
+    "At 700 mm the capacity is lower: ≈ 1890 × 600 ÷ 700 ≈ 1620 kg",
+    "1890 kg > 1620 kg → NO, it is an overload"
+   ]
+  },
+  {
+   "id": "t7",
+   "part": "Part 3 — Load chart / data plate XTQ300a",
+   "src": "Workbook, стр. 11",
+   "q": "Can a load weighing more than 1890 kg be raised with the mast in the vertical position?",
+   "q_ru": "Можно ли поднять больше 1890 кг при вертикальной мачте?",
+   "type": "yn",
+   "answer": "NO",
+   "steps": [
+    "1890 kg is the maximum Safe Working Load on the plate",
+    "Anything heavier is an overload → NO"
+   ]
+  },
+  {
+   "id": "t8",
+   "part": "Part 3 — Load chart / data plate XTQ300a",
+   "src": "Workbook, стр. 11",
+   "q": "What is the maximum height a load can be raised with the mast in the vertical position?",
+   "q_ru": "Максимальная высота подъёма при вертикальной мачте?",
+   "type": "num",
+   "answer": 3700,
+   "unit": "mm",
+   "steps": [
+    "Read 'MAX HEIGHT' / 'FORK HEIGHT' on the plate: 3700 mm"
+   ]
+  },
+  {
+   "id": "t9",
+   "part": "Part 3 — Data plate GDLRAIS155KXH123",
+   "src": "Workbook, стр. 12",
+   "plate": "Lift truck GDLRAIS155KXH123 · truck weight 9750 kg · attachment: 1981 mm carriage + sideshifting fork positioner + 1830 mm forks · MAXIMUM CAPACITY 6130 kg · load height (Dim. A) 4400 mm · load centre Dim. B 915 mm / Dim. C 915 mm · capacity with mast vertical and equipped as shown",
+   "q": "Can you lift a pallet 1175 mm length and 1175 mm width with a height of 1600 mm and a total weight of 1700 kg?",
+   "q_ru": "Можно ли поднять паллет 1175 × 1175 мм, высота 1600 мм, вес 1700 кг?",
+   "type": "yn",
+   "answer": "YES",
+   "steps": [
+    "Load centre = 1175 ÷ 2 = 587.5 mm — inside the rated 915 mm (Dim. B)",
+    "Vertical load centre: 1600 ÷ 2 = 800 mm — inside Dim. C 915 mm",
+    "Weight 1700 kg < 6130 kg → YES"
+   ]
+  },
+  {
+   "id": "t10",
+   "part": "Part 3 — Data plate GDLRAIS155KXH123",
+   "src": "Workbook, стр. 12",
+   "q": "A container containing a 6000 kg load. The tare weight of the container is 2500 kg. The container size is 2.4 m wide, 2.5 m high and 2.4 m long. Can you lift it?",
+   "q_ru": "Контейнер: груз 6000 кг, тара 2500 кг, размер 2,4 × 2,5 × 2,4 м. Можно поднять?",
+   "type": "yn",
+   "answer": "NO",
+   "steps": [
+    "Total weight = 6000 + 2500 (tare) = 8500 kg",
+    "8500 kg > 6130 kg maximum capacity → NO",
+    "Also the load centre 2400 ÷ 2 = 1200 mm is beyond the rated 915 mm — capacity would be even lower"
+   ]
+  },
+  {
+   "id": "t11",
+   "part": "Part 3 — Data plate GDLRAIS155KXH123",
+   "src": "Workbook, стр. 12",
+   "q": "What is the maximum height a load can be raised with the mast in the vertical position?",
+   "q_ru": "Максимальная высота подъёма при вертикальной мачте?",
+   "type": "num",
+   "answer": 4400,
+   "unit": "mm",
+   "steps": [
+    "Read 'Load Height Dim. A' on the plate: 4400 mm"
+   ]
+  },
+  {
+   "id": "t12",
+   "part": "Quiz — Q47",
+   "src": "Quiz, стр. 4",
+   "q": "Forklift rated 4200 kg at 600 mm. Which load is within capacity: A = 1400 mm long, B = 1000 mm long, C = 1300 mm long (each 4200 kg)?",
+   "q_ru": "Погрузчик 4200 кг @ 600 мм. Какой груз в пределах: A 1400 мм, B 1000 мм, C 1300 мм (каждый 4200 кг)?",
+   "type": "choice",
+   "options": [
+    "A",
+    "B",
+    "C"
+   ],
+   "answer": "B",
+   "steps": [
+    "Load centre = half the load length",
+    "A: 700 mm → ≈ 3600 kg capacity → overload",
+    "B: 500 mm → inside 600 mm → 4200 kg OK",
+    "C: 650 mm → ≈ 3877 kg → overload"
+   ]
+  }
  ]
 }
