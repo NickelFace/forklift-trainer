@@ -6,7 +6,22 @@
    "section": "Pre-operational checks & communication",
    "q": "When should a forklift be checked for damage?",
    "a_en": "Before every use — a pre-operational (pre-start) inspection at the start of each shift and each time you change operators. Also check during operation, after any impact or incident, at the end of the shift, and at the intervals set by the manufacturer's service schedule.",
-   "a_ru": "Перед каждым использованием — предэксплуатационная проверка в начале смены и при смене оператора. Также в процессе работы, после любого удара/инцидента, в конце смены и по регламенту производителя."
+   "a_ru": "Перед каждым использованием — предэксплуатационная проверка в начале смены и при смене оператора. Также в процессе работы, после любого удара/инцидента, в конце смены и по регламенту производителя.",
+   "key": [
+    "Before every use — pre-start inspection",
+    "At the start of each shift and at every change of operator",
+    "During operation and after any impact or incident",
+    "At the end of the shift and at the manufacturer's service intervals"
+   ],
+   "options": [
+    "Before every use — pre-start check at the start of each shift, at each change of operator, after any impact, and at service intervals",
+    "Once a week by the maintenance department; the operator only reports faults",
+    "Only when a fault light comes on or the forklift feels different to drive",
+    "At the annual inspection required for the High Risk Work licence"
+   ],
+   "correct": 0,
+   "explain_ru": "Проверка — перед каждым использованием: начало смены, смена оператора, после удара, по регламенту. Не раз в неделю и не только по лампочке.",
+   "fig": "prestart"
   },
   {
    "id": "q2",
@@ -14,7 +29,25 @@
    "section": "Pre-operational checks & communication",
    "q": "List 7 items that you should check when undertaking a pre-operational check of the forklift.",
    "a_en": "(1) Tyres and wheels — condition, pressure, nuts. (2) Fork arms and carriage — cracks, wear, locking pins. (3) Mast, chains and hydraulic rams — tension, leaks, damage. (4) Hydraulic hoses and fluid levels — oil, coolant, fuel/battery, hydraulic oil. (5) Data plate (capacity plate) and all decals present and legible. (6) Seat, seatbelt and operator restraint. (7) Overhead guard and load backrest — secure, undamaged. (Also: horn, lights, beacon, mirrors, fire extinguisher, no leaks under machine.)",
-   "a_ru": "(1) Шины и колёса. (2) Вилы и каретка — трещины, износ, фиксаторы. (3) Мачта, цепи, гидроцилиндры. (4) Шланги и уровни жидкостей. (5) Заводская табличка (data plate) и наклейки. (6) Сиденье и ремень. (7) Защитная крыша и спинка каретки. Плюс: сигнал, свет, маячок, зеркала, огнетушитель, подтёки под машиной."
+   "a_ru": "(1) Шины и колёса. (2) Вилы и каретка — трещины, износ, фиксаторы. (3) Мачта, цепи, гидроцилиндры. (4) Шланги и уровни жидкостей. (5) Заводская табличка (data plate) и наклейки. (6) Сиденье и ремень. (7) Защитная крыша и спинка каретки. Плюс: сигнал, свет, маячок, зеркала, огнетушитель, подтёки под машиной.",
+   "key": [
+    "Tyres and wheels",
+    "Fork arms and carriage — cracks, wear, locking pins",
+    "Mast, chains, hydraulic rams",
+    "Hoses and fluid levels — oil, coolant, fuel, hydraulic",
+    "Data plate and decals legible",
+    "Seat, seatbelt, operator restraint",
+    "Overhead guard and load backrest"
+   ],
+   "options": [
+    "Tyres, fork arms, mast and chains, fluid levels, data plate, seatbelt, overhead guard",
+    "Engine horsepower, paint condition, radio reception, cup holder, floor mats, air conditioning, odometer",
+    "Only the items the supervisor nominates on the day",
+    "Tyres, forks and fuel — the rest is checked by the mechanic at service"
+   ],
+   "correct": 0,
+   "explain_ru": "Семь пунктов pre-start: шины, вилы и каретка, мачта и цепи, жидкости и шланги, data plate, ремень и сиденье, защитная крыша и спинка каретки.",
+   "fig": "prestart"
   },
   {
    "id": "q3",
@@ -22,7 +55,24 @@
    "section": "Pre-operational checks & communication",
    "q": "List all guards on your forklift and their functions.",
    "a_en": "• Overhead guard (ROPS/FOPS) — protects the operator from falling objects and in a roll-over. • Load backrest extension — stops the load falling backwards onto the operator. • Fan belt / engine guard — prevents contact with moving belts and pulleys. • Chain and sprocket guard on the mast — prevents entanglement. • Exhaust / muffler guard — prevents burns. • Seatbelt and operator restraint system — keeps the operator inside the protective zone.",
-   "a_ru": "• Защитная крыша (ROPS/FOPS) — от падающих предметов и при опрокидывании. • Спинка каретки — груз не упадёт на оператора. • Кожух ремня/двигателя — от вращающихся частей. • Кожух цепей мачты — от затягивания. • Кожух выхлопа — от ожогов. • Ремень безопасности — удерживает оператора в защитной зоне."
+   "a_ru": "• Защитная крыша (ROPS/FOPS) — от падающих предметов и при опрокидывании. • Спинка каретки — груз не упадёт на оператора. • Кожух ремня/двигателя — от вращающихся частей. • Кожух цепей мачты — от затягивания. • Кожух выхлопа — от ожогов. • Ремень безопасности — удерживает оператора в защитной зоне.",
+   "key": [
+    "Overhead guard (ROPS/FOPS) — falling objects, roll-over",
+    "Load backrest extension — load falling back onto operator",
+    "Fan belt / engine guard — moving belts and pulleys",
+    "Chain and sprocket guard on the mast — entanglement",
+    "Exhaust / muffler guard — burns",
+    "Seatbelt / operator restraint — keeps you inside the protective zone"
+   ],
+   "options": [
+    "Overhead guard, load backrest extension, fan belt guard, chain guard, exhaust guard, seatbelt",
+    "Front bumper, tow bar, mud flaps, number plate, sun visor",
+    "Overhead guard and load backrest only — the rest are optional accessories",
+    "Side mirrors, rear-view camera, reversing alarm and beacon"
+   ],
+   "correct": 0,
+   "explain_ru": "Guards — это защитные элементы: крыша, спинка каретки, кожухи ремня, цепей и выхлопа, ремень безопасности. Зеркала и сигналы — не guards.",
+   "fig": "guards"
   },
   {
    "id": "q4",
@@ -30,7 +80,24 @@
    "section": "Pre-operational checks & communication",
    "q": "List 6 post-start checks that should be made after starting and before operating the forklift.",
    "a_en": "(1) Gauges and warning lights — all normal, no faults showing. (2) Horn works. (3) Lights, beacon and reversing alarm work. (4) Service brake and park brake hold. (5) Steering — full lock both ways, no excessive play. (6) All hydraulic functions — raise, lower, tilt forward/back, side shift, and check for leaks or abnormal noise.",
-   "a_ru": "(1) Приборы и индикаторы. (2) Звуковой сигнал. (3) Свет, маячок, сигнал заднего хода. (4) Рабочий и стояночный тормоз. (5) Рулевое — полный поворот в обе стороны. (6) Все гидрофункции: подъём, опускание, наклон, боковое смещение; нет утечек и посторонних шумов."
+   "a_ru": "(1) Приборы и индикаторы. (2) Звуковой сигнал. (3) Свет, маячок, сигнал заднего хода. (4) Рабочий и стояночный тормоз. (5) Рулевое — полный поворот в обе стороны. (6) Все гидрофункции: подъём, опускание, наклон, боковое смещение; нет утечек и посторонних шумов.",
+   "key": [
+    "Gauges and warning lights normal",
+    "Horn works",
+    "Lights, beacon, reversing alarm work",
+    "Service brake and park brake hold",
+    "Steering — full lock both ways",
+    "All hydraulics — raise, lower, tilt, side shift; no leaks or noise"
+   ],
+   "options": [
+    "Gauges and warning lights, horn, lights and alarm, service and park brakes, steering, all hydraulic functions",
+    "Tyre pressure, fork condition, data plate, fluid levels, seatbelt, overhead guard",
+    "Fuel level, odometer, engine temperature, oil pressure, battery voltage, hour meter",
+    "Only brakes and steering — the rest was done before starting"
+   ],
+   "correct": 0,
+   "explain_ru": "Post-start = после запуска: приборы, клаксон, свет и сигналы, тормоза, руль, гидравлика. Вариант B — это pre-start (до запуска).",
+   "fig": "prestart"
   },
   {
    "id": "q5",
@@ -38,7 +105,22 @@
    "section": "Pre-operational checks & communication",
    "q": "Why is it important to communicate with workplace personnel before commencing work on site?",
    "a_en": "So that everyone knows what work is happening, where and when. It lets you identify site hazards, agree exclusion zones and traffic routes, coordinate with other plant and pedestrians, confirm site rules, permits and emergency procedures, and make sure nobody walks into your work area unexpectedly. Consultation is also a legal duty under WHS legislation.",
-   "a_ru": "Чтобы все знали, какие работы идут, где и когда: выявить опасности площадки, согласовать зоны ограничения и маршруты движения, скоординироваться с другой техникой и пешеходами, уточнить правила, разрешения и аварийные процедуры. Консультация — ещё и требование закона WHS."
+   "a_ru": "Чтобы все знали, какие работы идут, где и когда: выявить опасности площадки, согласовать зоны ограничения и маршруты движения, скоординироваться с другой техникой и пешеходами, уточнить правила, разрешения и аварийные процедуры. Консультация — ещё и требование закона WHS.",
+   "key": [
+    "Everyone knows what work is happening, where and when",
+    "Identify site hazards, agree exclusion zones and traffic routes",
+    "Coordinate with other plant and pedestrians",
+    "Confirm site rules, permits, emergency procedures",
+    "Consultation is a legal duty under WHS"
+   ],
+   "options": [
+    "So everyone knows what work is happening, hazards and exclusion zones are agreed, other plant and pedestrians are coordinated, and the WHS duty to consult is met",
+    "To record who was on site in case of an insurance claim",
+    "Because the forklift cannot be started without a supervisor's PIN code",
+    "It is not required if the operator holds a current HRW licence"
+   ],
+   "correct": 0,
+   "explain_ru": "Коммуникация до начала работ: все знают, что происходит, выявлены опасности, согласованы зоны и маршруты. Плюс это требование закона WHS."
   },
   {
    "id": "q6",
@@ -46,7 +128,23 @@
    "section": "Pre-operational checks & communication",
    "q": "List 5 methods of communication that can be used in the workplace while operating your forklift.",
    "a_en": "(1) Verbal / face-to-face. (2) Two-way radio (UHF). (3) Standard hand signals. (4) The horn and reversing alarm. (5) Mobile phone. (Also: eye contact, whistle, signage, flashing beacon, written SWMS / job instructions.)",
-   "a_ru": "(1) Устно, лицом к лицу. (2) Рация. (3) Стандартные жесты рук. (4) Клаксон и сигнал заднего хода. (5) Мобильный телефон. Также: зрительный контакт, свисток, знаки, маячок, письменные инструкции/SWMS."
+   "a_ru": "(1) Устно, лицом к лицу. (2) Рация. (3) Стандартные жесты рук. (4) Клаксон и сигнал заднего хода. (5) Мобильный телефон. Также: зрительный контакт, свисток, знаки, маячок, письменные инструкции/SWMS.",
+   "key": [
+    "Verbal / face-to-face",
+    "Two-way radio (UHF)",
+    "Standard hand signals",
+    "Horn and reversing alarm",
+    "Mobile phone",
+    "Also: eye contact, whistle, signage, beacon, written SWMS"
+   ],
+   "options": [
+    "Verbal, two-way radio, hand signals, horn and reversing alarm, mobile phone",
+    "Email, fax, noticeboard, company intranet, staff newsletter",
+    "Only the horn — any other communication distracts the operator",
+    "Shouting over the engine, flashing the headlights, revving the engine, texting, waving the load"
+   ],
+   "correct": 0,
+   "explain_ru": "Пять методов связи на площадке: устно, рация, жесты, клаксон/сигнал заднего хода, телефон. Email и доска объявлений — не для работы в движении."
   },
   {
    "id": "q7",
@@ -54,7 +152,21 @@
    "section": "Pre-operational checks & communication",
    "q": "If you are given unclear information about your work, what should you do?",
    "a_en": "Stop and do not start the task. Ask your supervisor to clarify and confirm the instruction before you proceed — never assume or guess. Get it in writing (SWMS, work order) if it is complex.",
-   "a_ru": "Остановиться и не начинать работу. Уточнить у руководителя и получить подтверждение до начала — не догадываться. Если задача сложная — попросить письменную инструкцию (SWMS, наряд)."
+   "a_ru": "Остановиться и не начинать работу. Уточнить у руководителя и получить подтверждение до начала — не догадываться. Если задача сложная — попросить письменную инструкцию (SWMS, наряд).",
+   "key": [
+    "Stop — do not start the task",
+    "Ask your supervisor to clarify and confirm",
+    "Never assume or guess",
+    "Get it in writing (SWMS, work order) if complex"
+   ],
+   "options": [
+    "Stop, do not start the task, and ask your supervisor to clarify and confirm the instruction before proceeding",
+    "Use your experience to work out what was probably meant and get on with the job",
+    "Ask a co-worker what they would do and follow their advice",
+    "Start the task carefully and clarify the details during the first break"
+   ],
+   "correct": 0,
+   "explain_ru": "Неясная инструкция = остановиться и уточнить у руководителя. Не догадываться и не начинать «аккуратно»."
   },
   {
    "id": "q8",
@@ -62,7 +174,23 @@
    "section": "Pre-operational checks & communication",
    "q": "Before commencing work who should you consult with?",
    "a_en": "Your supervisor or site manager; the principal contractor / client representative; other operators and site personnel working in or near the area; pedestrians and workers who may be affected; the Health and Safety Representative (HSR); and any spotter or dogman you will be working with.",
-   "a_ru": "С руководителем/менеджером площадки; с генподрядчиком или представителем заказчика; с другими операторами и персоналом рядом; с пешеходами и работниками, которых это затронет; с представителем по охране труда (HSR); со стропальщиком/сигнальщиком, если он есть."
+   "a_ru": "С руководителем/менеджером площадки; с генподрядчиком или представителем заказчика; с другими операторами и персоналом рядом; с пешеходами и работниками, которых это затронет; с представителем по охране труда (HSR); со стропальщиком/сигнальщиком, если он есть.",
+   "key": [
+    "Supervisor / site manager",
+    "Principal contractor / client representative",
+    "Other operators and site personnel nearby",
+    "Pedestrians and workers who may be affected",
+    "Health and Safety Representative (HSR)",
+    "Spotter or dogman you will work with"
+   ],
+   "options": [
+    "Supervisor, site manager, other operators and site personnel, affected workers and pedestrians, the HSR, your spotter",
+    "Only the person who signed your timesheet",
+    "The forklift manufacturer's customer service line",
+    "Nobody — a licensed operator is responsible for their own safety only"
+   ],
+   "correct": 0,
+   "explain_ru": "Консультироваться нужно со всеми, кого касается работа: руководитель, другие операторы, пешеходы, HSR, сигнальщик."
   },
   {
    "id": "q9",
@@ -70,7 +198,21 @@
    "section": "Pre-operational checks & communication",
    "q": "Are you allowed to use a forklift that has a missing data plate?",
    "a_en": "No. Without the data plate you cannot know the rated capacity, load centre or attachment ratings, so the forklift must not be operated.",
-   "a_ru": "Нет. Без таблички неизвестны грузоподъёмность, центр груза и параметры навесного оборудования — эксплуатация запрещена."
+   "a_ru": "Нет. Без таблички неизвестны грузоподъёмность, центр груза и параметры навесного оборудования — эксплуатация запрещена.",
+   "key": [
+    "No",
+    "Without the data plate you cannot know rated capacity, load centre, attachment ratings",
+    "Must not be operated"
+   ],
+   "options": [
+    "No — without the data plate you cannot know the rated capacity or load centre, so the forklift must not be operated",
+    "Yes — if you have driven the same model before and remember its capacity",
+    "Yes — as long as you only lift light loads and keep the mast vertical",
+    "Yes — for up to one shift while a replacement plate is ordered"
+   ],
+   "correct": 0,
+   "explain_ru": "Без заводской таблички работать нельзя ни при каких условиях — неизвестна грузоподъёмность и load centre.",
+   "fig": "dataplate"
   },
   {
    "id": "q10",
@@ -78,7 +220,22 @@
    "section": "Pre-operational checks & communication",
    "q": "What action should you take if you find that the data plate is missing from the forklift?",
    "a_en": "Do not use the machine. Shut it down, remove the key, tag it 'Out of Service' / Danger tag and isolate it. Report it to your supervisor immediately and record it on the pre-start checklist. The forklift stays out of service until a correct replacement plate is obtained from the manufacturer and fitted.",
-   "a_ru": "Не использовать. Заглушить, вынуть ключ, повесить бирку «Out of Service» и изолировать. Немедленно сообщить руководителю и записать в чек-лист. Машина не работает, пока производитель не выдаст и не установят новую табличку."
+   "a_ru": "Не использовать. Заглушить, вынуть ключ, повесить бирку «Out of Service» и изолировать. Немедленно сообщить руководителю и записать в чек-лист. Машина не работает, пока производитель не выдаст и не установят новую табличку.",
+   "key": [
+    "Do not use the machine",
+    "Shut down, remove key, tag Out of Service / Danger tag, isolate",
+    "Report to supervisor immediately, record on pre-start checklist",
+    "Stays out of service until the correct replacement plate is fitted"
+   ],
+   "options": [
+    "Do not use it: shut down, remove the key, tag it Out of Service, isolate it, report to your supervisor and record it on the checklist",
+    "Write the capacity on the mast with a marker pen and continue working",
+    "Operate at half the capacity you think it has until the plate is replaced",
+    "Finish the shift and mention it to the mechanic at the next service"
+   ],
+   "correct": 0,
+   "explain_ru": "Нет таблички: машина выводится из эксплуатации, ключ изъят, бирка Out of Service, доклад руководителю. Самодельные надписи не считаются.",
+   "fig": "dataplate"
   },
   {
    "id": "q11",
@@ -86,7 +243,21 @@
    "section": "Hazards, risk and site conditions",
    "q": "What does hazard mean?",
    "a_en": "A hazard is any thing, situation, substance or activity that has the potential to cause harm — injury or illness to a person, or damage to plant, property or the environment.",
-   "a_ru": "Опасность (hazard) — любой предмет, ситуация, вещество или действие, которое потенциально может причинить вред: травму или заболевание человеку, либо повреждение техники, имущества, среды."
+   "a_ru": "Опасность (hazard) — любой предмет, ситуация, вещество или действие, которое потенциально может причинить вред: травму или заболевание человеку, либо повреждение техники, имущества, среды.",
+   "key": [
+    "Hazard = anything with the potential to cause harm",
+    "Thing, situation, substance or activity",
+    "Harm = injury or illness to a person, damage to plant, property, environment"
+   ],
+   "options": [
+    "Any thing, situation, substance or activity that has the potential to cause harm",
+    "The likelihood that harm will occur combined with how serious it would be",
+    "An injury that has already happened and been reported",
+    "A control measure used to protect pedestrians from mobile plant"
+   ],
+   "correct": 0,
+   "explain_ru": "HAZARD — то, что может причинить вред. Вариант B — определение RISK, не путать.",
+   "fig": "hazrisk"
   },
   {
    "id": "q12",
@@ -94,7 +265,21 @@
    "section": "Hazards, risk and site conditions",
    "q": "List 6 site hazards and 6 non-site hazards in the following table.",
    "a_en": "Site hazards are inside the work area and under your employer's control; 'other than site' hazards come from outside the boundary and you usually cannot control them. SITE: (1) Pedestrians and other workers on foot. (2) Other vehicles and mobile plant. (3) Uneven surfaces, potholes, ramps, slopes. (4) Overhead power lines, pipes and structures. (5) Stacked loads, racking, confined/restricted spaces. (6) Spills, poor lighting, noise, dust, exhaust fumes. NON-SITE: (1) Weather — rain, wind, storms, extreme heat. (2) Public traffic on adjacent roads. (3) Members of the public outside the site. (4) Adjacent worksites and neighbouring buildings. (5) Underground services outside the site. (6) Sun glare, wildlife, dust from outside.",
-   "a_ru": "Опасности площадки — внутри рабочей зоны, под контролем работодателя; внешние приходят из-за периметра. НА ПЛОЩАДКЕ: (1) пешеходы и работники; (2) другая техника и транспорт; (3) неровности, ямы, рампы, уклоны; (4) ЛЭП, трубы и конструкции сверху; (5) штабеля, стеллажи, стеснённые пространства; (6) разливы, плохой свет, шум, пыль, выхлоп. ВНЕШНИЕ: (1) погода — дождь, ветер, гроза, жара; (2) общественный транспорт на соседних дорогах; (3) посторонние люди за периметром; (4) соседние стройки и здания; (5) подземные коммуникации за периметром; (6) блики солнца, животные, пыль извне."
+   "a_ru": "Опасности площадки — внутри рабочей зоны, под контролем работодателя; внешние приходят из-за периметра. НА ПЛОЩАДКЕ: (1) пешеходы и работники; (2) другая техника и транспорт; (3) неровности, ямы, рампы, уклоны; (4) ЛЭП, трубы и конструкции сверху; (5) штабеля, стеллажи, стеснённые пространства; (6) разливы, плохой свет, шум, пыль, выхлоп. ВНЕШНИЕ: (1) погода — дождь, ветер, гроза, жара; (2) общественный транспорт на соседних дорогах; (3) посторонние люди за периметром; (4) соседние стройки и здания; (5) подземные коммуникации за периметром; (6) блики солнца, животные, пыль извне.",
+   "key": [
+    "SITE hazards — inside the work area, under employer's control",
+    "Pedestrians, other vehicles, uneven surfaces, overhead lines, racking, spills / poor lighting",
+    "NON-SITE hazards — from outside the boundary, usually not controllable",
+    "Weather, public traffic, members of the public, adjacent worksites, underground services outside, sun glare"
+   ],
+   "options": [
+    "Site: pedestrians, other plant, uneven surfaces, overhead lines, racking, spills. Non-site: weather, public traffic, members of the public, adjacent worksites, outside services, sun glare",
+    "Site: weather, public roads, neighbours. Non-site: pedestrians, racking, potholes",
+    "Site hazards are those found by the regulator; non-site hazards are found by the operator",
+    "There is no difference — all hazards are treated the same way"
+   ],
+   "correct": 0,
+   "explain_ru": "Site — внутри площадки и под контролем работодателя. Non-site — снаружи: погода, публичные дороги, соседние объекты."
   },
   {
    "id": "q13",
@@ -102,7 +287,21 @@
    "section": "Hazards, risk and site conditions",
    "q": "What does risk mean?",
    "a_en": "Risk is the likelihood that a hazard will actually cause harm, combined with the consequence — how serious that harm would be. Risk assessment then decides what controls are needed.",
-   "a_ru": "Риск — вероятность того, что опасность действительно причинит вред, в сочетании с тяжестью последствий. По оценке риска подбирают меры контроля."
+   "a_ru": "Риск — вероятность того, что опасность действительно причинит вред, в сочетании с тяжестью последствий. По оценке риска подбирают меры контроля.",
+   "key": [
+    "Risk = likelihood that a hazard will cause harm",
+    "Combined with the consequence (how serious)",
+    "Risk assessment decides what controls are needed"
+   ],
+   "options": [
+    "The likelihood that a hazard will actually cause harm, combined with how serious that harm would be",
+    "Any thing or situation that has the potential to cause harm",
+    "The number of incidents recorded on site in the past year",
+    "A written procedure that tells you how to do a task safely"
+   ],
+   "correct": 0,
+   "explain_ru": "RISK — вероятность × тяжесть последствий. Вариант B — HAZARD; вариант D — SWMS.",
+   "fig": "hazrisk"
   },
   {
    "id": "q14",
@@ -110,7 +309,21 @@
    "section": "Hazards, risk and site conditions",
    "q": "What is the risk of refuelling while the engine is running?",
    "a_en": "Fire and explosion. Petrol/diesel vapour and LPG can be ignited by the hot engine, exhaust, electrical sparks or static. Always shut the engine down, remove the key, no smoking or naked flame, and refuel in a designated, well-ventilated area.",
-   "a_ru": "Пожар и взрыв. Пары топлива или газ воспламеняются от горячего двигателя, выхлопа, искры или статики. Двигатель заглушить, ключ вынуть, не курить, заправляться в отведённом проветриваемом месте."
+   "a_ru": "Пожар и взрыв. Пары топлива или газ воспламеняются от горячего двигателя, выхлопа, искры или статики. Двигатель заглушить, ключ вынуть, не курить, заправляться в отведённом проветриваемом месте.",
+   "key": [
+    "Fire and explosion",
+    "Fuel vapour / LPG ignited by hot engine, exhaust, sparks, static",
+    "Shut down, remove key, no smoking, designated ventilated area"
+   ],
+   "options": [
+    "Fire and explosion — fuel vapour or LPG can be ignited by the hot engine, exhaust, sparks or static",
+    "Fuel contamination because the pump runs backwards",
+    "Overfilling because the fuel gauge is not accurate while running",
+    "There is no risk — modern forklifts have sealed fuel systems"
+   ],
+   "correct": 0,
+   "explain_ru": "Заправка при работающем двигателе = пожар и взрыв. Двигатель глушим, ключ вынимаем, заправка только в отведённом месте.",
+   "fig": "refuel"
   },
   {
    "id": "q15",
@@ -118,7 +331,23 @@
    "section": "Hazards, risk and site conditions",
    "q": "Describe which way a loaded forklift should travel up a ramp and where your load should be facing.",
    "a_en": "Loaded: drive forward (up) the ramp and reverse down it — the load always faces up the slope. Keep the load low, mast tilted back, travel slowly and straight — never turn or travel across the slope. (Unloaded is the opposite: reverse up and drive forward down, so the forks point down the slope.)",
-   "a_ru": "С грузом: вверх — передним ходом, вниз — задним ходом; груз всегда обращён вверх по склону. Груз низко, мачта отклонена назад, медленно и прямо — не поворачивать и не ехать поперёк склона. (Без груза наоборот: вверх задним ходом, вниз передним.)"
+   "a_ru": "С грузом: вверх — передним ходом, вниз — задним ходом; груз всегда обращён вверх по склону. Груз низко, мачта отклонена назад, медленно и прямо — не поворачивать и не ехать поперёк склона. (Без груза наоборот: вверх задним ходом, вниз передним.)",
+   "key": [
+    "LOADED: drive forward UP, reverse DOWN",
+    "Load always faces UP the slope",
+    "Load low, mast tilted back, slow and straight",
+    "Never turn or travel across a slope",
+    "Unloaded is the opposite: forks point DOWN the slope"
+   ],
+   "options": [
+    "Loaded: drive forward up and reverse down — the load always faces up the slope; keep it low and never turn on the ramp",
+    "Loaded: reverse up and drive forward down so you can see the ground ahead",
+    "Always drive forward in both directions — reversing on ramps is prohibited",
+    "Direction does not matter as long as the load is raised high enough to clear the ramp"
+   ],
+   "correct": 0,
+   "explain_ru": "С грузом: груз смотрит вверх по склону — вперёд вверх, задним ходом вниз. Без груза — наоборот, вилы вниз по склону.",
+   "fig": "ramp"
   },
   {
    "id": "q16",
@@ -126,7 +355,22 @@
    "section": "Hazards, risk and site conditions",
    "q": "What might occur if you attempt to turn a forklift while on a ramp or sloping surface?",
    "a_en": "You lose lateral (sideways) stability — the centre of gravity moves outside the stability triangle and the forklift can tip over sideways. The load can also slide or fall off the forks, and the machine can run away down the slope.",
-   "a_ru": "Теряется боковая устойчивость: центр тяжести выходит за треугольник устойчивости и погрузчик может опрокинуться набок. Груз может соскользнуть с вил, машина — скатиться вниз."
+   "a_ru": "Теряется боковая устойчивость: центр тяжести выходит за треугольник устойчивости и погрузчик может опрокинуться набок. Груз может соскользнуть с вил, машина — скатиться вниз.",
+   "key": [
+    "Lose lateral (sideways) stability",
+    "Centre of gravity moves outside the stability triangle",
+    "Forklift tips over sideways",
+    "Load can slide or fall; machine can run away downhill"
+   ],
+   "options": [
+    "You lose sideways stability — the centre of gravity moves outside the stability triangle and the forklift can tip over",
+    "The engine stalls because the fuel pickup is uncovered",
+    "The hydraulics lock and the mast cannot be lowered",
+    "Nothing, if you turn slowly and keep the load raised for balance"
+   ],
+   "correct": 0,
+   "explain_ru": "Поворот на уклоне выводит центр тяжести из треугольника устойчивости → боковое опрокидывание.",
+   "fig": "triangle"
   },
   {
    "id": "q17",
@@ -134,7 +378,22 @@
    "section": "Hazards, risk and site conditions",
    "q": "How high should your load be raised when travelling?",
    "a_en": "Just clear of the ground — approximately 100–150 mm, with the mast tilted back to cradle the load. Low enough to keep the centre of gravity down and keep your vision clear, high enough to clear the ground conditions and any obstacles.",
-   "a_ru": "Чуть выше земли — примерно 100–150 мм, мачта отклонена назад. Низко, чтобы центр тяжести был внизу и обзор не закрывался, но достаточно, чтобы не задевать неровности и препятствия."
+   "a_ru": "Чуть выше земли — примерно 100–150 мм, мачта отклонена назад. Низко, чтобы центр тяжести был внизу и обзор не закрывался, но достаточно, чтобы не задевать неровности и препятствия.",
+   "key": [
+    "Just clear of the ground — about 100–150 mm",
+    "Mast tilted back to cradle the load",
+    "Low centre of gravity, clear vision",
+    "High enough to clear ground conditions"
+   ],
+   "options": [
+    "Just clear of the ground — about 100–150 mm — with the mast tilted back",
+    "At eye level so you can watch the load at all times",
+    "About 1 metre, so it clears kerbs, pallets and other obstacles",
+    "As high as the mast allows, to keep the load away from pedestrians"
+   ],
+   "correct": 0,
+   "explain_ru": "100–150 мм над землёй, мачта наклонена назад. Выше — растёт центр тяжести и перекрывается обзор.",
+   "fig": "travel"
   },
   {
    "id": "q18",
@@ -142,7 +401,22 @@
    "section": "Hazards, risk and site conditions",
    "q": "When should hazard controls be applied?",
    "a_en": "As soon as a hazard is identified — before work starts, and again at any time during the work when conditions change or a new hazard appears. Controls are selected using the hierarchy of control (eliminate → substitute → isolate → engineering → administrative → PPE) and must be reviewed to confirm they are working.",
-   "a_ru": "Сразу после выявления опасности — до начала работ и в любой момент, когда условия меняются или появляется новая опасность. Меры подбираются по иерархии контроля (устранить → заменить → изолировать → инженерные → организационные → СИЗ) и затем проверяются на эффективность."
+   "a_ru": "Сразу после выявления опасности — до начала работ и в любой момент, когда условия меняются или появляется новая опасность. Меры подбираются по иерархии контроля (устранить → заменить → изолировать → инженерные → организационные → СИЗ) и затем проверяются на эффективность.",
+   "key": [
+    "As soon as a hazard is identified — before work starts",
+    "Again whenever conditions change or a new hazard appears",
+    "Hierarchy of control: eliminate → substitute → isolate → engineering → administrative → PPE",
+    "Review to confirm controls work"
+   ],
+   "options": [
+    "As soon as a hazard is identified — before work starts and again whenever conditions change — using the hierarchy of control",
+    "Only after an incident or near miss has been reported",
+    "At the end of the shift when the forklift is parked",
+    "Once a year during the site safety audit"
+   ],
+   "correct": 0,
+   "explain_ru": "Контроль опасностей применяется сразу при выявлении и повторно при любом изменении условий. Не после инцидента.",
+   "fig": "hierarchy"
   },
   {
    "id": "q19",
@@ -150,7 +424,22 @@
    "section": "Loads, stacking and travelling",
    "q": "Why is it unsafe to operate a forklift with the load raised?",
    "a_en": "Raising the load raises the combined centre of gravity, which sharply reduces stability — the forklift can tip forward or sideways, especially when turning or on uneven ground. It also blocks your vision, and the raised load can strike overhead power lines, pipes, doorways or structures, or fall on someone.",
-   "a_ru": "Подъём груза поднимает общий центр тяжести и резко снижает устойчивость — опрокидывание вперёд или набок, особенно в повороте и на неровностях. Плюс закрывается обзор, груз может задеть ЛЭП, трубы, проём или упасть на человека."
+   "a_ru": "Подъём груза поднимает общий центр тяжести и резко снижает устойчивость — опрокидывание вперёд или набок, особенно в повороте и на неровностях. Плюс закрывается обзор, груз может задеть ЛЭП, трубы, проём или упасть на человека.",
+   "key": [
+    "Raises the combined centre of gravity → sharply less stable",
+    "Can tip forward or sideways, especially turning or on uneven ground",
+    "Blocks your vision",
+    "Load can strike power lines, pipes, doorways, or fall on someone"
+   ],
+   "options": [
+    "It raises the centre of gravity and reduces stability, blocks vision, and the load can strike overhead structures or fall on someone",
+    "Because the hydraulic pump overheats when the mast is held up",
+    "It wears the lift chains faster than travelling with the load low",
+    "It is safe provided the forklift travels in reverse"
+   ],
+   "correct": 0,
+   "explain_ru": "Поднятый груз = высокий центр тяжести, плохая устойчивость, закрытый обзор, риск зацепить ЛЭП или уронить груз.",
+   "fig": "travel"
   },
   {
    "id": "q20",
@@ -158,7 +447,22 @@
    "section": "Loads, stacking and travelling",
    "q": "What should be provided for the gap between a truck and the loading dock before shifting the load?",
    "a_en": "A dock leveller, bridging plate or dock plate rated for the combined weight of the forklift and load, correctly positioned and secured so it cannot move. Before that: chock the truck wheels, apply the truck's park brake, and where required use wheel restraints or a trailer restraint system so the truck cannot roll away.",
-   "a_ru": "Переходной мостик (dock leveller / bridge plate), рассчитанный на суммарный вес погрузчика и груза, правильно уложенный и закреплённый. До этого: подложить противооткатные упоры, включить стояночный тормоз грузовика, при необходимости — фиксаторы колёс/прицепа."
+   "a_ru": "Переходной мостик (dock leveller / bridge plate), рассчитанный на суммарный вес погрузчика и груза, правильно уложенный и закреплённый. До этого: подложить противооткатные упоры, включить стояночный тормоз грузовика, при необходимости — фиксаторы колёс/прицепа.",
+   "key": [
+    "Dock leveller / bridging plate / dock plate rated for forklift + load",
+    "Correctly positioned and secured so it cannot move",
+    "Chock the truck wheels, apply truck park brake",
+    "Wheel restraints / trailer restraint system where required"
+   ],
+   "options": [
+    "A rated and secured dock plate or bridging plate, with the truck wheels chocked and its park brake applied",
+    "A couple of timber pallets laid flat across the gap",
+    "Nothing — a forklift can jump a gap up to 300 mm at low speed",
+    "A sheet of plywood held in place by the forklift's own weight"
+   ],
+   "correct": 0,
+   "explain_ru": "Между кузовом и доком — рассчитанная на вес мостовая плита, закреплённая; колёса грузовика под башмаками, стояночный тормоз включён.",
+   "fig": "dock"
   },
   {
    "id": "q21",
@@ -166,7 +470,22 @@
    "section": "Loads, stacking and travelling",
    "q": "A pallet contains an unbalanced load with one end heavier than the other — which end should be against the heel of the fork arms?",
    "a_en": "The heavy end goes against the heel of the forks, i.e. hard up against the load backrest and as close to the mast as possible. This keeps the load centre short and the centre of gravity back, which preserves capacity and stability.",
-   "a_ru": "Тяжёлый конец — к пятке вил, вплотную к спинке каретки и как можно ближе к мачте. Так центр груза остаётся коротким, центр тяжести смещён назад — сохраняются грузоподъёмность и устойчивость."
+   "a_ru": "Тяжёлый конец — к пятке вил, вплотную к спинке каретки и как можно ближе к мачте. Так центр груза остаётся коротким, центр тяжести смещён назад — сохраняются грузоподъёмность и устойчивость.",
+   "key": [
+    "Heavy end against the heel of the forks",
+    "Hard up against the load backrest, as close to the mast as possible",
+    "Keeps load centre short and centre of gravity back",
+    "Preserves capacity and stability"
+   ],
+   "options": [
+    "The heavy end — hard up against the load backrest, as close to the mast as possible",
+    "The light end — so the heavy end counterbalances the forklift at the tips",
+    "It makes no difference as long as the pallet is centred on the forks",
+    "The heavy end at the fork tips, with the mast tilted back to compensate"
+   ],
+   "correct": 0,
+   "explain_ru": "Тяжёлый конец — к пятке вил, к мачте. Так короче load centre и центр тяжести ближе к точке опоры.",
+   "fig": "fulcrum"
   },
   {
    "id": "q22",
@@ -174,7 +493,21 @@
    "section": "Loads, stacking and travelling",
    "q": "If a pallet appears to be unsafely stacked, what would you do before lifting it?",
    "a_en": "Do not lift it. Stop, isolate or barricade the area so nobody is under or near it, and report it to your supervisor. The load must be re-stacked, re-strapped or shrink-wrapped and made safe by an authorised person before it is moved. Also inspect the pallet itself for damage.",
-   "a_ru": "Не поднимать. Остановиться, оградить зону, чтобы никого рядом не было, сообщить руководителю. Груз должен быть переуложен/перевязан/обмотан и приведён в безопасное состояние уполномоченным лицом. Также проверить сам поддон на повреждения."
+   "a_ru": "Не поднимать. Остановиться, оградить зону, чтобы никого рядом не было, сообщить руководителю. Груз должен быть переуложен/перевязан/обмотан и приведён в безопасное состояние уполномоченным лицом. Также проверить сам поддон на повреждения.",
+   "key": [
+    "Do not lift it",
+    "Stop, isolate or barricade the area, report to supervisor",
+    "Load must be re-stacked, re-strapped or shrink-wrapped by an authorised person",
+    "Inspect the pallet itself for damage"
+   ],
+   "options": [
+    "Do not lift it — barricade the area, report it, and have the load re-stacked or secured by an authorised person before it is moved",
+    "Lift it slowly with the mast tilted fully back and travel at walking pace",
+    "Lift it a few centimetres to test whether it moves, then continue if it looks stable",
+    "Push the loose items back into place with the fork tips and then lift"
+   ],
+   "correct": 0,
+   "explain_ru": "Небезопасно уложенный паллет не поднимаем вообще. Зона ограждается, груз перекладывается уполномоченным лицом."
   },
   {
    "id": "q23",
@@ -182,7 +515,22 @@
    "section": "Loads, stacking and travelling",
    "q": "Why is rear end swing dangerous?",
    "a_en": "A counterbalance forklift steers with the rear wheels, so when you turn, the counterweight and rear of the machine swing out in a wide arc — much further than the driver expects. That swinging rear end can crush or strike pedestrians, other workers, racking, walls or plant standing close behind you, often out of your line of sight.",
-   "a_ru": "Погрузчик управляется задними колёсами, поэтому в повороте противовес и корма выносятся по широкой дуге — заметно дальше, чем ожидает водитель. Этой кормой можно придавить или ударить пешехода, стеллаж, стену или технику сзади, часто вне поля зрения."
+   "a_ru": "Погрузчик управляется задними колёсами, поэтому в повороте противовес и корма выносятся по широкой дуге — заметно дальше, чем ожидает водитель. Этой кормой можно придавить или ударить пешехода, стеллаж, стену или технику сзади, часто вне поля зрения.",
+   "key": [
+    "Counterbalance forklift steers with the REAR wheels",
+    "When turning, the counterweight swings out in a wide arc",
+    "Much further than the driver expects",
+    "Can crush pedestrians, strike racking, walls, plant — often out of sight"
+   ],
+   "options": [
+    "The forklift steers with its rear wheels, so the counterweight swings out in a wide arc when turning and can crush people or strike objects behind you",
+    "The rear tyres wear unevenly and the forklift loses traction",
+    "The counterweight can detach from the chassis during a sharp turn",
+    "It is only dangerous on electric forklifts because the battery is at the rear"
+   ],
+   "correct": 0,
+   "explain_ru": "Задний занос противовеса: рулят задние колёса, зад при повороте уходит далеко в сторону — это зона, которую оператор не видит.",
+   "fig": "rearswing"
   },
   {
    "id": "q24",
@@ -190,7 +538,23 @@
    "section": "Loads, stacking and travelling",
    "q": "What should you consider when stacking items on top of each other?",
    "a_en": "Weight distribution (heaviest and largest at the bottom, lightest on top); stability and interlocking of the stack; maximum safe stacking height and any site height limit; the floor or racking load rating; level, firm ground; uniform pallet size and condition; how the load is secured (strapping, wrapping); that the stack does not block lighting, sprinklers, exits or vision; and that you can safely retrieve it later.",
-   "a_ru": "Распределение веса (тяжёлое и крупное — вниз); устойчивость и перевязка штабеля; предельная высота и лимиты площадки; несущая способность пола/стеллажа; ровное твёрдое основание; одинаковые исправные поддоны; фиксация груза (стяжки, стрейч); штабель не перекрывает свет, спринклеры, выходы, обзор; возможность безопасно снять его потом."
+   "a_ru": "Распределение веса (тяжёлое и крупное — вниз); устойчивость и перевязка штабеля; предельная высота и лимиты площадки; несущая способность пола/стеллажа; ровное твёрдое основание; одинаковые исправные поддоны; фиксация груза (стяжки, стрейч); штабель не перекрывает свет, спринклеры, выходы, обзор; возможность безопасно снять его потом.",
+   "key": [
+    "Heaviest and largest at the bottom, lightest on top",
+    "Stability and interlocking of the stack",
+    "Maximum safe stacking height and site limits",
+    "Floor or racking load rating",
+    "Level, firm ground; uniform pallet size",
+    "Secured — strapped, wrapped; not blocking lights, sprinklers, exits"
+   ],
+   "options": [
+    "Weight distribution (heaviest at the bottom), stack stability, height limits, floor and racking ratings, level ground, pallet condition, and that it does not block exits or sprinklers",
+    "Only the maximum height the mast can reach",
+    "Put the lightest items at the bottom so the stack is easier to pull apart later",
+    "Stack as high as possible to save floor space — stability is the racking's job"
+   ],
+   "correct": 0,
+   "explain_ru": "Штабелирование: тяжёлое вниз, лёгкое наверх, не выше лимита, ровный пол, рейтинг стеллажа, не загораживать выходы и спринклеры."
   },
   {
    "id": "q25",
@@ -198,7 +562,22 @@
    "section": "Working near powerlines",
    "q": "What is the minimum distance you should keep away from power lines?",
    "a_en": "For mobile plant operated by a person who is not a trained/authorised spotter, the usual exclusion distances are: 3 m for lines up to 132 kV, 6 m for 132–330 kV, and 8 m for above 330 kV. These distances vary between states and network operators — always confirm with the electricity asset owner and your state regulator, and follow the site SWMS.",
-   "a_ru": "Для мобильной техники обычно: 3 м до линий до 132 кВ, 6 м для 132–330 кВ, 8 м свыше 330 кВ. Значения различаются по штатам и сетевым операторам — обязательно уточни у владельца сети и регулятора штата, следуй SWMS площадки."
+   "a_ru": "Для мобильной техники обычно: 3 м до линий до 132 кВ, 6 м для 132–330 кВ, 8 м свыше 330 кВ. Значения различаются по штатам и сетевым операторам — обязательно уточни у владельца сети и регулятора штата, следуй SWMS площадки.",
+   "key": [
+    "3 m — lines up to 132 kV",
+    "6 m — 132 kV to 330 kV",
+    "8 m — above 330 kV",
+    "Varies by state and network — confirm with the asset owner and the SWMS"
+   ],
+   "options": [
+    "3 m up to 132 kV, 6 m for 132–330 kV, 8 m above 330 kV — and always confirm with the asset owner and your state regulator",
+    "1 m from any power line as long as the forks stay below the conductors",
+    "10 m from every power line regardless of voltage",
+    "There is no minimum — the overhead guard insulates the operator"
+   ],
+   "correct": 0,
+   "explain_ru": "3 / 6 / 8 м по напряжению (до 132 кВ / 132–330 кВ / выше 330 кВ). Точные цифры — у владельца сети и регулятора штата.",
+   "fig": "powerlines"
   },
   {
    "id": "q26",
@@ -206,7 +585,22 @@
    "section": "Working near powerlines",
    "q": "What should you do if you have to work closer than the minimum distances required when working near power lines?",
    "a_en": "Do not proceed on your own judgement. You must contact the electricity supply authority / asset owner and obtain written permission or a permit. They may de-energise and earth the lines, fit insulating covers or tiger tails, or require a trained safety observer (spotter) in constant communication with you. A specific risk assessment and SWMS must be prepared, and everyone briefed before work starts.",
-   "a_ru": "Самостоятельно решать нельзя. Нужно связаться с владельцем электросети и получить письменное разрешение/permit. Они могут обесточить и заземлить линию, установить изолирующие чехлы или tiger tails, потребовать обученного наблюдателя (spotter) на постоянной связи. Требуется отдельная оценка риска и SWMS с инструктажем всех участников."
+   "a_ru": "Самостоятельно решать нельзя. Нужно связаться с владельцем электросети и получить письменное разрешение/permit. Они могут обесточить и заземлить линию, установить изолирующие чехлы или tiger tails, потребовать обученного наблюдателя (spotter) на постоянной связи. Требуется отдельная оценка риска и SWMS с инструктажем всех участников.",
+   "key": [
+    "Do not proceed on your own judgement",
+    "Contact the electricity supply authority / asset owner — written permission or permit",
+    "They may de-energise and earth, fit tiger tails, require a trained spotter",
+    "Specific risk assessment and SWMS, everyone briefed"
+   ],
+   "options": [
+    "Contact the electricity authority and obtain written permission — they may de-energise the line, fit covers or require a trained spotter; prepare a specific SWMS",
+    "Work quickly and keep the mast as low as possible while inside the zone",
+    "Use a rubber mat on the forks to insulate the load",
+    "Ask a co-worker to watch the gap and shout if you get too close"
+   ],
+   "correct": 0,
+   "explain_ru": "Ближе минимального расстояния — только с письменного разрешения владельца сети, с их мерами (отключение, tiger tails, обученный наблюдатель) и отдельным SWMS.",
+   "fig": "powerlines"
   },
   {
    "id": "q27",
@@ -214,7 +608,21 @@
    "section": "Working near powerlines",
    "q": "What is used to make power lines more visible? List 2.",
    "a_en": "(1) Tiger tails — brightly coloured line markers fitted over the conductors. (2) Aerial marker balls / spheres. (Also acceptable: goal posts and height-limit gantries, warning signs and flags, bunting, painted ground markings and a spotter.)",
-   "a_ru": "(1) Tiger tails — яркие маркеры-«хвосты» на проводах. (2) Сигнальные шары на линии. (Также: «ворота»/ограничители высоты, предупреждающие знаки и флажки, разметка на земле, сигнальщик.)"
+   "a_ru": "(1) Tiger tails — яркие маркеры-«хвосты» на проводах. (2) Сигнальные шары на линии. (Также: «ворота»/ограничители высоты, предупреждающие знаки и флажки, разметка на земле, сигнальщик.)",
+   "key": [
+    "Tiger tails — bright line markers over the conductors",
+    "Aerial marker balls / spheres",
+    "Also: goal posts, height gantries, warning signs, flags, bunting, spotter"
+   ],
+   "options": [
+    "Tiger tails and aerial marker balls",
+    "Reflective paint on the conductors and street lights",
+    "Insulating sleeves and rubber mats",
+    "A laser height indicator on the forklift mast"
+   ],
+   "correct": 0,
+   "explain_ru": "Два стандартных способа сделать ЛЭП заметнее: tiger tails (яркие накладки на провода) и шары-маркеры.",
+   "fig": "powerlines"
   },
   {
    "id": "q28",
@@ -222,7 +630,22 @@
    "section": "Working near powerlines",
    "q": "Do Tiger Tails insulate the power lines? Yes or no?",
    "a_en": "No. Tiger tails are a visual warning aid only — they do not insulate the conductor and give no protection from electrocution. The full exclusion distance still applies.",
-   "a_ru": "Нет. Tiger tails — только визуальный маркер, они не изолируют провод и не защищают от поражения током. Безопасное расстояние соблюдается в полном объёме."
+   "a_ru": "Нет. Tiger tails — только визуальный маркер, они не изолируют провод и не защищают от поражения током. Безопасное расстояние соблюдается в полном объёме.",
+   "key": [
+    "NO",
+    "Tiger tails are a visual warning aid only",
+    "No protection from electrocution",
+    "Full exclusion distance still applies"
+   ],
+   "options": [
+    "No — they are a visual warning only and give no protection; the full exclusion distance still applies",
+    "Yes — they are made of insulating rubber and allow work up to 1 m from the line",
+    "Yes — but only for lines up to 132 kV",
+    "Yes — if they are fitted by the electricity authority"
+   ],
+   "correct": 0,
+   "explain_ru": "Tiger tails НЕ изолируют. Это только визуальная метка; расстояния соблюдаются полностью.",
+   "fig": "powerlines"
   },
   {
    "id": "q29",
@@ -230,7 +653,21 @@
    "section": "Working near powerlines",
    "q": "How can you find out what voltages the overhead power lines are?",
    "a_en": "Contact the electricity supply authority / network asset owner that owns the line — they will confirm the voltage and the required exclusion zone in writing. Also check the site induction, the SWMS and risk assessment, site plans and any signage on the poles or towers. Never guess the voltage from the look of the line.",
-   "a_ru": "Обратиться к владельцу электросети — он письменно подтвердит напряжение и требуемую зону ограничения. Также: инструктаж на площадке, SWMS и оценка риска, планы площадки, таблички на опорах. Определять напряжение «на глаз» нельзя."
+   "a_ru": "Обратиться к владельцу электросети — он письменно подтвердит напряжение и требуемую зону ограничения. Также: инструктаж на площадке, SWMS и оценка риска, планы площадки, таблички на опорах. Определять напряжение «на глаз» нельзя.",
+   "key": [
+    "Contact the electricity supply authority / asset owner — written confirmation",
+    "Check site induction, SWMS, risk assessment, site plans, pole signage",
+    "Never guess the voltage from the look of the line"
+   ],
+   "options": [
+    "Contact the electricity authority that owns the line; also check the site induction, SWMS and signage — never guess",
+    "Count the insulators on the pole — each one equals 11 kV",
+    "Judge by the thickness of the conductors and the height of the poles",
+    "Ask the site electrician to measure it with a multimeter"
+   ],
+   "correct": 0,
+   "explain_ru": "Напряжение подтверждает владелец сети письменно. Считать изоляторы и оценивать на глаз — нельзя.",
+   "fig": "powerlines"
   },
   {
    "id": "q30",
@@ -238,7 +675,24 @@
    "section": "Working near powerlines",
    "q": "What should you do if you drive into and make contact with power lines? List 6.",
    "a_en": "(1) Stay on the machine — do not step off, and do not touch the machine and the ground at the same time. (2) Warn everyone nearby to keep well clear and not to touch the forklift. (3) If it is safe, try to drive or break clear of the line in the direction you came from. (4) If you cannot break clear and you must get off (e.g. fire), jump clear with both feet together, never touching machine and ground together, and land upright. (5) Once on the ground, shuffle or bunny-hop with feet together in small steps for at least 10 m to avoid step potential. (6) Call emergency services and the electricity authority; keep everyone clear, and do not return to or touch the machine until the authority confirms the line is de-energised. Then report the incident and tag the machine out of service.",
-   "a_ru": "(1) Оставаться на машине — не сходить, не касаться одновременно машины и земли. (2) Криком предупредить всех отойти и не трогать погрузчик. (3) Если безопасно — отъехать и разорвать контакт. (4) Если сойти всё же необходимо (например, пожар) — спрыгнуть, ноги вместе, не касаясь машины и земли одновременно, приземлиться на обе ноги. (5) На земле — мелкими шажками/прыжками, ноги вместе, минимум 10 м (шаговое напряжение). (6) Вызвать экстренные службы и энергокомпанию; никого не подпускать, не подходить к машине, пока линию не обесточат. Затем — рапорт об инциденте и бирка «не эксплуатировать»."
+   "a_ru": "(1) Оставаться на машине — не сходить, не касаться одновременно машины и земли. (2) Криком предупредить всех отойти и не трогать погрузчик. (3) Если безопасно — отъехать и разорвать контакт. (4) Если сойти всё же необходимо (например, пожар) — спрыгнуть, ноги вместе, не касаясь машины и земли одновременно, приземлиться на обе ноги. (5) На земле — мелкими шажками/прыжками, ноги вместе, минимум 10 м (шаговое напряжение). (6) Вызвать экстренные службы и энергокомпанию; никого не подпускать, не подходить к машине, пока линию не обесточат. Затем — рапорт об инциденте и бирка «не эксплуатировать».",
+   "key": [
+    "STAY on the machine — do not touch machine and ground together",
+    "WARN everyone to keep clear and not touch the forklift",
+    "If safe, drive / break clear in the direction you came from",
+    "Must get off (fire)? JUMP clear, feet together, never touching both",
+    "SHUFFLE / bunny-hop with feet together at least 10 m (step potential)",
+    "CALL emergency services and the electricity authority; stay clear until confirmed de-energised; report and tag out"
+   ],
+   "options": [
+    "Stay on the machine, warn others to keep clear, try to break contact, jump clear with feet together only if you must, shuffle away 10 m, call emergency services and the authority",
+    "Switch off the engine, climb down normally and walk to the office to report it",
+    "Stay on the machine and wait — nobody else needs to be warned because the tyres insulate the forklift",
+    "Get off immediately and pull the line away from the mast with a timber pole"
+   ],
+   "correct": 0,
+   "explain_ru": "Контакт с ЛЭП: остаться на машине, предупредить людей, попытаться отъехать; покидать только прыжком со сведёнными ногами, потом шаркающими шагами 10 м; вызвать службы.",
+   "fig": "contact"
   },
   {
    "id": "q31",
@@ -246,7 +700,22 @@
    "section": "Confined spaces, batteries and control measures",
    "q": "Why is it dangerous to operate internal combustion engines in restricted/confined spaces?",
    "a_en": "Exhaust gases build up — especially carbon monoxide (CO), which is colourless, odourless and can kill quickly, plus nitrogen oxides and diesel particulate. The engine also consumes oxygen, leading to oxygen depletion and asphyxiation. Heat and fuel vapour add a fire and explosion risk.",
-   "a_ru": "Накапливаются выхлопные газы, прежде всего угарный газ (CO) — без цвета и запаха, убивает быстро; плюс оксиды азота и сажа. Двигатель расходует кислород → кислородное голодание и удушье. Добавляются жар и пары топлива — риск пожара и взрыва."
+   "a_ru": "Накапливаются выхлопные газы, прежде всего угарный газ (CO) — без цвета и запаха, убивает быстро; плюс оксиды азота и сажа. Двигатель расходует кислород → кислородное голодание и удушье. Добавляются жар и пары топлива — риск пожара и взрыва.",
+   "key": [
+    "Exhaust gases build up — carbon monoxide (CO): colourless, odourless, kills quickly",
+    "Also nitrogen oxides and diesel particulate",
+    "Engine consumes oxygen → oxygen depletion, asphyxiation",
+    "Heat and fuel vapour → fire and explosion risk"
+   ],
+   "options": [
+    "Exhaust gases such as carbon monoxide build up and the engine uses up oxygen — people can be poisoned or asphyxiated",
+    "The engine overheats because there is not enough airflow over the radiator",
+    "The noise echoes and damages the operator's hearing",
+    "Diesel engines cannot be started without good airflow"
+   ],
+   "correct": 0,
+   "explain_ru": "В замкнутом пространстве ДВС накапливает угарный газ и сжигает кислород — отравление и удушье.",
+   "fig": "confined"
   },
   {
    "id": "q32",
@@ -254,7 +723,22 @@
    "section": "Confined spaces, batteries and control measures",
    "q": "Why must batteries be charged in well ventilated areas?",
    "a_en": "Charging a lead-acid battery releases hydrogen gas, which is highly flammable and explosive in air and can be ignited by a single spark. Ventilation disperses the hydrogen and also removes corrosive acid mist. Keep all ignition sources away and follow the charging procedure.",
-   "a_ru": "При заряде свинцово-кислотной батареи выделяется водород — крайне горюч и взрывоопасен, хватает одной искры. Вентиляция рассеивает водород и убирает кислотный туман. Источники воспламенения — прочь, процедуру заряда — соблюдать."
+   "a_ru": "При заряде свинцово-кислотной батареи выделяется водород — крайне горюч и взрывоопасен, хватает одной искры. Вентиляция рассеивает водород и убирает кислотный туман. Источники воспламенения — прочь, процедуру заряда — соблюдать.",
+   "key": [
+    "Charging a lead-acid battery releases HYDROGEN gas",
+    "Highly flammable and explosive — a single spark",
+    "Ventilation disperses hydrogen and acid mist",
+    "Keep ignition sources away, follow the charging procedure"
+   ],
+   "options": [
+    "Charging releases hydrogen gas, which is explosive — ventilation disperses it and the acid mist",
+    "The battery will not accept a charge in a warm, enclosed room",
+    "Batteries release carbon monoxide while charging",
+    "To keep the charger cool so it does not trip its circuit breaker"
+   ],
+   "correct": 0,
+   "explain_ru": "При заряде выделяется водород — взрывоопасен от одной искры. Только в проветриваемом месте, без источников воспламенения.",
+   "fig": "confined"
   },
   {
    "id": "q33",
@@ -262,7 +746,21 @@
    "section": "Confined spaces, batteries and control measures",
    "q": "What would be a safer forklift to use in confined spaces?",
    "a_en": "An electric (battery-powered) forklift — it produces no exhaust emissions, is quieter and has no hot exhaust. Ventilation, atmospheric monitoring and a confined space permit may still be required.",
-   "a_ru": "Электрический (аккумуляторный) погрузчик — нет выхлопа, тише, нет раскалённой выхлопной системы. Вентиляция, контроль атмосферы и разрешение на работу в замкнутом пространстве всё равно могут требоваться."
+   "a_ru": "Электрический (аккумуляторный) погрузчик — нет выхлопа, тише, нет раскалённой выхлопной системы. Вентиляция, контроль атмосферы и разрешение на работу в замкнутом пространстве всё равно могут требоваться.",
+   "key": [
+    "Electric (battery-powered) forklift",
+    "No exhaust emissions, quieter, no hot exhaust",
+    "Ventilation, atmospheric monitoring, confined space permit may still be required"
+   ],
+   "options": [
+    "An electric (battery-powered) forklift — it produces no exhaust emissions",
+    "An LPG forklift because gas burns cleaner than diesel",
+    "A diesel forklift with a taller exhaust stack",
+    "Any forklift, provided the engine is kept at idle"
+   ],
+   "correct": 0,
+   "explain_ru": "В замкнутых пространствах — электрический погрузчик: нет выхлопа. LPG тоже выделяет CO.",
+   "fig": "confined"
   },
   {
    "id": "q34",
@@ -270,7 +768,21 @@
    "section": "Confined spaces, batteries and control measures",
    "q": "Why should you constantly monitor the load movement when operating the forklift?",
    "a_en": "So you detect any shifting, slipping, swinging or settling of the load immediately and can stop before it becomes unstable. Load movement changes the centre of gravity and can cause the load to fall onto people or plant, or tip the forklift. It also lets you keep the load clear of people, racking, structures and overhead services.",
-   "a_ru": "Чтобы сразу заметить смещение, соскальзывание, раскачивание или проседание груза и остановиться до потери устойчивости. Движение груза меняет центр тяжести — груз может упасть на людей или технику, погрузчик — опрокинуться. Плюс контроль зазоров до людей, стеллажей, конструкций и коммуникаций."
+   "a_ru": "Чтобы сразу заметить смещение, соскальзывание, раскачивание или проседание груза и остановиться до потери устойчивости. Движение груза меняет центр тяжести — груз может упасть на людей или технику, погрузчик — опрокинуться. Плюс контроль зазоров до людей, стеллажей, конструкций и коммуникаций.",
+   "key": [
+    "Detect shifting, slipping, swinging or settling immediately",
+    "Stop before it becomes unstable",
+    "Load movement changes the centre of gravity → can fall or tip the forklift",
+    "Keep the load clear of people, racking, structures, overhead services"
+   ],
+   "options": [
+    "To detect any shifting or slipping immediately and stop before the load becomes unstable, falls or tips the forklift",
+    "Because the hour meter only counts when the load is moving",
+    "So you can estimate the weight of the load from how it sways",
+    "It is not necessary if the load is shrink-wrapped"
+   ],
+   "correct": 0,
+   "explain_ru": "Постоянно следить за грузом: любой сдвиг меняет центр тяжести — остановиться раньше, чем груз упадёт или машина опрокинется."
   },
   {
    "id": "q35",
@@ -278,7 +790,21 @@
    "section": "Confined spaces, batteries and control measures",
    "q": "List 3 control measures you can apply for pedestrians, site personnel and vehicles or mobile equipment.",
    "a_en": "(1) Separation / exclusion zones — barricades, bollards, marked walkways, guardrails or overhead walkways that physically keep people away from forklift routes. (2) Traffic management plan — designated one-way routes, speed limits, give-way rules, signage, and a trained spotter at blind spots or crossings. (3) Awareness and PPE — site induction, high-visibility clothing, horn at intersections and doorways, flashing beacon and reversing alarm, eye contact before moving.",
-   "a_ru": "(1) Разделение / зоны ограничения — ограждения, столбики, размеченные проходы, отбойники, надземные переходы. (2) План организации движения — маршруты, ограничение скорости, приоритеты, знаки, сигнальщик на слепых зонах и перекрёстках. (3) Осведомлённость и СИЗ — инструктаж, светоотражающая одежда, сигнал на перекрёстках и в проёмах, маячок и звук заднего хода, зрительный контакт перед началом движения."
+   "a_ru": "(1) Разделение / зоны ограничения — ограждения, столбики, размеченные проходы, отбойники, надземные переходы. (2) План организации движения — маршруты, ограничение скорости, приоритеты, знаки, сигнальщик на слепых зонах и перекрёстках. (3) Осведомлённость и СИЗ — инструктаж, светоотражающая одежда, сигнал на перекрёстках и в проёмах, маячок и звук заднего хода, зрительный контакт перед началом движения.",
+   "key": [
+    "Separation / exclusion zones — barricades, bollards, marked walkways, guardrails",
+    "Traffic management plan — one-way routes, speed limits, give-way rules, signage, spotter",
+    "Awareness and PPE — induction, hi-vis, horn at intersections, beacon, reversing alarm, eye contact"
+   ],
+   "options": [
+    "Physical separation (barricades, bollards, marked walkways), a traffic management plan (routes, speed limits, signage, spotter), and awareness/PPE (induction, hi-vis, horn, beacon)",
+    "Drive faster to spend less time near pedestrians",
+    "Rely on pedestrians to keep out of the way because they can see the forklift",
+    "Remove the horn and beacon so the noise does not startle people"
+   ],
+   "correct": 0,
+   "explain_ru": "Три меры: физическое разделение, план движения, осведомлённость + СИЗ (hi-vis, клаксон, маячок).",
+   "fig": "hierarchy"
   },
   {
    "id": "q36",
@@ -286,7 +812,23 @@
    "section": "Confined spaces, batteries and control measures",
    "q": "List the things that you should do in the event of steering, hydraulic or brake failure on a forklift.",
    "a_en": "• Stay calm, sound the horn to warn people and keep clear of pedestrians. • Bring the machine to a stop as safely as possible and lower the load to the ground if the hydraulics still allow it. • Apply the park brake and place controls in neutral. • Shut down the engine, isolate and remove the key. • Chock the wheels if you are on any slope. • Barricade or cordon off the area. • Tag and lock out the machine with an 'Out of Service' / Danger tag. • Report the failure to your supervisor immediately and record it. • Do not attempt repairs unless you are a competent, authorised person — the machine stays out of service until repaired and cleared.",
-   "a_ru": "• Сохранять спокойствие, подать сигнал, увести машину от людей. • Остановиться максимально безопасно, опустить груз, если гидравлика ещё работает. • Стояночный тормоз, органы управления в нейтраль. • Заглушить, изолировать, вынуть ключ. • На уклоне — противооткатные упоры. • Оградить зону. • Повесить бирку «Out of Service» и заблокировать. • Немедленно доложить руководителю и записать. • Не ремонтировать самому, если ты не уполномоченный специалист — машина стоит до ремонта и допуска."
+   "a_ru": "• Сохранять спокойствие, подать сигнал, увести машину от людей. • Остановиться максимально безопасно, опустить груз, если гидравлика ещё работает. • Стояночный тормоз, органы управления в нейтраль. • Заглушить, изолировать, вынуть ключ. • На уклоне — противооткатные упоры. • Оградить зону. • Повесить бирку «Out of Service» и заблокировать. • Немедленно доложить руководителю и записать. • Не ремонтировать самому, если ты не уполномоченный специалист — машина стоит до ремонта и допуска.",
+   "key": [
+    "Stay calm, sound the horn, keep clear of pedestrians",
+    "Stop as safely as possible, lower the load if hydraulics allow",
+    "Park brake on, controls in neutral",
+    "Shut down, isolate, remove the key; chock wheels on a slope",
+    "Barricade the area; tag and lock out — Out of Service",
+    "Report to supervisor immediately; no repairs unless competent and authorised"
+   ],
+   "options": [
+    "Warn with the horn, stop as safely as possible, lower the load, park brake, shut down and remove the key, barricade, tag Out of Service, report",
+    "Continue slowly to the workshop so the mechanic can see the fault",
+    "Pump the brake pedal and keep working at reduced speed until the end of the shift",
+    "Switch the forklift off and on again to reset the fault, then continue"
+   ],
+   "correct": 0,
+   "explain_ru": "Отказ руля, гидравлики или тормозов: сигнал, безопасная остановка, груз на пол, стояночный тормоз, выключить, ключ, бирка, доклад. Не ехать в мастерскую."
   },
   {
    "id": "q37",
@@ -294,7 +836,21 @@
    "section": "Confined spaces, batteries and control measures",
    "q": "What must you have when working at night or in dark areas?",
    "a_en": "Adequate lighting: working headlights and work lamps on the forklift, a flashing amber beacon, and sufficient area/task lighting over the work zone and travel routes. Plus high-visibility reflective clothing for the operator and all pedestrians, clearly marked and lit walkways, and a risk assessment for reduced visibility (slower speeds, spotter where needed).",
-   "a_ru": "Достаточное освещение: рабочие фары и лампы на погрузчике, проблесковый маячок, освещение рабочей зоны и маршрутов. Плюс светоотражающая одежда у оператора и пешеходов, размеченные и освещённые проходы, оценка риска для условий плохой видимости (меньше скорость, при необходимости сигнальщик)."
+   "a_ru": "Достаточное освещение: рабочие фары и лампы на погрузчике, проблесковый маячок, освещение рабочей зоны и маршрутов. Плюс светоотражающая одежда у оператора и пешеходов, размеченные и освещённые проходы, оценка риска для условий плохой видимости (меньше скорость, при необходимости сигнальщик).",
+   "key": [
+    "Adequate lighting — headlights, work lamps, flashing amber beacon",
+    "Area/task lighting over the work zone and travel routes",
+    "High-visibility reflective clothing for operator and pedestrians",
+    "Marked and lit walkways; risk assessment — slower speeds, spotter"
+   ],
+   "options": [
+    "Adequate lighting (headlights, work lamps, beacon, area lighting), hi-vis reflective clothing, lit walkways and a risk assessment for reduced visibility",
+    "A torch in the cab and a co-worker walking ahead with a lamp",
+    "Night vision goggles supplied by the employer",
+    "Nothing extra — forklift headlights are sufficient for any site"
+   ],
+   "correct": 0,
+   "explain_ru": "Ночью и в темноте: достаточное освещение машины и зоны, светоотражающая одежда, подсвеченные дорожки, оценка риска."
   },
   {
    "id": "q38",
@@ -302,7 +858,22 @@
    "section": "Capacity, stability and tipping",
    "q": "What precautions can you take when operating on wet and slippery surfaces?",
    "a_en": "Reduce speed and allow a much greater stopping distance; brake, steer, accelerate and use the hydraulics smoothly with no sudden movements; keep the load low with the mast tilted back; avoid sharp turns and, where possible, ramps and slopes; check tyre condition and tread; clean up spills or use absorbent; keep the cab floor and your boots free of grease and mud; and if conditions are unsafe, stop work and report it.",
-   "a_ru": "Снизить скорость и увеличить дистанцию торможения; тормозить, рулить, разгоняться и работать гидравликой плавно, без резких движений; груз низко, мачта назад; избегать резких поворотов и по возможности уклонов; проверить состояние шин; убрать разливы или засыпать сорбентом; следить, чтобы пол кабины и обувь были чистыми; если условия опасны — остановить работу и сообщить."
+   "a_ru": "Снизить скорость и увеличить дистанцию торможения; тормозить, рулить, разгоняться и работать гидравликой плавно, без резких движений; груз низко, мачта назад; избегать резких поворотов и по возможности уклонов; проверить состояние шин; убрать разливы или засыпать сорбентом; следить, чтобы пол кабины и обувь были чистыми; если условия опасны — остановить работу и сообщить.",
+   "key": [
+    "Reduce speed, allow much greater stopping distance",
+    "Brake, steer, accelerate, use hydraulics smoothly — no sudden movements",
+    "Load low, mast tilted back; avoid sharp turns, ramps, slopes",
+    "Check tyre tread; clean spills; keep boots and cab floor clean",
+    "If unsafe — stop work and report"
+   ],
+   "options": [
+    "Slow down, allow longer stopping distances, operate smoothly, keep the load low with the mast back, avoid sharp turns and slopes, check tyres and clean up spills",
+    "Travel faster so the tyres cut through the water film",
+    "Raise the load higher to put more weight on the drive wheels",
+    "Lock the steering straight ahead and only reverse on wet floors"
+   ],
+   "correct": 0,
+   "explain_ru": "Мокрая поверхность: медленнее, плавнее, больше дистанция, груз низко, без резких поворотов, шины и уборка разливов."
   },
   {
    "id": "q39",
@@ -310,7 +881,21 @@
    "section": "Capacity, stability and tipping",
    "q": "Why should you not raise or lower a load near or over people?",
    "a_en": "The load can slip, swing or fall and crush or kill anyone underneath or alongside. Hydraulic or chain failure can drop the load without warning, and people can be struck by the load, the forks or the mast, or trapped between the load and a structure. Nobody should ever be under or within the fall zone of a raised load.",
-   "a_ru": "Груз может соскользнуть, качнуться или упасть и придавить/убить человека внизу или рядом. Отказ гидравлики или цепи роняет груз без предупреждения; людей может ударить грузом, вилами или мачтой, либо зажать между грузом и конструкцией. Под поднятым грузом и в зоне его падения не должно быть никого."
+   "a_ru": "Груз может соскользнуть, качнуться или упасть и придавить/убить человека внизу или рядом. Отказ гидравлики или цепи роняет груз без предупреждения; людей может ударить грузом, вилами или мачтой, либо зажать между грузом и конструкцией. Под поднятым грузом и в зоне его падения не должно быть никого.",
+   "key": [
+    "Load can slip, swing or fall — crush or kill anyone under or beside it",
+    "Hydraulic or chain failure drops the load without warning",
+    "People struck by load, forks or mast, or trapped against a structure",
+    "Nobody ever under or within the fall zone of a raised load"
+   ],
+   "options": [
+    "The load can slip or fall and crush anyone beneath it — hydraulic or chain failure can drop it without warning",
+    "Because the noise of the hydraulics is harmful to bystanders",
+    "It slows the job down while people move out of the way",
+    "It is acceptable if the people are wearing hard hats"
+   ],
+   "correct": 0,
+   "explain_ru": "Над людьми груз не поднимать и не опускать: может соскользнуть, упасть при отказе гидравлики или цепи. Каска не спасает."
   },
   {
    "id": "q40",
@@ -318,7 +903,22 @@
    "section": "Capacity, stability and tipping",
    "q": "Is it permissible to carry a load with one fork arm and why? List 2 reasons.",
    "a_en": "No. (1) The load would be unbalanced and unstable — the centre of gravity moves off the truck's centreline, cutting lateral stability and risking a sideways tip-over or the load falling off. (2) A single fork is not rated to carry the full load — each fork is designed for half the capacity, so it can bend, crack or break, and it damages the fork and voids the manufacturer's rating. Using one fork is also outside the manufacturer's instructions and therefore unlawful.",
-   "a_ru": "Нет. (1) Груз несбалансирован и неустойчив — центр тяжести уходит с осевой линии, падает боковая устойчивость, риск опрокидывания набок и падения груза. (2) Одна вила не рассчитана на полный вес — каждая вила спроектирована на половину грузоподъёмности, она может согнуться, треснуть или сломаться; это повреждает вилу и аннулирует расчётные параметры. Такая работа противоречит инструкции производителя и потому недопустима."
+   "a_ru": "Нет. (1) Груз несбалансирован и неустойчив — центр тяжести уходит с осевой линии, падает боковая устойчивость, риск опрокидывания набок и падения груза. (2) Одна вила не рассчитана на полный вес — каждая вила спроектирована на половину грузоподъёмности, она может согнуться, треснуть или сломаться; это повреждает вилу и аннулирует расчётные параметры. Такая работа противоречит инструкции производителя и потому недопустима.",
+   "key": [
+    "NO",
+    "Unbalanced and unstable — centre of gravity off the centreline → sideways tip-over or load falls",
+    "One fork is not rated for the full load — each fork carries half → bends, cracks, breaks",
+    "Outside manufacturer's instructions = unlawful"
+   ],
+   "options": [
+    "No — the load is unbalanced and the centre of gravity moves off-centre, and a single fork is only rated for half the capacity and may bend or break",
+    "Yes — if the load is less than half the rated capacity",
+    "Yes — for short distances at walking pace with the mast tilted back",
+    "Yes — provided a spotter walks beside the load"
+   ],
+   "correct": 0,
+   "explain_ru": "Одной вилой нельзя: (1) груз неустойчив, центр тяжести уходит вбок; (2) вила рассчитана на половину груза и может сломаться.",
+   "fig": "onefork"
   },
   {
    "id": "q41",
@@ -326,7 +926,22 @@
    "section": "Capacity, stability and tipping",
    "q": "Is it permissible to carry passengers on a forklift and why?",
    "a_en": "No. A forklift is designed for one operator only — there is no second seat, seatbelt or restraint, and no protection outside the operator's compartment. A passenger can fall off, be thrown out in a tip-over and crushed by the overhead guard, be struck by the mast or counterweight, or interfere with the controls. The only exception is a purpose-built, approved and securely attached work platform (man cage) used to lift people under a documented safe work procedure — never for travelling.",
-   "a_ru": "Нет. Погрузчик рассчитан на одного оператора: нет второго сиденья, ремня и защиты вне кабины. Пассажир может выпасть, при опрокидывании быть выброшенным и придавленным крышей, получить удар мачтой или противовесом, помешать управлению. Единственное исключение — сертифицированная надёжно закреплённая рабочая платформа (man cage) для подъёма людей по утверждённой процедуре, но не для перевозки."
+   "a_ru": "Нет. Погрузчик рассчитан на одного оператора: нет второго сиденья, ремня и защиты вне кабины. Пассажир может выпасть, при опрокидывании быть выброшенным и придавленным крышей, получить удар мачтой или противовесом, помешать управлению. Единственное исключение — сертифицированная надёжно закреплённая рабочая платформа (man cage) для подъёма людей по утверждённой процедуре, но не для перевозки.",
+   "key": [
+    "NO",
+    "One operator only — no second seat, seatbelt or restraint",
+    "Passenger can fall, be thrown out and crushed by the overhead guard, interfere with controls",
+    "Only exception: approved, secured work platform (man cage) under a safe work procedure — never for travelling"
+   ],
+   "options": [
+    "No — there is no seat or restraint for a passenger; the only exception is an approved, securely attached work platform used under a documented procedure",
+    "Yes — a passenger may stand on the forks if they hold the mast",
+    "Yes — a trainee may ride on the counterweight to learn the job",
+    "Yes — if the passenger holds a HRW licence too"
+   ],
+   "correct": 0,
+   "explain_ru": "Пассажиров возить нельзя. Единственное исключение — одобренная рабочая платформа (man cage) по процедуре, и только для подъёма, не для перемещения.",
+   "fig": "platform"
   },
   {
    "id": "q42",
@@ -334,7 +949,22 @@
    "section": "Capacity, stability and tipping",
    "q": "How does increasing the load centre affect the capacity of the forklift?",
    "a_en": "Increasing the load centre distance reduces the safe working capacity — the further the centre of the load sits from the heel of the forks, the greater the leverage about the fulcrum (front axle), so the machine can safely lift less. Capacity falls roughly in inverse proportion: a forklift rated 4200 kg at 600 mm can only lift about 3600 kg at 700 mm and about 2520 kg at 1000 mm. Always read the actual figures off the data plate, never estimate.",
-   "a_ru": "Увеличение расстояния до центра груза снижает безопасную грузоподъёмность: чем дальше центр груза от пятки вил, тем больше плечо относительно точки опоры (передней оси), и тем меньше можно поднять. Зависимость примерно обратно пропорциональная: 4200 кг при 600 мм → около 3600 кг при 700 мм и около 2520 кг при 1000 мм. Реальные значения — только по табличке, не «на глаз»."
+   "a_ru": "Увеличение расстояния до центра груза снижает безопасную грузоподъёмность: чем дальше центр груза от пятки вил, тем больше плечо относительно точки опоры (передней оси), и тем меньше можно поднять. Зависимость примерно обратно пропорциональная: 4200 кг при 600 мм → около 3600 кг при 700 мм и около 2520 кг при 1000 мм. Реальные значения — только по табличке, не «на глаз».",
+   "key": [
+    "Increasing load centre REDUCES capacity",
+    "Further from the heel of the forks = more leverage about the fulcrum (front axle)",
+    "Roughly inverse proportion: 4200 kg @ 600 mm ≈ 3600 kg @ 700 mm ≈ 2520 kg @ 1000 mm",
+    "Always read the data plate — never estimate"
+   ],
+   "options": [
+    "It reduces the safe working capacity — the further out the load centre, the more leverage about the front axle, so the forklift can lift less",
+    "It increases capacity because the load is spread over more of the fork length",
+    "It has no effect — capacity depends only on the engine power",
+    "It only matters for loads heavier than 5000 kg"
+   ],
+   "correct": 0,
+   "explain_ru": "Чем дальше центр груза от пятки вил — тем больше рычаг и меньше грузоподъёмность. 4200 кг @ 600 мм → ~3600 кг @ 700 мм.",
+   "fig": "capacity"
   },
   {
    "id": "q43",
@@ -342,7 +972,22 @@
    "section": "Capacity, stability and tipping",
    "q": "What can happen if the load is not hard up against the heel of the fork arms?",
    "a_en": "The load centre distance increases, so the actual capacity of the forklift drops and you may unknowingly overload it. The centre of gravity shifts forward and can move outside the stability triangle, causing a forward tip-over. The load can also slide forward off the forks, and the fork arms are stressed at the wrong point and may bend or crack.",
-   "a_ru": "Растёт расстояние до центра груза, фактическая грузоподъёмность падает — можно незаметно перегрузить машину. Центр тяжести смещается вперёд и может выйти за треугольник устойчивости → опрокидывание вперёд. Груз может соскользнуть с вил, а сами вилы нагружаются не в той точке и могут погнуться или треснуть."
+   "a_ru": "Растёт расстояние до центра груза, фактическая грузоподъёмность падает — можно незаметно перегрузить машину. Центр тяжести смещается вперёд и может выйти за треугольник устойчивости → опрокидывание вперёд. Груз может соскользнуть с вил, а сами вилы нагружаются не в той точке и могут погнуться или треснуть.",
+   "key": [
+    "Load centre distance increases → actual capacity drops → unknowing overload",
+    "Centre of gravity shifts forward, can leave the stability triangle → forward tip-over",
+    "Load can slide forward off the forks",
+    "Fork arms stressed at the wrong point — bend or crack"
+   ],
+   "options": [
+    "The load centre increases, capacity drops and you may overload it; the centre of gravity moves forward and the forklift can tip forwards or the load slide off",
+    "The mast will tilt forward automatically to compensate",
+    "Nothing — the fork tips are the strongest part of the fork arm",
+    "The forklift becomes more stable because the weight is further from the counterweight"
+   ],
+   "correct": 0,
+   "explain_ru": "Груз не у пятки вил = длиннее load centre, меньше капасити, центр тяжести вперёд — опрокидывание вперёд или груз соскальзывает.",
+   "fig": "fulcrum"
   },
   {
    "id": "q44",
@@ -350,7 +995,22 @@
    "section": "Capacity, stability and tipping",
    "q": "Are you allowed to add additional counterweights without referring to the manufacturer?",
    "a_en": "No — never. Adding counterweight changes the design stability, overloads the axles, tyres, chassis and mast, and invalidates the data plate and the manufacturer's rating. It requires written approval from the manufacturer or a competent engineer, with a new capacity data plate fitted. Doing it without that is unsafe and unlawful.",
-   "a_ru": "Нет, никогда. Добавление противовеса меняет расчётную устойчивость, перегружает оси, шины, раму и мачту, делает недействительными табличку и заводские параметры. Нужно письменное согласование производителя или компетентного инженера и новая табличка грузоподъёмности. Без этого — небезопасно и незаконно."
+   "a_ru": "Нет, никогда. Добавление противовеса меняет расчётную устойчивость, перегружает оси, шины, раму и мачту, делает недействительными табличку и заводские параметры. Нужно письменное согласование производителя или компетентного инженера и новая табличка грузоподъёмности. Без этого — небезопасно и незаконно.",
+   "key": [
+    "NO — never",
+    "Changes design stability; overloads axles, tyres, chassis, mast",
+    "Invalidates the data plate and manufacturer's rating",
+    "Needs written approval from manufacturer / competent engineer and a new data plate"
+   ],
+   "options": [
+    "No — it changes the design stability, overloads the axles and mast, and invalidates the data plate; written approval and a new plate are required",
+    "Yes — provided the extra weight is bolted on securely",
+    "Yes — up to 10 % of the rated capacity",
+    "Yes — if the forklift is only used indoors"
+   ],
+   "correct": 0,
+   "explain_ru": "Добавлять противовес самостоятельно нельзя: меняется устойчивость, перегружаются оси, табличка теряет силу. Только с письменного одобрения производителя.",
+   "fig": "dataplate"
   },
   {
    "id": "q45",
@@ -358,7 +1018,22 @@
    "section": "Capacity, stability and tipping",
    "q": "How could you determine the weight of a load?",
    "a_en": "Check the documentation and markings — delivery docket, manifest, packing list, shipping label or the weight stencilled on the load itself; ask the supervisor, consignor or manufacturer; weigh it on a weighbridge, platform scales or with a load-weighing attachment/indicator fitted to the forklift; or calculate it from the material's density and volume. Never lift a load of unknown weight.",
-   "a_ru": "Проверить документы и маркировку — накладную, манифест, упаковочный лист, ярлык или вес, нанесённый на сам груз; спросить руководителя, отправителя или производителя; взвесить на весовой платформе, весах или через навесной динамометр/весы на погрузчике; либо рассчитать по плотности материала и объёму. Груз неизвестного веса поднимать нельзя."
+   "a_ru": "Проверить документы и маркировку — накладную, манифест, упаковочный лист, ярлык или вес, нанесённый на сам груз; спросить руководителя, отправителя или производителя; взвесить на весовой платформе, весах или через навесной динамометр/весы на погрузчике; либо рассчитать по плотности материала и объёму. Груз неизвестного веса поднимать нельзя.",
+   "key": [
+    "Documentation and markings — delivery docket, manifest, packing list, shipping label, stencilled weight",
+    "Ask the supervisor, consignor or manufacturer",
+    "Weigh it — weighbridge, platform scales, load-weighing attachment",
+    "Calculate from density × volume",
+    "Never lift a load of unknown weight"
+   ],
+   "options": [
+    "Check the docket, manifest or markings; ask the supervisor or consignor; weigh it on scales or a weighing attachment; or calculate it from density and volume",
+    "Lift it and see whether the rear wheels come off the ground",
+    "Estimate it by comparing it with the last load you carried",
+    "Assume it is within capacity if it fits on a standard pallet"
+   ],
+   "correct": 0,
+   "explain_ru": "Вес груза узнаём из документов и маркировки, у ответственного, взвешиванием или расчётом. «Приподнять и посмотреть» — нет."
   },
   {
    "id": "q46",
@@ -366,7 +1041,23 @@
    "section": "Capacity, stability and tipping",
    "q": "What should you do if a forklift is tipping over?",
    "a_en": "Do not jump. Stay in the seat with the seatbelt on, grip the steering wheel firmly, brace your feet, and lean away from the direction of the fall — this keeps you inside the protective zone of the overhead guard. Operators who jump are usually crushed by the overhead guard as it comes down. Once it has stopped moving, shut down, get out safely, and report the incident.",
-   "a_ru": "Не прыгать. Оставаться в кресле пристёгнутым, крепко держать руль, упереться ногами и отклониться в сторону, противоположную падению — так остаёшься в защитной зоне под крышей. Тех, кто прыгает, обычно придавливает опускающейся защитной крышей. После остановки — заглушить, безопасно выйти, доложить об инциденте."
+   "a_ru": "Не прыгать. Оставаться в кресле пристёгнутым, крепко держать руль, упереться ногами и отклониться в сторону, противоположную падению — так остаёшься в защитной зоне под крышей. Тех, кто прыгает, обычно придавливает опускающейся защитной крышей. После остановки — заглушить, безопасно выйти, доложить об инциденте.",
+   "key": [
+    "DO NOT JUMP",
+    "Stay in the seat with the seatbelt on",
+    "Grip the steering wheel, brace your feet",
+    "Lean AWAY from the direction of the fall",
+    "Jumping = crushed by the overhead guard"
+   ],
+   "options": [
+    "Do not jump — stay in the seat with the seatbelt on, grip the wheel, brace your feet and lean away from the direction of the fall",
+    "Jump clear on the side the forklift is falling towards so you land first",
+    "Unbuckle the seatbelt and jump out of the opposite side",
+    "Stand up on the seat and hold the overhead guard"
+   ],
+   "correct": 0,
+   "explain_ru": "При опрокидывании НЕ прыгать: остаться в кресле, ремень, держаться за руль, отклониться от направления падения. Прыгнувших давит защитная крыша.",
+   "fig": "tipping"
   },
   {
    "id": "q47",
@@ -374,7 +1065,23 @@
    "section": "Capacity, stability and tipping",
    "q": "Look at the following, which load is within the capacity of the forklift rated at 4200 kg at 600 mm?",
    "a_en": "Answer: B. The load centre is measured from the face/heel of the forks to the centre of the load — for a uniform load that is half its length. A = 1400 mm ÷ 2 = 700 mm (beyond the rated 600 mm — capacity drops to about 3600 kg, so 4200 kg is an overload). B = 1000 mm ÷ 2 = 500 mm (inside the rated 600 mm — capacity is about 5040 kg, so 4200 kg is safe). C = 1300 mm ÷ 2 = 650 mm (beyond 600 mm — capacity about 3877 kg, so 4200 kg is an overload). Only B is within capacity.",
-   "a_ru": "Ответ: B. Центр груза меряется от пятки вил до середины груза — для равномерного груза это половина его длины. A = 1400 ÷ 2 = 700 мм (больше 600 → доступно ≈3600 кг, значит 4200 кг — перегруз). B = 1000 ÷ 2 = 500 мм (меньше 600 → ≈5040 кг, 4200 кг безопасно). C = 1300 ÷ 2 = 650 мм (больше 600 → ≈3877 кг, перегруз). В пределах грузоподъёмности только B."
+   "a_ru": "Ответ: B. Центр груза меряется от пятки вил до середины груза — для равномерного груза это половина его длины. A = 1400 ÷ 2 = 700 мм (больше 600 → доступно ≈3600 кг, значит 4200 кг — перегруз). B = 1000 ÷ 2 = 500 мм (меньше 600 → ≈5040 кг, 4200 кг безопасно). C = 1300 ÷ 2 = 650 мм (больше 600 → ≈3877 кг, перегруз). В пределах грузоподъёмности только B.",
+   "key": [
+    "Answer: B",
+    "Load centre = half the length of a uniform load, measured from the heel of the forks",
+    "A: 1400 ÷ 2 = 700 mm → beyond 600 → overload",
+    "B: 1000 ÷ 2 = 500 mm → inside 600 → SAFE",
+    "C: 1300 ÷ 2 = 650 mm → beyond 600 → overload"
+   ],
+   "options": [
+    "B — a 1000 mm long load has a 500 mm load centre, inside the rated 600 mm",
+    "A — a 1400 mm long load has a 700 mm load centre",
+    "C — a 1300 mm long load has a 650 mm load centre",
+    "All three, because each weighs exactly 4200 kg"
+   ],
+   "correct": 0,
+   "explain_ru": "Load centre = половина длины однородного груза. Только у B (500 мм) он не превышает номинальные 600 мм, значит 4200 кг — в пределах.",
+   "fig": "capacity"
   },
   {
    "id": "q48",
@@ -382,7 +1089,23 @@
    "section": "Capacity, stability and tipping",
    "q": "List 5 causes of tipping a forklift sideways.",
    "a_en": "a) Turning too fast or too sharply, especially with the load raised. b) Turning on a ramp, slope or crossfall, or travelling across a slope. c) Uneven, soft or damaged ground — potholes, kerbs, trench grates, edges of docks. d) An off-centre or unbalanced load, or a side shift attachment not centralised. e) Travelling with the load raised too high, which lifts the centre of gravity out of the stability triangle. (Also: striking an obstacle, over-inflated/damaged or mismatched tyres, sudden steering correction, wind on a high load.)",
-   "a_ru": "a) Слишком быстрый или резкий поворот, особенно с поднятым грузом. b) Поворот на рампе/уклоне или движение поперёк склона. c) Неровный, мягкий или разбитый грунт — ямы, бордюры, решётки, край рампы. d) Груз смещён от оси или боковое смещение не отцентрировано. e) Движение со слишком высоко поднятым грузом — центр тяжести выходит за треугольник устойчивости. (Также: наезд на препятствие, неисправные или разные шины, резкий доворот руля, ветер на высоком грузе.)"
+   "a_ru": "a) Слишком быстрый или резкий поворот, особенно с поднятым грузом. b) Поворот на рампе/уклоне или движение поперёк склона. c) Неровный, мягкий или разбитый грунт — ямы, бордюры, решётки, край рампы. d) Груз смещён от оси или боковое смещение не отцентрировано. e) Движение со слишком высоко поднятым грузом — центр тяжести выходит за треугольник устойчивости. (Также: наезд на препятствие, неисправные или разные шины, резкий доворот руля, ветер на высоком грузе.)",
+   "key": [
+    "Turning too fast or too sharply, especially with the load raised",
+    "Turning on a ramp or slope, or travelling across a slope",
+    "Uneven, soft or damaged ground — potholes, kerbs, dock edges",
+    "Off-centre or unbalanced load; side shift not centralised",
+    "Travelling with the load raised too high"
+   ],
+   "options": [
+    "Turning too fast or sharply, turning on a slope, uneven or soft ground, an off-centre load, travelling with the load raised",
+    "Overloading, load centre too far forward, braking hard, tilting the mast forward, driving down a slope with the load first",
+    "Low tyre pressure on the rear wheels only",
+    "Travelling in reverse with the forks lowered"
+   ],
+   "correct": 0,
+   "explain_ru": "Боковое опрокидывание: быстрый/резкий поворот, поворот на уклоне, плохой грунт, смещённый груз, высоко поднятый груз. Вариант B — причины опрокидывания вперёд.",
+   "fig": "triangle"
   },
   {
    "id": "q49",
@@ -390,7 +1113,23 @@
    "section": "Capacity, stability and tipping",
    "q": "List 5 causes of tipping a forklift forwards.",
    "a_en": "a) Overloading — lifting more than the rated capacity on the data plate. b) Load centre too far forward — the load is not hard up against the heel of the forks, or is longer than the rated load centre. c) Braking too hard while travelling forward with a load, or hitting an obstacle. d) Tilting the mast forward with the load raised, or lowering the load too fast. e) Driving down a slope with the load facing downhill instead of reversing down. (Also: sudden acceleration in reverse, dropping into a pothole, lifting with the mast tilted forward.)",
-   "a_ru": "a) Перегруз — больше номинала на табличке. b) Центр груза слишком далеко вперёд — груз не прижат к пятке вил или длиннее расчётного. c) Резкое торможение при движении вперёд с грузом или наезд на препятствие. d) Наклон мачты вперёд с поднятым грузом или слишком быстрое опускание. e) Спуск с уклона грузом вниз вместо движения задним ходом. (Также: резкий разгон назад, провал в яму, подъём с наклонённой вперёд мачтой.)"
+   "a_ru": "a) Перегруз — больше номинала на табличке. b) Центр груза слишком далеко вперёд — груз не прижат к пятке вил или длиннее расчётного. c) Резкое торможение при движении вперёд с грузом или наезд на препятствие. d) Наклон мачты вперёд с поднятым грузом или слишком быстрое опускание. e) Спуск с уклона грузом вниз вместо движения задним ходом. (Также: резкий разгон назад, провал в яму, подъём с наклонённой вперёд мачтой.)",
+   "key": [
+    "Overloading — more than the rated capacity",
+    "Load centre too far forward — not against the heel, or longer than rated",
+    "Braking too hard travelling forward with a load, or hitting an obstacle",
+    "Tilting the mast forward with the load raised; lowering too fast",
+    "Driving down a slope with the load facing downhill"
+   ],
+   "options": [
+    "Overloading, load centre too far forward, braking hard with a load, tilting the mast forward with the load raised, driving down a slope with the load first",
+    "Turning too fast, turning on a slope, uneven ground, an off-centre load, travelling with the load raised",
+    "Reversing up a ramp with an empty forklift",
+    "Centralising the side shift before travelling"
+   ],
+   "correct": 0,
+   "explain_ru": "Опрокидывание вперёд: перегруз, длинный load centre, резкое торможение с грузом, наклон мачты вперёд с поднятым грузом, спуск грузом вниз. Вариант B — боковое.",
+   "fig": "fulcrum"
   },
   {
    "id": "q50",
@@ -398,7 +1137,22 @@
    "section": "Attachments, parking and duty of care",
    "q": "Why should a side shift attachment be centralised before travelling with a load?",
    "a_en": "Because an off-centre load moves the combined centre of gravity sideways, away from the truck's centreline and towards the edge of the stability triangle. That reduces lateral stability and the rated capacity, and makes a sideways tip-over much more likely — particularly when turning, braking or on uneven ground. Centralising also gives you predictable steering and better vision.",
-   "a_ru": "Смещённый в сторону груз уводит общий центр тяжести от осевой линии к краю треугольника устойчивости. Падают боковая устойчивость и фактическая грузоподъёмность, резко растёт риск опрокидывания набок — особенно в повороте, при торможении и на неровностях. Центровка также даёт предсказуемое управление и лучший обзор."
+   "a_ru": "Смещённый в сторону груз уводит общий центр тяжести от осевой линии к краю треугольника устойчивости. Падают боковая устойчивость и фактическая грузоподъёмность, резко растёт риск опрокидывания набок — особенно в повороте, при торможении и на неровностях. Центровка также даёт предсказуемое управление и лучший обзор.",
+   "key": [
+    "Off-centre load moves the combined centre of gravity sideways",
+    "Towards the edge of the stability triangle",
+    "Less lateral stability and less capacity → sideways tip-over",
+    "Especially when turning, braking, uneven ground; also predictable steering and vision"
+   ],
+   "options": [
+    "An off-centre load moves the centre of gravity sideways towards the edge of the stability triangle, reducing lateral stability and capacity",
+    "Because the side shift hydraulics leak if left extended",
+    "So the forks line up with the pallet pockets at the next stop",
+    "It is not necessary if the load is lighter than half the rated capacity"
+   ],
+   "correct": 0,
+   "explain_ru": "Side shift в центр перед движением: смещённый груз сдвигает центр тяжести к краю треугольника устойчивости — боковое опрокидывание.",
+   "fig": "triangle"
   },
   {
    "id": "q51",
@@ -406,7 +1160,22 @@
    "section": "Attachments, parking and duty of care",
    "q": "Why should you wear a seatbelt?",
    "a_en": "It keeps you inside the operator's protective zone during a tip-over or collision. Without it you are thrown out of the seat and typically crushed between the ground and the overhead guard — the most common cause of forklift fatalities. It also stops you being thrown against the controls or out of the machine over rough ground. Wearing it is a legal requirement where one is fitted.",
-   "a_ru": "Ремень удерживает в защитной зоне при опрокидывании или столкновении. Без него оператора выбрасывает из кресла и, как правило, придавливает между землёй и защитной крышей — самая частая причина гибели на погрузчиках. Также ремень не даёт удариться об органы управления или вылететь на неровностях. Если ремень установлен, его использование обязательно по закону."
+   "a_ru": "Ремень удерживает в защитной зоне при опрокидывании или столкновении. Без него оператора выбрасывает из кресла и, как правило, придавливает между землёй и защитной крышей — самая частая причина гибели на погрузчиках. Также ремень не даёт удариться об органы управления или вылететь на неровностях. Если ремень установлен, его использование обязательно по закону.",
+   "key": [
+    "Keeps you inside the operator's protective zone in a tip-over or collision",
+    "Without it — thrown out and crushed between ground and overhead guard (most common fatality)",
+    "Stops you being thrown against controls over rough ground",
+    "Legal requirement where fitted"
+   ],
+   "options": [
+    "It keeps you inside the protective zone in a tip-over — without it you are thrown out and crushed by the overhead guard; it is also a legal requirement",
+    "It is only needed when travelling on public roads",
+    "To stop the seat sliding on its rails",
+    "Because the forklift will not start unless the belt is buckled"
+   ],
+   "correct": 0,
+   "explain_ru": "Ремень удерживает в защитной зоне при опрокидывании. Без ремня — выброс из кресла и смерть под защитной крышей; где установлен — обязателен по закону.",
+   "fig": "tipping"
   },
   {
    "id": "q52",
@@ -414,7 +1183,22 @@
    "section": "Attachments, parking and duty of care",
    "q": "Name 3 locations where you will not park a forklift.",
    "a_en": "(1) In front of, or blocking, emergency exits, fire equipment, switchboards or first aid stations. (2) On pedestrian walkways, doorways or access ways, or anywhere it blocks vision at an intersection. (3) On a ramp, slope or soft/uneven ground. (Also: in traffic routes or loading areas, on a dock edge, or in any area not designated for parking.)",
-   "a_ru": "(1) Перед аварийными выходами, пожарным оборудованием, электрощитами, пунктом первой помощи или загораживая их. (2) На пешеходных проходах, в дверных проёмах и подъездных путях, а также там, где перекрывается обзор на перекрёстке. (3) На рампе, уклоне, мягком или неровном грунте. (Также: на проездах и в зонах погрузки, у края рампы, в любом неотведённом месте.)"
+   "a_ru": "(1) Перед аварийными выходами, пожарным оборудованием, электрощитами, пунктом первой помощи или загораживая их. (2) На пешеходных проходах, в дверных проёмах и подъездных путях, а также там, где перекрывается обзор на перекрёстке. (3) На рампе, уклоне, мягком или неровном грунте. (Также: на проездах и в зонах погрузки, у края рампы, в любом неотведённом месте.)",
+   "key": [
+    "In front of or blocking emergency exits, fire equipment, switchboards, first aid",
+    "On pedestrian walkways, doorways, access ways, or blocking vision at intersections",
+    "On a ramp, slope or soft/uneven ground",
+    "Also: traffic routes, loading areas, dock edges, any non-designated area"
+   ],
+   "options": [
+    "Blocking emergency exits or fire equipment; on walkways or doorways; on a ramp or slope",
+    "In a designated parking bay on level ground",
+    "Beside the battery charging station in the designated area",
+    "Anywhere inside the warehouse, as long as the forks are lowered"
+   ],
+   "correct": 0,
+   "explain_ru": "Нельзя парковать: у выходов и пожарного оборудования, на пешеходных дорожках и в проёмах, на уклоне или мягком грунте.",
+   "fig": "parking"
   },
   {
    "id": "q53",
@@ -422,7 +1206,22 @@
    "section": "Attachments, parking and duty of care",
    "q": "Why should you remove the keys from a forklift after use?",
    "a_en": "To prevent unauthorised, untrained or unlicensed people from starting and operating it, to prevent accidental or unintentional start-up, and to stop theft or vandalism. Keys should be secured and only issued to licensed operators.",
-   "a_ru": "Чтобы не допустить запуск неуполномоченными, необученными или не имеющими лицензии людьми, исключить случайный пуск, предотвратить угон и вандализм. Ключи хранятся в защищённом месте и выдаются только лицензированным операторам."
+   "a_ru": "Чтобы не допустить запуск неуполномоченными, необученными или не имеющими лицензии людьми, исключить случайный пуск, предотвратить угон и вандализм. Ключи хранятся в защищённом месте и выдаются только лицензированным операторам.",
+   "key": [
+    "Prevent unauthorised, untrained or unlicensed people from operating it",
+    "Prevent accidental or unintentional start-up",
+    "Prevent theft or vandalism",
+    "Keys secured and issued only to licensed operators"
+   ],
+   "options": [
+    "To stop unauthorised or unlicensed people starting it, prevent accidental start-up, and prevent theft or vandalism",
+    "So the battery does not go flat overnight",
+    "Because the insurance company requires the key to be in the office",
+    "To reset the hour meter for the next operator"
+   ],
+   "correct": 0,
+   "explain_ru": "Ключ вынимается, чтобы погрузчик не запустил посторонний или нелицензированный человек, не было случайного пуска и угона.",
+   "fig": "parking"
   },
   {
    "id": "q54",
@@ -430,7 +1229,21 @@
    "section": "Attachments, parking and duty of care",
    "q": "List 3 things you should consider when parking the forklift.",
    "a_en": "a) Location — level, firm ground in a designated parking area, clear of exits, walkways, traffic routes and fire equipment. b) Machine set-up — forks fully lowered flat to the ground, mast tilted forward, controls in neutral, park brake applied. c) Shut down and secure — engine off, key removed and secured, wheels chocked if there is any slope, and the machine left plugged in to charge or refuelled as per site procedure.",
-   "a_ru": "a) Место — ровная твёрдая площадка в отведённой зоне, не загораживая выходы, проходы, проезды и пожарное оборудование. b) Положение машины — вилы полностью опущены на землю, мачта наклонена вперёд, органы управления в нейтрали, стояночный тормоз включён. c) Остановка и фиксация — двигатель заглушён, ключ вынут и убран, при малейшем уклоне — противооткатные упоры; заправка или постановка на зарядку по регламенту площадки."
+   "a_ru": "a) Место — ровная твёрдая площадка в отведённой зоне, не загораживая выходы, проходы, проезды и пожарное оборудование. b) Положение машины — вилы полностью опущены на землю, мачта наклонена вперёд, органы управления в нейтрали, стояночный тормоз включён. c) Остановка и фиксация — двигатель заглушён, ключ вынут и убран, при малейшем уклоне — противооткатные упоры; заправка или постановка на зарядку по регламенту площадки.",
+   "key": [
+    "Location — level firm ground, designated area, clear of exits, walkways, traffic routes, fire equipment",
+    "Machine set-up — forks fully lowered flat, mast tilted forward, controls neutral, park brake on",
+    "Shut down and secure — engine off, key removed, wheels chocked on any slope, plugged in / refuelled per site procedure"
+   ],
+   "options": [
+    "Location (level, designated, clear of exits and walkways), set-up (forks flat on the ground, mast forward, neutral, park brake) and shutdown (engine off, key removed, chocked if any slope)",
+    "Leave the forks raised so pedestrians do not trip over them",
+    "Leave the engine idling so it is warm for the next operator",
+    "Park across the doorway so nobody can enter while you are away"
+   ],
+   "correct": 0,
+   "explain_ru": "Парковка: место (ровно, отведённая зона), настройка (вилы на пол, мачта вперёд, нейтраль, стояночный тормоз), отключение (двигатель, ключ, башмаки).",
+   "fig": "parking"
   },
   {
    "id": "q55",
@@ -438,7 +1251,22 @@
    "section": "Attachments, parking and duty of care",
    "q": "What is your duty of care as a HRW operator?",
    "a_en": "Under WHS legislation you must take reasonable care for your own health and safety and for the health and safety of anyone affected by your work. In practice: only operate plant you are licensed, trained and authorised for; comply with reasonable instructions, site rules, SWMS and procedures; carry out pre-start checks and not use faulty plant; wear the required PPE; report hazards, incidents, near misses and damage; never work under the influence of alcohol or drugs; and do nothing that puts yourself or others at risk.",
-   "a_ru": "По законодательству WHS обязан разумно заботиться о собственной безопасности и о безопасности всех, кого затрагивает твоя работа. На практике: работать только на технике, на которую есть лицензия, обучение и допуск; выполнять разумные указания, правила площадки, SWMS и процедуры; делать предпусковые проверки и не использовать неисправную технику; носить требуемые СИЗ; сообщать об опасностях, инцидентах, «почти происшествиях» и повреждениях; не работать под воздействием алкоголя или наркотиков; не создавать риск для себя и других."
+   "a_ru": "По законодательству WHS обязан разумно заботиться о собственной безопасности и о безопасности всех, кого затрагивает твоя работа. На практике: работать только на технике, на которую есть лицензия, обучение и допуск; выполнять разумные указания, правила площадки, SWMS и процедуры; делать предпусковые проверки и не использовать неисправную технику; носить требуемые СИЗ; сообщать об опасностях, инцидентах, «почти происшествиях» и повреждениях; не работать под воздействием алкоголя или наркотиков; не создавать риск для себя и других.",
+   "key": [
+    "Take reasonable care for your own health and safety",
+    "And for the health and safety of anyone affected by your work",
+    "Only operate plant you are licensed, trained and authorised for",
+    "Comply with instructions, site rules, SWMS; do pre-start checks; don't use faulty plant",
+    "Wear PPE; report hazards, incidents, near misses; no alcohol or drugs"
+   ],
+   "options": [
+    "Take reasonable care for your own safety and anyone affected by your work: operate only what you are licensed for, follow instructions and SWMS, do pre-starts, wear PPE, report hazards, no drugs or alcohol",
+    "Duty of care applies only to the employer, not to the operator",
+    "To finish the job as quickly as possible to reduce exposure time",
+    "To check the HRW licences of every other worker on site"
+   ],
+   "correct": 0,
+   "explain_ru": "Duty of care оператора: разумная забота о себе и о тех, кого касается работа — лицензия, инструкции, pre-start, СИЗ, доклад об опасностях, трезвость."
   },
   {
    "id": "q56",
@@ -446,7 +1274,22 @@
    "section": "Attachments, parking and duty of care",
    "q": "What can an employer do to ensure the health and safety of workers?",
    "a_en": "Provide and maintain safe plant, equipment and systems of work; provide information, training, instruction and supervision, including familiarisation on unfamiliar machines; carry out risk assessments and prepare SWMS; implement the hierarchy of control and a traffic management plan; service and maintain plant to the manufacturer's schedule; supply PPE at no cost; consult with workers and HSRs; provide facilities, first aid and emergency procedures; and monitor, review and improve controls, including incident investigation.",
-   "a_ru": "Обеспечивать и поддерживать безопасную технику, оборудование и организацию работ; давать информацию, обучение, инструктаж и надзор, включая ознакомление с незнакомой машиной; проводить оценку рисков и готовить SWMS; применять иерархию контроля и план организации движения; обслуживать технику по регламенту производителя; бесплатно выдавать СИЗ; консультироваться с работниками и HSR; обеспечивать бытовые условия, первую помощь и аварийные процедуры; контролировать, пересматривать и улучшать меры, расследовать инциденты."
+   "a_ru": "Обеспечивать и поддерживать безопасную технику, оборудование и организацию работ; давать информацию, обучение, инструктаж и надзор, включая ознакомление с незнакомой машиной; проводить оценку рисков и готовить SWMS; применять иерархию контроля и план организации движения; обслуживать технику по регламенту производителя; бесплатно выдавать СИЗ; консультироваться с работниками и HSR; обеспечивать бытовые условия, первую помощь и аварийные процедуры; контролировать, пересматривать и улучшать меры, расследовать инциденты.",
+   "key": [
+    "Provide and maintain safe plant, equipment and systems of work",
+    "Information, training, instruction, supervision — including familiarisation",
+    "Risk assessments and SWMS; hierarchy of control; traffic management plan",
+    "Service plant to manufacturer's schedule; PPE at no cost",
+    "Consult workers and HSRs; first aid and emergency procedures; monitor and review"
+   ],
+   "options": [
+    "Provide safe plant and systems of work, training and supervision, risk assessments and SWMS, maintenance, PPE at no cost, consultation, first aid and emergency procedures",
+    "Pay a safety bonus to operators who finish without incidents",
+    "Require every worker to sign a waiver before starting",
+    "Install cameras to record incidents for the insurer"
+   ],
+   "correct": 0,
+   "explain_ru": "Работодатель обязан PROVIDE: безопасную технику и системы работы, обучение и надзор, оценку рисков и SWMS, обслуживание, СИЗ бесплатно, консультации, первую помощь."
   },
   {
    "id": "q57",
@@ -454,7 +1297,23 @@
    "section": "Attachments, parking and duty of care",
    "q": "Where can you find information about health and safety?",
    "a_en": "The WHS Act and WHS Regulations for your state; Codes of Practice and guidance material from Safe Work Australia and your state regulator (SafeWork NSW, WorkSafe VIC/QLD, etc., including their websites and advice line); Australian Standards such as AS 2359 (industrial trucks); the manufacturer's operator manual and the data plate; site documents — SWMS, risk assessments, site induction, site rules and signage; Safety Data Sheets (SDS) for chemicals; and your supervisor, HSR or union.",
-   "a_ru": "Закон и регламенты WHS твоего штата; Codes of Practice и материалы Safe Work Australia и регулятора штата (SafeWork NSW, WorkSafe VIC/QLD и т.д. — сайты и горячая линия); австралийские стандарты, например AS 2359; руководство производителя и заводская табличка; документы площадки — SWMS, оценки рисков, инструктаж, правила и знаки; SDS на химические вещества; руководитель, HSR или профсоюз."
+   "a_ru": "Закон и регламенты WHS твоего штата; Codes of Practice и материалы Safe Work Australia и регулятора штата (SafeWork NSW, WorkSafe VIC/QLD и т.д. — сайты и горячая линия); австралийские стандарты, например AS 2359; руководство производителя и заводская табличка; документы площадки — SWMS, оценки рисков, инструктаж, правила и знаки; SDS на химические вещества; руководитель, HSR или профсоюз.",
+   "key": [
+    "WHS Act and WHS Regulations of your state",
+    "Codes of Practice — Safe Work Australia and the state regulator (SafeWork NSW, WorkSafe VIC/QLD)",
+    "Australian Standards — AS 2359 (industrial trucks)",
+    "Manufacturer's operator manual and data plate",
+    "Site documents — SWMS, risk assessment, induction, signage; SDS for chemicals",
+    "Supervisor, HSR, union"
+   ],
+   "options": [
+    "WHS Act and Regulations, Codes of Practice, the state regulator, Australian Standards (AS 2359), the operator's manual and data plate, SWMS and site induction, SDS, your supervisor or HSR",
+    "Only from the forklift dealer who sold the machine",
+    "Social media groups for forklift operators",
+    "It is confidential and available to managers only"
+   ],
+   "correct": 0,
+   "explain_ru": "Информация по безопасности: закон и регламент WHS, Codes of Practice, регулятор штата, стандарты, руководство производителя, SWMS, SDS, руководитель, HSR."
   },
   {
    "id": "q58",
@@ -462,7 +1321,21 @@
    "section": "Attachments, parking and duty of care",
    "q": "How can a HRW operator be penalised if they fail to operate the forklift safely?",
    "a_en": "Through on-the-spot fines and infringement notices issued by the WHS regulator; prosecution under the WHS Act with substantial fines and, for the most serious categories (reckless conduct / industrial manslaughter), imprisonment; suspension or cancellation of the High Risk Work licence, and refusal of a future licence; plus employer action — retraining, removal from the task, disciplinary action or dismissal, and possible civil liability.",
-   "a_ru": "Штрафы на месте и предписания от регулятора WHS; уголовное/административное преследование по WHS Act с крупными штрафами, а по самым тяжким составам (грубая неосторожность / производственное причинение смерти) — лишение свободы; приостановка или аннулирование лицензии HRW и отказ в её выдаче в будущем; плюс меры работодателя — переобучение, отстранение, дисциплинарное взыскание или увольнение, а также гражданская ответственность."
+   "a_ru": "Штрафы на месте и предписания от регулятора WHS; уголовное/административное преследование по WHS Act с крупными штрафами, а по самым тяжким составам (грубая неосторожность / производственное причинение смерти) — лишение свободы; приостановка или аннулирование лицензии HRW и отказ в её выдаче в будущем; плюс меры работодателя — переобучение, отстранение, дисциплинарное взыскание или увольнение, а также гражданская ответственность.",
+   "key": [
+    "On-the-spot fines and infringement notices from the WHS regulator",
+    "Prosecution under the WHS Act — substantial fines; imprisonment for reckless conduct / industrial manslaughter",
+    "Suspension or cancellation of the HRW licence; refusal of a future licence",
+    "Employer action — retraining, removal from task, disciplinary action, dismissal; civil liability"
+   ],
+   "options": [
+    "Fines and infringement notices, prosecution under the WHS Act (including imprisonment for reckless conduct), suspension or cancellation of the HRW licence, and employer disciplinary action",
+    "A written warning from the forklift manufacturer",
+    "Penalties apply only to the employer, never to the operator",
+    "Loss of the driver's licence for motor vehicles"
+   ],
+   "correct": 0,
+   "explain_ru": "Оператора могут наказать: штрафы регулятора, уголовное преследование по WHS Act, приостановка/аннулирование лицензии HRW, дисциплинарные меры работодателя."
   },
   {
    "id": "q59",
@@ -470,7 +1343,23 @@
    "section": "Attachments, parking and duty of care",
    "q": "If you're driving with a large load where your view is obstructed, what should you do?",
    "a_en": "Travel in reverse, with the load trailing, so you have a clear view in the direction of travel — the exception is travelling up or down a ramp, where the load must stay facing up the slope. Also: use a trained spotter to guide you, sound the horn at intersections and doorways, travel slowly, keep the load low, use mirrors and always look in the direction you are travelling. If the view still cannot be made safe, stop and split the load or find another method.",
-   "a_ru": "Ехать задним ходом, грузом назад, чтобы видеть направление движения — исключение — рампа, там груз всегда обращён вверх по склону. Также: работать с обученным сигнальщиком, подавать сигнал на перекрёстках и в проёмах, ехать медленно, держать груз низко, использовать зеркала и всегда смотреть в направлении движения. Если обзор всё равно небезопасен — остановиться, разделить груз или выбрать другой способ."
+   "a_ru": "Ехать задним ходом, грузом назад, чтобы видеть направление движения — исключение — рампа, там груз всегда обращён вверх по склону. Также: работать с обученным сигнальщиком, подавать сигнал на перекрёстках и в проёмах, ехать медленно, держать груз низко, использовать зеркала и всегда смотреть в направлении движения. Если обзор всё равно небезопасен — остановиться, разделить груз или выбрать другой способ.",
+   "key": [
+    "Travel in REVERSE with the load trailing — clear view in the direction of travel",
+    "Exception: on a ramp the load must still face up the slope",
+    "Use a trained spotter; sound the horn at intersections and doorways",
+    "Travel slowly, load low, use mirrors, look where you are going",
+    "Still unsafe? Stop — split the load or find another method"
+   ],
+   "options": [
+    "Travel in reverse so you can see where you are going (except on ramps), use a spotter, sound the horn, travel slowly with the load low — or split the load",
+    "Raise the load above eye level so you can see underneath it",
+    "Drive forward slowly and lean out of the side of the cab",
+    "Tilt the mast fully forward so the load sits lower in your view"
+   ],
+   "correct": 0,
+   "explain_ru": "Груз закрывает обзор — ехать задним ходом (кроме рамп), сигнальщик, клаксон, медленно. Если и так небезопасно — разделить груз.",
+   "fig": "travel"
   },
   {
    "id": "q60",
@@ -478,7 +1367,22 @@
    "section": "Attachments, parking and duty of care",
    "q": "Using a triangle, indicate where the fulcrum is, and a horizontal and vertical line for the load centre distance.",
    "a_en": "The fulcrum is the front axle / front wheels — the pivot point the whole machine balances over (mark the triangle there). Draw a vertical line down through the centre of the load, and a horizontal line from the front face (heel) of the fork arms out to that vertical line — that horizontal distance is the load centre distance, most commonly rated at 600 mm.",
-   "a_ru": "Точка опоры (fulcrum) — передняя ось / передние колёса, вокруг них балансирует вся машина (там ставится треугольник). Вертикальную линию провести через центр груза, горизонтальную — от передней грани (пятки) вил до этой вертикали. Этот горизонтальный отрезок и есть расстояние до центра груза, стандартно 600 мм. Q61 Attachments — names and safety considerations (K.E.13) Reading the pictures left to right, top row then bottom row. The number in the last column is the matching safety consideration from the table printed above the question. Картинки читаются слева направо: сначала верхний ряд, затем нижний. Номер в последнем столбце — соответствующее соображение безопасности из таблицы над вопросом. #    Attachment / Навесное оборудование            Safety consideration (from the table above) 1    Rotator / fork rotator (rotating carriage)    6. Ensure that you have sufficient ground clearance when rotating Ротатор — поворотная каретка с вилами 2    Drum handler / drum grab (drum clamp)         3. Ensure you have accessed and read the SDS before attempting to lift Захват для бочек 3    Carpet pole / roll prong (boom pole)          7. The forklift should be driven backwards Штырь-пика для рулонов и ковров #    Attachment / Навесное оборудование            Safety consideration (from the table above) 4    Jib / crane arm attachment with hooks   1. Ensure you identify the SWL of the hooks Стреловое (крановое) навесное с крюками 5    Roll clamp / bale clamp (paper roll clamp)    5. Can be used to lift paper rolls Зажим для рулонов и кип 6    Work platform / man cage (elevating work platform) 2. Driver must remain in the forklift operators seat Рабочая платформа (люлька) для людей 7    Fork extensions / fork slippers               8. Must never be more than 1.5 times the length of the original forks Удлинители вил 8    Brick / block clamp (load clamp)              4. Ensure you plan your path for a sufficient turning space Зажим для кирпича и блоков Remember for every attachment: it must be approved for that forklift, fitted and secured per the manufacturer, and the forklift needs a de-rated capacity data plate for the attachment (the attachment's own weight and length reduce the truck's capacity). Общее правило для любого навесного: оно должно быть одобрено для этой модели, установлено и закреплено по инструкции производителя, а на погрузчике должна быть табличка со сниженной грузоподъёмностью под это навесное (его собственный вес и длина уменьшают грузоподъёмность). 62. List six (6) unplanned and/or unsafe environmental/weather conditions. (K.E.8) (1) Heavy rain and wet, slippery surfaces. (2) Strong winds and sudden gusts (especially with high or large-surface loads). (3) Storms, thunder and lightning. (4) Fog, smoke, dust storms or heavy rain reducing visibility. (5) Extreme heat (heat stress, tyre and hydraulic issues) or extreme cold, ice, frost and snow. (6) Flooding, mud or water covering the ground and hiding potholes and services. (Also: sun glare at dawn and dusk, and airborne dust or fumes from adjacent work.) (1) Сильный дождь и мокрые скользкие поверхности. (2) Сильный ветер и порывы (особенно с высоким или парусящим грузом). (3) Гроза и молнии. (4) Туман, дым, пыльная буря или ливень — плохая видимость. (5) Экстремальная жара (тепловой стресс, шины, гидравлика) либо мороз, лёд, иней, снег. (6) Подтопление, грязь или вода, скрывающая ямы и коммуникации. (Также: слепящее низкое солнце, пыль и газы от соседних работ.) 63. List at least 2 things that your employer needs to provide you prior to undertaking work on an unfamiliar forklift. (1) Familiarisation training and instruction on that specific machine — its controls, attachments, capacity, differences from what you have operated before, and supervision until you are competent. (2) The manufacturer's operator manual and the capacity data plate information. (Also: site induction and site rules, the SWMS/risk assessment for the task, the pre-start checklist, maintenance and service records, and the required PPE.) (1) Ознакомительное обучение и инструктаж именно по этой машине — органы управления, навесное, грузоподъёмность, отличия от привычной техники, надзор до подтверждения компетентности. (2) Руководство производителя и данные заводской таблички. (Также: инструктаж и правила площадки, SWMS/оценка риска на задачу, чек-лист предпусковой проверки, журнал ТО, необходимые СИЗ.) 64. How does the jib attachment affect your forklift? It substantially reduces the rated capacity. The jib adds its own weight out in front of the fulcrum and moves the load centre a long way forward, so the safe working load falls sharply and decreases further as the jib is extended. It also raises the centre of gravity, reduces forward and lateral stability, and introduces a freely suspended, swinging load that can shift the centre of gravity dynamically. The forklift must have a separate data plate for the jib showing the de-rated capacity at each jib position, the hooks' SWL must be known, and travel must be slow with the load as low as possible. Он существенно снижает грузоподъёмность: стрела добавляет собственный вес впереди точки опоры и сильно выносит центр груза вперёд, поэтому допустимая нагрузка резко падает и уменьшается ещё сильнее при выдвижении стрелы. Также поднимается центр тяжести, падает продольная и боковая устойчивость, а свободно подвешенный раскачивающийся груз динамически смещает центр тяжести. На погрузчике должна быть отдельная табличка для стрелы со сниженной грузоподъёмностью для каждого положения, нужно знать SWL крюков, двигаться медленно и держать груз максимально низко. 65. What is the most common load centre in mm? 600 mm. 600 мм. 66. How does obtaining the weather forecast help you? It lets you plan and risk-assess before you start: decide whether the work can be done safely at all, reschedule or stop work for high wind, storms or heavy rain, choose safe routes and firm ground, secure or shrink-wrap loads, arrange extra controls (lighting, drainage, wet-weather PPE, additional spotters), allow for heat stress breaks and hydration, protect stored materials, and warn other workers. In short — it turns an unplanned hazard into a planned, controlled one. Позволяет спланировать работу и оценить риски заранее: решить, можно ли вообще работать безопасно, перенести или остановить работы при сильном ветре, грозе или ливне, выбрать безопасные маршруты и твёрдый грунт, закрепить или упаковать груз, добавить меры (освещение, водоотвод, СИЗ для дождя, дополнительные сигнальщики), предусмотреть перерывы и питьё в жару, защитить складированные материалы, предупредить коллег. Иначе говоря — превращает внезапную опасность в спланированную и контролируемую. Q67 Tick nine (9) surface/ground conditions that may affect safe operation and stability (K.E.19) Tick / Отметить Condition                                Why / Почему ✓           1. Backfilled ground                   May collapse or subside under the wheels Может просесть или обрушиться ✓           2. Potholes                            Sudden drop → load shift and tipping Провал колеса → смещение груза и опрокидывание ✓           3. Damaged cracked bitumen             Breaks up under load, uneven wheel support Крошится под нагрузкой, неровная опора ✓           4. Railway tracks                      Raised rails and gaps jolt the machine and load Рельсы и зазоры — толчки, груз смещается ✓           5. Damaged cracked concrete            Can break away, especially at edges Может обломиться, особенно у краёв ✓           6. Rough uneven surface                Constant jolting, load instability Постоянная тряска, груз теряет устойчивость ✓           7. Soft soil                           Wheels sink, machine leans Колёса проваливаются, машина кренится ✓           8. Sloping surface                     Reduces stability; never turn across a slope Снижает устойчивость; поперёк склона не поворачивать ✓           9. Trench covers / grates              May not be rated for forklift + load weight Могут быть не рассчитаны на вес погрузчика с грузом Tick / Отметить Condition                                Why / Почему —             10. Hard compacted soil              Suitable — firm, stable support Подходит: плотная устойчивая опора —             11. Firm level site                  Suitable — the ideal operating surface Подходит: идеальная поверхность —             12. Smooth concrete floor slab       Suitable — designed, rated floor Подходит: расчётный бетонный пол Q68 Traffic management methods (K.E.16) Pictures read left to right, top row → middle row → bottom row. Картинки слева направо: верхний ряд → средний → нижний. Picture            Answer                             What you see / Что на картинке Top left           C. Vehicle route / Guardrail and gates Forklift travelling inside a railed vehicle route with gates; pedestrian outside Погрузчик едет по огороженному проезду с воротами, пешеход снаруж Top right          E. Bollards and marked walkways Car park with bollards protecting a marked pedestrian route between vehicle Парковка: столбики защищают размеченный проход между машинами Middle left        E. Bollards and marked walkways Bollards at a marked walkway intersection with painted hatching Столбики на перекрёстке размеченных проходов с разметкой Middle right       B. Temporary Barriers              Worker pulling out an expandable concertina barrier with a 'No Entry' sign Работник растягивает раздвижной барьер со знаком «Проход запрещён Bottom left        A. High Impact Barrier             Heavy-duty rail barrier along a wall separating the pedestrian path Мощный отбойник вдоль стены, отделяющий пешеходную дорожку Bottom right       D. Overhead Walkways               Elevated walkway with pedestrians above, forklift operating at floor level bel Надземный переход: пешеходы наверху, погрузчик работает внизу Note: two pictures show bollards with marked walkways — one outdoors in a car park and one indoors at a walkway intersection. If your assessor wants each letter used once, use E for the car park image and describe the indoor one as marked walkways / line marking. Примечание: столбики с размеченными проходами показаны на двух картинках — на улице (парковка) и внутри (перекрёсток проходов). Если оценщик требует использовать каждую букву один раз, поставь E для парковки, а вторую опиши как размеченные проходы / разметку. This document is a study aid. Your assessor will expect you to explain these answers in your own words and demonstrate them in the practical assessment — learn them, don't just copy them. Документ — учебное пособие. Оценщик ждёт, что ты объяснишь это своими словами и покажешь на практическом экзамене — материал нужно понять, а не просто переписать."
+   "a_ru": "Точка опоры (fulcrum) — передняя ось / передние колёса, вокруг них балансирует вся машина (там ставится треугольник). Вертикальную линию провести через центр груза, горизонтальную — от передней грани (пятки) вил до этой вертикали. Этот горизонтальный отрезок и есть расстояние до центра груза, стандартно 600 мм. Q61 Attachments — names and safety considerations (K.E.13) Reading the pictures left to right, top row then bottom row. The number in the last column is the matching safety consideration from the table printed above the question. Картинки читаются слева направо: сначала верхний ряд, затем нижний. Номер в последнем столбце — соответствующее соображение безопасности из таблицы над вопросом. #    Attachment / Навесное оборудование            Safety consideration (from the table above) 1    Rotator / fork rotator (rotating carriage)    6. Ensure that you have sufficient ground clearance when rotating Ротатор — поворотная каретка с вилами 2    Drum handler / drum grab (drum clamp)         3. Ensure you have accessed and read the SDS before attempting to lift Захват для бочек 3    Carpet pole / roll prong (boom pole)          7. The forklift should be driven backwards Штырь-пика для рулонов и ковров #    Attachment / Навесное оборудование            Safety consideration (from the table above) 4    Jib / crane arm attachment with hooks   1. Ensure you identify the SWL of the hooks Стреловое (крановое) навесное с крюками 5    Roll clamp / bale clamp (paper roll clamp)    5. Can be used to lift paper rolls Зажим для рулонов и кип 6    Work platform / man cage (elevating work platform) 2. Driver must remain in the forklift operators seat Рабочая платформа (люлька) для людей 7    Fork extensions / fork slippers               8. Must never be more than 1.5 times the length of the original forks Удлинители вил 8    Brick / block clamp (load clamp)              4. Ensure you plan your path for a sufficient turning space Зажим для кирпича и блоков Remember for every attachment: it must be approved for that forklift, fitted and secured per the manufacturer, and the forklift needs a de-rated capacity data plate for the attachment (the attachment's own weight and length reduce the truck's capacity). Общее правило для любого навесного: оно должно быть одобрено для этой модели, установлено и закреплено по инструкции производителя, а на погрузчике должна быть табличка со сниженной грузоподъёмностью под это навесное (его собственный вес и длина уменьшают грузоподъёмность). 62. List six (6) unplanned and/or unsafe environmental/weather conditions. (K.E.8) (1) Heavy rain and wet, slippery surfaces. (2) Strong winds and sudden gusts (especially with high or large-surface loads). (3) Storms, thunder and lightning. (4) Fog, smoke, dust storms or heavy rain reducing visibility. (5) Extreme heat (heat stress, tyre and hydraulic issues) or extreme cold, ice, frost and snow. (6) Flooding, mud or water covering the ground and hiding potholes and services. (Also: sun glare at dawn and dusk, and airborne dust or fumes from adjacent work.) (1) Сильный дождь и мокрые скользкие поверхности. (2) Сильный ветер и порывы (особенно с высоким или парусящим грузом). (3) Гроза и молнии. (4) Туман, дым, пыльная буря или ливень — плохая видимость. (5) Экстремальная жара (тепловой стресс, шины, гидравлика) либо мороз, лёд, иней, снег. (6) Подтопление, грязь или вода, скрывающая ямы и коммуникации. (Также: слепящее низкое солнце, пыль и газы от соседних работ.) 63. List at least 2 things that your employer needs to provide you prior to undertaking work on an unfamiliar forklift. (1) Familiarisation training and instruction on that specific machine — its controls, attachments, capacity, differences from what you have operated before, and supervision until you are competent. (2) The manufacturer's operator manual and the capacity data plate information. (Also: site induction and site rules, the SWMS/risk assessment for the task, the pre-start checklist, maintenance and service records, and the required PPE.) (1) Ознакомительное обучение и инструктаж именно по этой машине — органы управления, навесное, грузоподъёмность, отличия от привычной техники, надзор до подтверждения компетентности. (2) Руководство производителя и данные заводской таблички. (Также: инструктаж и правила площадки, SWMS/оценка риска на задачу, чек-лист предпусковой проверки, журнал ТО, необходимые СИЗ.) 64. How does the jib attachment affect your forklift? It substantially reduces the rated capacity. The jib adds its own weight out in front of the fulcrum and moves the load centre a long way forward, so the safe working load falls sharply and decreases further as the jib is extended. It also raises the centre of gravity, reduces forward and lateral stability, and introduces a freely suspended, swinging load that can shift the centre of gravity dynamically. The forklift must have a separate data plate for the jib showing the de-rated capacity at each jib position, the hooks' SWL must be known, and travel must be slow with the load as low as possible. Он существенно снижает грузоподъёмность: стрела добавляет собственный вес впереди точки опоры и сильно выносит центр груза вперёд, поэтому допустимая нагрузка резко падает и уменьшается ещё сильнее при выдвижении стрелы. Также поднимается центр тяжести, падает продольная и боковая устойчивость, а свободно подвешенный раскачивающийся груз динамически смещает центр тяжести. На погрузчике должна быть отдельная табличка для стрелы со сниженной грузоподъёмностью для каждого положения, нужно знать SWL крюков, двигаться медленно и держать груз максимально низко. 65. What is the most common load centre in mm? 600 mm. 600 мм. 66. How does obtaining the weather forecast help you? It lets you plan and risk-assess before you start: decide whether the work can be done safely at all, reschedule or stop work for high wind, storms or heavy rain, choose safe routes and firm ground, secure or shrink-wrap loads, arrange extra controls (lighting, drainage, wet-weather PPE, additional spotters), allow for heat stress breaks and hydration, protect stored materials, and warn other workers. In short — it turns an unplanned hazard into a planned, controlled one. Позволяет спланировать работу и оценить риски заранее: решить, можно ли вообще работать безопасно, перенести или остановить работы при сильном ветре, грозе или ливне, выбрать безопасные маршруты и твёрдый грунт, закрепить или упаковать груз, добавить меры (освещение, водоотвод, СИЗ для дождя, дополнительные сигнальщики), предусмотреть перерывы и питьё в жару, защитить складированные материалы, предупредить коллег. Иначе говоря — превращает внезапную опасность в спланированную и контролируемую. Q67 Tick nine (9) surface/ground conditions that may affect safe operation and stability (K.E.19) Tick / Отметить Condition                                Why / Почему ✓           1. Backfilled ground                   May collapse or subside under the wheels Может просесть или обрушиться ✓           2. Potholes                            Sudden drop → load shift and tipping Провал колеса → смещение груза и опрокидывание ✓           3. Damaged cracked bitumen             Breaks up under load, uneven wheel support Крошится под нагрузкой, неровная опора ✓           4. Railway tracks                      Raised rails and gaps jolt the machine and load Рельсы и зазоры — толчки, груз смещается ✓           5. Damaged cracked concrete            Can break away, especially at edges Может обломиться, особенно у краёв ✓           6. Rough uneven surface                Constant jolting, load instability Постоянная тряска, груз теряет устойчивость ✓           7. Soft soil                           Wheels sink, machine leans Колёса проваливаются, машина кренится ✓           8. Sloping surface                     Reduces stability; never turn across a slope Снижает устойчивость; поперёк склона не поворачивать ✓           9. Trench covers / grates              May not be rated for forklift + load weight Могут быть не рассчитаны на вес погрузчика с грузом Tick / Отметить Condition                                Why / Почему —             10. Hard compacted soil              Suitable — firm, stable support Подходит: плотная устойчивая опора —             11. Firm level site                  Suitable — the ideal operating surface Подходит: идеальная поверхность —             12. Smooth concrete floor slab       Suitable — designed, rated floor Подходит: расчётный бетонный пол Q68 Traffic management methods (K.E.16) Pictures read left to right, top row → middle row → bottom row. Картинки слева направо: верхний ряд → средний → нижний. Picture            Answer                             What you see / Что на картинке Top left           C. Vehicle route / Guardrail and gates Forklift travelling inside a railed vehicle route with gates; pedestrian outside Погрузчик едет по огороженному проезду с воротами, пешеход снаруж Top right          E. Bollards and marked walkways Car park with bollards protecting a marked pedestrian route between vehicle Парковка: столбики защищают размеченный проход между машинами Middle left        E. Bollards and marked walkways Bollards at a marked walkway intersection with painted hatching Столбики на перекрёстке размеченных проходов с разметкой Middle right       B. Temporary Barriers              Worker pulling out an expandable concertina barrier with a 'No Entry' sign Работник растягивает раздвижной барьер со знаком «Проход запрещён Bottom left        A. High Impact Barrier             Heavy-duty rail barrier along a wall separating the pedestrian path Мощный отбойник вдоль стены, отделяющий пешеходную дорожку Bottom right       D. Overhead Walkways               Elevated walkway with pedestrians above, forklift operating at floor level bel Надземный переход: пешеходы наверху, погрузчик работает внизу Note: two pictures show bollards with marked walkways — one outdoors in a car park and one indoors at a walkway intersection. If your assessor wants each letter used once, use E for the car park image and describe the indoor one as marked walkways / line marking. Примечание: столбики с размеченными проходами показаны на двух картинках — на улице (парковка) и внутри (перекрёсток проходов). Если оценщик требует использовать каждую букву один раз, поставь E для парковки, а вторую опиши как размеченные проходы / разметку. This document is a study aid. Your assessor will expect you to explain these answers in your own words and demonstrate them in the practical assessment — learn them, don't just copy them. Документ — учебное пособие. Оценщик ждёт, что ты объяснишь это своими словами и покажешь на практическом экзамене — материал нужно понять, а не просто переписать.",
+   "key": [
+    "Fulcrum = the front axle / front wheels — the pivot the whole machine balances over",
+    "Vertical line down through the centre of the load",
+    "Horizontal line from the heel (front face) of the forks out to that vertical line",
+    "That horizontal distance = load centre distance, usually rated at 600 mm"
+   ],
+   "options": [
+    "Fulcrum at the front axle; a vertical line through the centre of the load and a horizontal line from the fork heel to it — that distance is the load centre (typically 600 mm)",
+    "Fulcrum at the rear axle; load centre measured from the fork tips",
+    "Fulcrum at the counterweight; load centre measured from the operator's seat",
+    "Fulcrum at the mast; load centre is the height of the load above the ground"
+   ],
+   "correct": 0,
+   "explain_ru": "Точка опоры — передняя ось. Load centre — горизонтальное расстояние от пятки вил до вертикали через центр груза (обычно 600 мм).",
+   "fig": "fulcrum"
   },
   {
    "id": "q61",
@@ -486,7 +1390,27 @@
    "section": "Attachments, parking and duty of care",
    "q": "Name the 8 forklift attachments and the matching safety consideration for each. (K.E.13)",
    "a_en": "(1) Rotator / fork rotator — ensure you have sufficient ground clearance when rotating. (2) Drum handler / drum grab — access and read the SDS before attempting to lift. (3) Carpet pole / roll prong — the forklift should be driven backwards. (4) Jib / crane arm with hooks — identify the SWL of the hooks. (5) Roll clamp / bale clamp — can be used to lift paper rolls. (6) Work platform / man cage — the driver must remain in the forklift operator's seat. (7) Fork extensions / fork slippers — must never be more than 1.5 times the length of the original forks. (8) Brick / block clamp — plan your path for sufficient turning space. Every attachment must be approved for that forklift, fitted per the manufacturer, and the forklift needs a de-rated capacity data plate for it.",
-   "a_ru": "(1) Ротатор — достаточный дорожный просвет при вращении. (2) Захват для бочек — прочитать SDS до подъёма. (3) Штырь-пика для рулонов — ехать задним ходом. (4) Стреловое навесное с крюками — знать SWL крюков. (5) Зажим для рулонов/кип — можно поднимать бумажные рулоны. (6) Рабочая платформа (люлька) — водитель остаётся в кресле. (7) Удлинители вил — не более 1.5 длины штатных вил. (8) Зажим для кирпича — планировать путь с запасом на разворот. Любое навесное должно быть одобрено для этой модели, установлено по инструкции, и на погрузчике должна быть табличка со сниженной грузоподъёмностью."
+   "a_ru": "(1) Ротатор — достаточный дорожный просвет при вращении. (2) Захват для бочек — прочитать SDS до подъёма. (3) Штырь-пика для рулонов — ехать задним ходом. (4) Стреловое навесное с крюками — знать SWL крюков. (5) Зажим для рулонов/кип — можно поднимать бумажные рулоны. (6) Рабочая платформа (люлька) — водитель остаётся в кресле. (7) Удлинители вил — не более 1.5 длины штатных вил. (8) Зажим для кирпича — планировать путь с запасом на разворот. Любое навесное должно быть одобрено для этой модели, установлено по инструкции, и на погрузчике должна быть табличка со сниженной грузоподъёмностью.",
+   "key": [
+    "Rotator — sufficient ground clearance when rotating",
+    "Drum handler — access and read the SDS before lifting",
+    "Carpet pole / roll prong — drive the forklift backwards",
+    "Jib with hooks — identify the SWL of the hooks",
+    "Roll / bale clamp — used to lift paper rolls",
+    "Work platform (man cage) — driver stays in the operator's seat",
+    "Fork extensions — never more than 1.5 × the original fork length",
+    "Brick / block clamp — plan your path for turning space",
+    "Every attachment: approved, fitted per manufacturer, de-rated data plate"
+   ],
+   "options": [
+    "Rotator — ground clearance; drum handler — read the SDS; carpet pole — drive backwards; jib — SWL of hooks; roll clamp — paper rolls; work platform — driver stays seated; extensions — max 1.5× fork length; block clamp — plan turning space",
+    "Any attachment may be fitted without a new data plate as long as the load is under capacity",
+    "Fork extensions may be up to three times the original fork length",
+    "With a work platform the driver may leave the seat to help the person in the cage"
+   ],
+   "correct": 0,
+   "explain_ru": "Восемь навесок и их правила. Главное общее: навеска одобрена для этой машины, установлена по инструкции, есть отдельная data plate со сниженной грузоподъёмностью.",
+   "fig": "attachments"
   },
   {
    "id": "q62",
@@ -494,7 +1418,24 @@
    "section": "Weather, unfamiliar plant and ground conditions",
    "q": "List six (6) unplanned and/or unsafe environmental/weather conditions. (K.E.8)",
    "a_en": "(1) Heavy rain and wet, slippery surfaces. (2) Strong winds and sudden gusts (especially with high or large-surface loads). (3) Storms, thunder and lightning. (4) Fog, smoke, dust storms or heavy rain reducing visibility. (5) Extreme heat (heat stress, tyre and hydraulic issues) or extreme cold, ice, frost and snow. (6) Flooding, mud or water covering the ground and hiding potholes and services. (Also: sun glare at dawn and dusk, airborne dust or fumes from adjacent work.)",
-   "a_ru": "(1) Сильный дождь и мокрые скользкие поверхности. (2) Сильный ветер и порывы. (3) Гроза и молнии. (4) Туман, дым, пыльная буря или ливень — плохая видимость. (5) Экстремальная жара либо мороз, лёд, снег. (6) Подтопление, грязь или вода, скрывающая ямы и коммуникации. (Также: слепящее солнце, пыль и газы от соседних работ.)"
+   "a_ru": "(1) Сильный дождь и мокрые скользкие поверхности. (2) Сильный ветер и порывы. (3) Гроза и молнии. (4) Туман, дым, пыльная буря или ливень — плохая видимость. (5) Экстремальная жара либо мороз, лёд, снег. (6) Подтопление, грязь или вода, скрывающая ямы и коммуникации. (Также: слепящее солнце, пыль и газы от соседних работ.)",
+   "key": [
+    "Heavy rain and wet, slippery surfaces",
+    "Strong winds and sudden gusts — high or large-surface loads",
+    "Storms, thunder, lightning",
+    "Fog, smoke, dust storms reducing visibility",
+    "Extreme heat or cold, ice, frost, snow",
+    "Flooding, mud, water hiding potholes and services"
+   ],
+   "options": [
+    "Heavy rain and wet surfaces, strong wind, storms and lightning, fog or dust reducing visibility, extreme heat or cold, flooding and mud",
+    "Mild sunshine, light cloud, a gentle breeze, dry concrete, mild temperature, good visibility",
+    "Only lightning — all other weather is safe for forklift work",
+    "Weather is never a factor for forklifts used indoors"
+   ],
+   "correct": 0,
+   "explain_ru": "Шесть опасных погодных условий: дождь/мокро, ветер, гроза, туман/пыль, жара/мороз, затопление и грязь.",
+   "fig": "weather"
   },
   {
    "id": "q63",
@@ -502,7 +1443,20 @@
    "section": "Weather, unfamiliar plant and ground conditions",
    "q": "List at least 2 things that your employer needs to provide you prior to undertaking work on an unfamiliar forklift.",
    "a_en": "(1) Familiarisation training and instruction on that specific machine — its controls, attachments, capacity, differences from what you have operated before, and supervision until you are competent. (2) The manufacturer's operator manual and the capacity data plate information. (Also: site induction and site rules, the SWMS/risk assessment for the task, the pre-start checklist, maintenance and service records, and the required PPE.)",
-   "a_ru": "(1) Ознакомительное обучение и инструктаж именно по этой машине — органы управления, навесное, грузоподъёмность, отличия, надзор до подтверждения компетентности. (2) Руководство производителя и данные заводской таблички. (Также: инструктаж и правила площадки, SWMS, чек-лист, журнал ТО, СИЗ.)"
+   "a_ru": "(1) Ознакомительное обучение и инструктаж именно по этой машине — органы управления, навесное, грузоподъёмность, отличия, надзор до подтверждения компетентности. (2) Руководство производителя и данные заводской таблички. (Также: инструктаж и правила площадки, SWMS, чек-лист, журнал ТО, СИЗ.)",
+   "key": [
+    "Familiarisation training on that specific machine — controls, attachments, capacity, differences; supervision until competent",
+    "Manufacturer's operator manual and data plate information",
+    "Also: site induction, SWMS/risk assessment, pre-start checklist, service records, PPE"
+   ],
+   "options": [
+    "Familiarisation training on that specific machine and the manufacturer's operator manual and data plate information",
+    "A new HRW licence for the other brand of forklift",
+    "Nothing — a HRW licence covers every forklift ever made",
+    "A higher hourly rate for operating unfamiliar plant"
+   ],
+   "correct": 0,
+   "explain_ru": "Незнакомый погрузчик: работодатель даёт ознакомительное обучение на этой машине и руководство производителя + данные таблички. Отдельная лицензия не нужна."
   },
   {
    "id": "q64",
@@ -510,7 +1464,23 @@
    "section": "Weather, unfamiliar plant and ground conditions",
    "q": "How does the jib attachment affect your forklift?",
    "a_en": "It substantially reduces the rated capacity. The jib adds its own weight out in front of the fulcrum and moves the load centre a long way forward, so the safe working load falls sharply and decreases further as the jib is extended. It also raises the centre of gravity, reduces forward and lateral stability, and introduces a freely suspended, swinging load that can shift the centre of gravity dynamically. The forklift must have a separate data plate for the jib showing the de-rated capacity at each jib position, the hooks' SWL must be known, and travel must be slow with the load as low as possible.",
-   "a_ru": "Существенно снижает грузоподъёмность: стрела добавляет свой вес впереди точки опоры и выносит центр груза вперёд; нагрузка резко падает и уменьшается ещё сильнее при выдвижении стрелы. Поднимается центр тяжести, падает продольная и боковая устойчивость, подвешенный груз раскачивается и динамически смещает центр тяжести. Нужна отдельная табличка со сниженной грузоподъёмностью для каждого положения стрелы, знать SWL крюков, двигаться медленно и держать груз низко."
+   "a_ru": "Существенно снижает грузоподъёмность: стрела добавляет свой вес впереди точки опоры и выносит центр груза вперёд; нагрузка резко падает и уменьшается ещё сильнее при выдвижении стрелы. Поднимается центр тяжести, падает продольная и боковая устойчивость, подвешенный груз раскачивается и динамически смещает центр тяжести. Нужна отдельная табличка со сниженной грузоподъёмностью для каждого положения стрелы, знать SWL крюков, двигаться медленно и держать груз низко.",
+   "key": [
+    "Substantially REDUCES the rated capacity",
+    "Jib adds its own weight in front of the fulcrum and moves the load centre far forward",
+    "Capacity falls further as the jib is extended",
+    "Raises centre of gravity; suspended load swings → dynamic shift",
+    "Separate data plate for the jib; know hook SWL; travel slow and low"
+   ],
+   "options": [
+    "It substantially reduces capacity — the jib's weight and the longer load centre act further from the fulcrum, and the suspended load can swing; a separate de-rated data plate is required",
+    "It increases capacity because the load hangs below the forks",
+    "It has no effect as long as the jib is rated higher than the forklift",
+    "It only affects the forklift when the jib is fully retracted"
+   ],
+   "correct": 0,
+   "explain_ru": "Jib сильно снижает грузоподъёмность: свой вес плюс длинный рычаг, груз на крюке качается. Нужна отдельная табличка для jib.",
+   "fig": "jib"
   },
   {
    "id": "q65",
@@ -518,7 +1488,19 @@
    "section": "Weather, unfamiliar plant and ground conditions",
    "q": "What is the most common load centre in mm?",
    "a_en": "600 mm.",
-   "a_ru": "600 мм."
+   "a_ru": "600 мм.",
+   "key": [
+    "600 mm"
+   ],
+   "options": [
+    "600 mm",
+    "500 mm",
+    "1000 mm",
+    "1200 mm"
+   ],
+   "correct": 0,
+   "explain_ru": "Самый распространённый load centre — 600 мм (половина стандартного паллета 1200 мм).",
+   "fig": "fulcrum"
   },
   {
    "id": "q66",
@@ -526,7 +1508,23 @@
    "section": "Weather, unfamiliar plant and ground conditions",
    "q": "How does obtaining the weather forecast help you?",
    "a_en": "It lets you plan and risk-assess before you start: decide whether the work can be done safely at all, reschedule or stop work for high wind, storms or heavy rain, choose safe routes and firm ground, secure or shrink-wrap loads, arrange extra controls (lighting, drainage, wet-weather PPE, additional spotters), allow for heat stress breaks and hydration, protect stored materials, and warn other workers. In short — it turns an unplanned hazard into a planned, controlled one.",
-   "a_ru": "Позволяет спланировать работу и оценить риски заранее: можно ли вообще работать безопасно, перенести или остановить работы при ветре, грозе, ливне, выбрать маршруты и твёрдый грунт, закрепить груз, добавить меры (освещение, водоотвод, СИЗ, сигнальщики), предусмотреть перерывы в жару, защитить материалы, предупредить коллег. Превращает внезапную опасность в спланированную и контролируемую."
+   "a_ru": "Позволяет спланировать работу и оценить риски заранее: можно ли вообще работать безопасно, перенести или остановить работы при ветре, грозе, ливне, выбрать маршруты и твёрдый грунт, закрепить груз, добавить меры (освещение, водоотвод, СИЗ, сигнальщики), предусмотреть перерывы в жару, защитить материалы, предупредить коллег. Превращает внезапную опасность в спланированную и контролируемую.",
+   "key": [
+    "Plan and risk-assess BEFORE you start",
+    "Decide whether work can be done safely; reschedule or stop for wind, storms, heavy rain",
+    "Choose safe routes and firm ground; secure or wrap loads",
+    "Extra controls — lighting, drainage, wet-weather PPE, spotters, heat breaks",
+    "Turns an unplanned hazard into a planned, controlled one"
+   ],
+   "options": [
+    "It lets you plan and risk-assess in advance: reschedule or stop work for bad weather, choose safe routes, secure loads and arrange extra controls",
+    "It tells you how many hours you will be paid for the day",
+    "It is only useful for crane operators, not forklift operators",
+    "It allows you to skip the pre-start check on fine days"
+   ],
+   "correct": 0,
+   "explain_ru": "Прогноз погоды — чтобы планировать заранее: перенести работу, выбрать маршруты, закрепить груз, добавить меры. Незапланированная опасность становится управляемой.",
+   "fig": "weather"
   },
   {
    "id": "q67",
@@ -534,7 +1532,21 @@
    "section": "Weather, unfamiliar plant and ground conditions",
    "q": "Tick nine (9) surface/ground conditions that may affect safe operation and stability. (K.E.19)",
    "a_en": "TICK (unsafe): (1) Backfilled ground — may collapse or subside under the wheels. (2) Potholes — sudden drop, load shift and tipping. (3) Damaged cracked bitumen — breaks up under load, uneven wheel support. (4) Railway tracks — raised rails and gaps jolt the machine and load. (5) Damaged cracked concrete — can break away, especially at edges. (6) Rough uneven surface — constant jolting, load instability. (7) Soft soil — wheels sink, machine leans. (8) Sloping surface — reduces stability; never turn across a slope. (9) Trench covers / grates — may not be rated for forklift + load weight. DO NOT TICK (suitable): hard compacted soil, firm level site, smooth concrete floor slab.",
-   "a_ru": "ОТМЕТИТЬ (опасные): (1) подсыпанный/обратно засыпанный грунт — может просесть; (2) ямы — провал колеса, смещение груза; (3) разбитый асфальт — крошится, неровная опора; (4) ж/д пути — толчки на рельсах и зазорах; (5) треснувший бетон — обламывается у краёв; (6) неровная поверхность — тряска, груз теряет устойчивость; (7) мягкий грунт — колёса проваливаются, крен; (8) уклон — снижает устойчивость, поперёк склона не поворачивать; (9) люки и решётки траншей — могут быть не рассчитаны на вес погрузчика с грузом. НЕ отмечать (пригодные): плотный утрамбованный грунт, ровная твёрдая площадка, гладкий бетонный пол."
+   "a_ru": "ОТМЕТИТЬ (опасные): (1) подсыпанный/обратно засыпанный грунт — может просесть; (2) ямы — провал колеса, смещение груза; (3) разбитый асфальт — крошится, неровная опора; (4) ж/д пути — толчки на рельсах и зазорах; (5) треснувший бетон — обламывается у краёв; (6) неровная поверхность — тряска, груз теряет устойчивость; (7) мягкий грунт — колёса проваливаются, крен; (8) уклон — снижает устойчивость, поперёк склона не поворачивать; (9) люки и решётки траншей — могут быть не рассчитаны на вес погрузчика с грузом. НЕ отмечать (пригодные): плотный утрамбованный грунт, ровная твёрдая площадка, гладкий бетонный пол.",
+   "key": [
+    "TICK (unsafe): backfilled ground, potholes, damaged cracked bitumen, railway tracks",
+    "damaged cracked concrete, rough uneven surface, soft soil, sloping surface, trench covers / grates",
+    "DO NOT TICK (suitable): hard compacted soil, firm level site, smooth concrete floor slab"
+   ],
+   "options": [
+    "Backfilled ground, potholes, cracked bitumen, railway tracks, cracked concrete, rough uneven surface, soft soil, sloping surface, trench covers",
+    "Hard compacted soil, firm level site, smooth concrete floor slab",
+    "Any surface that is not painted with line markings",
+    "Only slopes — every other surface is acceptable for a forklift"
+   ],
+   "correct": 0,
+   "explain_ru": "Опасные поверхности — девять пунктов: насыпной грунт, ямы, битый асфальт/бетон, рельсы, неровности, мягкая почва, уклон, крышки траншей. Твёрдый ровный грунт и гладкий бетон — безопасны.",
+   "fig": "ground"
   },
   {
    "id": "q68",
@@ -542,7 +1554,23 @@
    "section": "Weather, unfamiliar plant and ground conditions",
    "q": "Match the traffic management methods to the pictures. (K.E.16)",
    "a_en": "Top left — C. Vehicle route / guardrail and gates (forklift inside a railed vehicle route with gates, pedestrian outside). Top right — E. Bollards and marked walkways (car park, bollards protecting a marked pedestrian route). Middle left — E. Bollards and marked walkways (bollards at a marked walkway intersection with painted hatching). Middle right — B. Temporary barriers (expandable concertina barrier with a 'No Entry' sign). Bottom left — A. High impact barrier (heavy-duty rail barrier along a wall separating the pedestrian path). Bottom right — D. Overhead walkways (elevated walkway with pedestrians above, forklift at floor level below).",
-   "a_ru": "Сверху слева — C. Огороженный проезд с воротами. Сверху справа — E. Столбики и размеченные проходы (парковка). В середине слева — E. Столбики на перекрёстке размеченных проходов. В середине справа — B. Временные барьеры (раздвижной барьер со знаком «Проход запрещён»). Снизу слева — A. Мощный отбойник вдоль стены. Снизу справа — D. Надземный переход. Если оценщик требует каждую букву один раз — E ставь для парковки, а внутренний перекрёсток опиши как «размеченные проходы / разметка»."
+   "a_ru": "Сверху слева — C. Огороженный проезд с воротами. Сверху справа — E. Столбики и размеченные проходы (парковка). В середине слева — E. Столбики на перекрёстке размеченных проходов. В середине справа — B. Временные барьеры (раздвижной барьер со знаком «Проход запрещён»). Снизу слева — A. Мощный отбойник вдоль стены. Снизу справа — D. Надземный переход. Если оценщик требует каждую букву один раз — E ставь для парковки, а внутренний перекрёсток опиши как «размеченные проходы / разметка».",
+   "key": [
+    "A — High impact barrier (heavy rail along a wall)",
+    "B — Temporary barriers (concertina barrier with No Entry sign)",
+    "C — Vehicle route / guardrail and gates",
+    "D — Overhead walkways (pedestrians above, forklift below)",
+    "E — Bollards and marked walkways (car park; walkway intersection)"
+   ],
+   "options": [
+    "High impact barrier, temporary barriers, vehicle route with guardrail and gates, overhead walkways, bollards and marked walkways",
+    "Speed humps, roundabouts, traffic lights, parking meters, toll gates",
+    "Only painted lines — physical barriers are not used in warehouses",
+    "Hi-vis vests and hard hats are the only traffic management methods"
+   ],
+   "correct": 0,
+   "explain_ru": "Пять методов организации движения: тяжёлые барьеры, временные барьеры, огороженный маршрут техники с воротами, надземные переходы, столбики и размеченные дорожки.",
+   "fig": "traffic"
   }
  ],
  "mc": [

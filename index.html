@@ -11,6 +11,7 @@
   --txt:#e7edf3; --dim:#9aa9b8; --acc:#f0b429; --ok:#3fb950; --bad:#f2555a; --blue:#58a6ff;
 }
 *{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
 .wrap{max-width:860px;margin:0 auto;padding:16px 16px 80px}
 header{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:14px}
@@ -18,86 +19,164 @@ h1{font-size:19px;margin:0;letter-spacing:.5px}
 h1 b{color:var(--acc)}
 .sub{color:var(--dim);font-size:13px}
 nav{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
-nav button{background:var(--panel);color:var(--txt);border:1px solid var(--line);padding:9px 14px;border-radius:8px;cursor:pointer;font-size:14px}
+nav button{background:var(--panel);color:var(--txt);border:1px solid var(--line);padding:9px 13px;border-radius:8px;cursor:pointer;font-size:14px;min-height:44px}
 nav button.on{background:var(--acc);color:#1a1a1a;border-color:var(--acc);font-weight:600}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;margin-bottom:14px}
-.q{font-size:19px;font-weight:600;line-height:1.4}
-.meta{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.6px;margin-bottom:10px}
-.ans{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);white-space:pre-wrap}
-.ru{margin-top:12px;color:var(--dim);font-size:14.5px;white-space:pre-wrap}
+.q{font-size:20px;font-weight:650;line-height:1.38;letter-spacing:-.01em}
+.meta{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.6px;margin-bottom:10px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.meta .sp{flex:1}
+.ans{margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.key{list-style:none;margin:0;padding:0}
+.key li{position:relative;padding:9px 12px 9px 40px;margin:6px 0;background:var(--panel2);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:8px;font-size:17px;line-height:1.4;font-weight:500}
+.key li::before{content:attr(data-n);position:absolute;left:12px;top:9px;color:var(--acc);font-weight:700;font-variant-numeric:tabular-nums}
+.key li.one{font-size:22px;font-weight:700;color:var(--acc);text-align:center;padding-left:12px}
+.key li.one::before{content:none}
+.full{margin-top:12px;color:var(--txt);font-size:15px;line-height:1.6;white-space:pre-wrap;opacity:.9}
+.ru{margin-top:12px;color:var(--dim);font-size:14.5px;white-space:pre-wrap;line-height:1.55}
 .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
-button.b{background:var(--panel2);color:var(--txt);border:1px solid var(--line);padding:11px 16px;border-radius:8px;cursor:pointer;font-size:15px}
+button.b{background:var(--panel2);color:var(--txt);border:1px solid var(--line);padding:11px 16px;border-radius:8px;cursor:pointer;font-size:15px;min-height:44px}
 button.b:hover{border-color:var(--acc)}
 button.primary{background:var(--acc);color:#1a1a1a;border-color:var(--acc);font-weight:600}
 button.good{background:rgba(63,185,80,.15);border-color:var(--ok);color:var(--ok)}
 button.hard{background:rgba(242,85,90,.13);border-color:var(--bad);color:var(--bad)}
-.opt{display:block;width:100%;text-align:left;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
-     padding:12px 14px;border-radius:9px;margin-top:8px;cursor:pointer;font-size:15.5px}
+button.sm{padding:6px 10px;font-size:13px;min-height:34px}
+.opt{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;background:var(--panel2);border:1px solid var(--line);color:var(--txt);
+     padding:12px 14px;border-radius:9px;margin-top:8px;cursor:pointer;font-size:15.5px;line-height:1.45;font-family:inherit}
 .opt:hover{border-color:var(--blue)}
 .opt.correct{background:rgba(63,185,80,.16);border-color:var(--ok)}
 .opt.wrong{background:rgba(242,85,90,.16);border-color:var(--bad)}
-.opt b{color:var(--dim);margin-right:8px}
+.opt b{color:var(--dim);flex:0 0 18px;font-variant-numeric:tabular-nums}
+.opt:disabled{cursor:default}
 .bar{height:6px;background:var(--panel2);border-radius:4px;overflow:hidden;margin:10px 0 4px}
 .bar i{display:block;height:100%;background:var(--acc)}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px}
 .stat{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px;text-align:center}
 .stat b{display:block;font-size:24px;color:var(--acc)}
 .stat span{font-size:12px;color:var(--dim)}
-select,input[type=text]{background:var(--panel2);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:14px;max-width:100%}
+select,input[type=text]{background:var(--panel2);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:9px 11px;font-size:14px;max-width:100%;min-height:40px}
 .list-item{border-bottom:1px solid var(--line);padding:12px 0;cursor:pointer}
 .list-item:last-child{border:0}
 .list-item .t{font-weight:600;font-size:15.5px}
 .list-item .d{color:var(--dim);font-size:13.5px;margin-top:6px;display:none;white-space:pre-wrap}
 .list-item.open .d{display:block}
 .hint{color:var(--dim);font-size:13px;margin-top:10px}
-.badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;background:var(--panel2);border:1px solid var(--line);color:var(--dim);margin-left:6px}
-.timer{float:right;color:var(--dim);font-variant-numeric:tabular-nums}
+.badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;background:var(--panel2);border:1px solid var(--line);color:var(--dim)}
+.timer{color:var(--dim);font-variant-numeric:tabular-nums}
 .big{font-size:44px;font-weight:700;text-align:center;margin:10px 0}
 .center{text-align:center}
 kbd{background:var(--panel2);border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:12px}
 code{background:var(--panel2);border-radius:4px;padding:1px 5px;font-size:13.5px}
-textarea{width:100%;background:var(--panel2);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:11px;font:15px/1.5 inherit;min-height:90px}
-@media(max-width:520px){.q{font-size:17px}nav button{flex:1 1 40%}}
+a{color:var(--acc)}
+.fig{margin:14px 0 4px;background:#0d1217;border:1px solid var(--line);border-radius:10px;padding:10px;overflow:hidden}
+.fig svg{width:100%;height:auto;display:block;max-height:360px}
+.fig .cap{color:var(--dim);font-size:12.5px;margin-top:6px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.fig .cap b{color:var(--txt);font-weight:600}
+.notes{margin:10px 0 2px;padding:0 0 0 18px;color:var(--txt);font-size:14.5px;line-height:1.5}
+.notes li{margin:6px 0}
+.notes b{color:var(--acc);font-weight:600}
+.lightbox .fig{overflow:auto;max-height:94vh}
+.figgrid{display:grid;grid-template-columns:1fr;gap:12px}
+@media(min-width:700px){.figgrid{grid-template-columns:1fr 1fr}}
+.figgrid .fig{margin:0;cursor:pointer}
+.figgrid .fig:hover{border-color:var(--acc)}
+.toggle{background:none;border:0;color:var(--blue);cursor:pointer;font-size:14px;padding:6px 0;font-family:inherit}
+.toggle:hover{text-decoration:underline}
+/* документ */
+.doc{background:#0d1217;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.doc .tb{display:flex;align-items:center;gap:6px;padding:8px 10px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.doc .tb .sp{flex:1}
+.doc .pg{position:relative;overflow:auto;max-height:82vh;background:#0d1217;touch-action:pan-y pinch-zoom}
+.doc .pg img{display:block;width:100%;height:auto;background:#fff}
+.doc .pg.zoom img{width:170%;max-width:none}
+.doc .pg.zoom{touch-action:auto}
+.docs{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:14px}
+.dtab{display:flex;flex-direction:column;gap:3px;text-align:left;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;color:var(--txt);font-family:inherit}
+.dtab b{font-size:15px}.dtab span{font-size:12px;color:var(--dim)}
+.dtab.on{border-color:var(--acc);box-shadow:inset 0 0 0 1px var(--acc)}
+.thumbs{display:flex;gap:6px;overflow-x:auto;padding:8px 10px;border-top:1px solid var(--line);scrollbar-width:thin}
+.thumbs img{height:72px;width:auto;border:2px solid transparent;border-radius:4px;cursor:pointer;background:#fff;flex:0 0 auto;opacity:.75}
+.thumbs img.on{border-color:var(--acc);opacity:1}
+.pageno{font-variant-numeric:tabular-nums;font-size:14px;min-width:70px;text-align:center}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.9);z-index:50;display:flex;align-items:center;justify-content:center;padding:16px;cursor:zoom-out}
+.lightbox .fig{width:min(100%,960px);margin:0;cursor:default;padding:16px}
+.lightbox .fig svg{max-height:85vh}
+@media(max-width:520px){.q{font-size:18px}nav button{flex:1 1 30%;padding:9px 8px;font-size:13.5px}.key li{font-size:16px}.card{padding:14px}}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
   <h1>Forklift <b>TLILIC0003</b> — тренажёр</h1>
-  <span class="sub">68 экзаменационных вопросов + 60 тестовых</span>
+  <span class="sub">68 экзаменационных вопросов + 60 тестовых · 25 схем · 3 PDF-документа</span>
 </header>
 
 <nav>
   <button data-m="home" class="on">Прогресс</button>
   <button data-m="cards">Карточки</button>
-  <button data-m="exam">Экзамен</button>
+  <button data-m="quiz">Квиз 68</button>
+  <button data-m="exam">Экзамен 60</button>
   <button data-m="mistakes">Ошибки</button>
+  <button data-m="figs">Схемы</button>
+  <button data-m="doc">Документ</button>
   <button data-m="list">Все вопросы</button>
 </nav>
 
 <div id="app"></div>
 </div>
 
+<script src="figs.js"></script>
 <script>
 let DATA, QUIZ, MC;
 const KEY = 'forklift_tlilic0003_v1';
 const DAY = 864e5;
 const BOX = [0, 1, 3, 7, 21];   // интервалы повторения в днях по коробкам Лейтнера
+/* PDF-документы: страницы отрендерены в doc/<id>/p-NN.jpg, сам PDF лежит рядом для скачивания */
+const ANS_STARTS = [1,5,12,16,20,26,31,36,40,43,47,50,55,59,62,64,68];   // первый вопрос на каждой странице ответов
+const DOCS = [
+  { id:'answers', title:'Ответы на 68 вопросов', sub:'Quiz model answers · EN + RU · 17 стр.', pages:17, dir:'doc/answers/', pdf:'doc/forklift_quiz_answers.pdf',
+    toc: ANS_STARTS.map((s,i)=>[i+1, `Вопросы с ${s}`]) },
+  { id:'theory', title:'Учебное пособие', sub:'20 разделов, шпаргалка, тренировочные вопросы · 45 стр.', pages:45, dir:'doc/theory/', pdf:'doc/Forklift_Theory_TLILIC0003.pdf',
+    toc:[[1,'Обложка'],[2,'Как пользоваться'],[4,'1 · Законодательство и обязанности'],[6,'2 · Опасности и меры контроля'],[7,'3 · Работа рядом с ЛЭП'],[10,'4 · Типы погрузчиков'],[11,'5 · Rear end swing, погода, аккумулятор'],[13,'6 · Заправка и коммуникация'],[14,'7 · Планирование работы'],[15,'8 · Pre-start inspection'],[17,'9 · Start-up checks'],[18,'10 · Работа с грузом'],[20,'11 · Опрокидывание'],[22,'12 · Штабелирование'],[23,'13 · Навесное оборудование'],[25,'14 · Доки и аварийные ситуации'],[26,'15 · Load centres и data plates'],[31,'16 · Расчёты'],[33,'17 · Парковка, смена, пешеходы'],[35,'18 · Сверка с законодательством 2026'],[39,'19 · Шпаргалка — цифры и формулы'],[43,'20 · Тренировочные вопросы']] },
+  { id:'guide', title:'Study Guide — конспект', sub:'§1–16 по National Study Guide · 39 стр.', pages:39, dir:'doc/guide/', pdf:'doc/TLILIC0003_Forklift_Theory_konspekt.pdf',
+    toc:[[1,'Обложка'],[2,'§1 · Legislative requirements'],[7,'§2 · Опасности в зоне работы'],[9,'§3 · Линии электропередачи'],[12,'§4 · Types of forklifts'],[14,'§5 · Communications'],[15,'§6 · Planning your job'],[16,'§7 · Pre-start inspection'],[18,'§8 · Start-up checks'],[19,'§9 · General operations'],[23,'§10 · Attachments'],[25,'§11 · Load centres и data plates'],[29,'§12 · Calculations'],[30,'§13 · Аварии, доки, парковка'],[32,'§14 · Дополнительная информация'],[34,'§15 · Шпаргалка по цифрам'],[36,'§16 · Самопроверка — 76 вопросов']] }
+];
+const pageOf = n => ANS_STARTS.filter(s=>s<=n).length;
 
 let S = load();
 function load(){
-  try{ return Object.assign({cards:{}, mc:{}, exams:[]}, JSON.parse(localStorage.getItem(KEY)||'{}')); }
-  catch(e){ return {cards:{}, mc:{}, exams:[]}; }
+  try{ return Object.assign({cards:{}, mc:{}, qz:{}, exams:[]}, JSON.parse(localStorage.getItem(KEY)||'{}')); }
+  catch(e){ return {cards:{}, mc:{}, qz:{}, exams:[]}; }
 }
 function save(){ try{ localStorage.setItem(KEY, JSON.stringify(S)); }catch(e){} }
 const esc = s => String(s).replace(/[&<>]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const app = document.getElementById('app');
 let mode='home', ctx={};
 
-document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
-  document.querySelectorAll('nav button').forEach(x=>x.classList.remove('on'));
-  b.classList.add('on'); mode=b.dataset.m; ctx={}; render();
-});
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>go(b.dataset.m));
+function go(m, c){ document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on', b.dataset.m===m)); mode=m; ctx=c||{}; render(); window.scrollTo(0,0); }
+
+/* ---------- общие кусочки ---------- */
+function figHtml(id, opts={}){
+  const f = window.FIG && FIG[id]; if(!f) return '';
+  return `<div class="fig" ${opts.onclick?`onclick="${opts.onclick}"`:''}>${f.svg}
+    <div class="cap"><b>${esc(f.title)}</b><span>${esc(f.ru)}</span></div>
+    ${opts.notes===false?'':`<ul class="notes">${(f.notes||[]).map(n=>`<li>${n}</li>`).join('')}</ul>`}</div>`;
+}
+function keyHtml(q){
+  if(!q.key) return '';
+  if(q.key.length===1) return `<ul class="key"><li class="one">${esc(q.key[0])}</li></ul>`;
+  return `<ul class="key">${q.key.map((k,i)=>`<li data-n="${i+1}">${esc(k)}</li>`).join('')}</ul>`;
+}
+function docLink(q){ return `<a href="#" class="badge" onclick="go('doc',{d:'answers',p:${pageOf(q.n)}});return false" title="Открыть страницу документа с ответами">стр. ${pageOf(q.n)} PDF</a>`; }
+function openFig(id){ ctx.lb=id; render(); }
+function lightbox(){
+  if(!ctx.lb) return '';
+  const f=FIG[ctx.lb];
+  return `<div class="lightbox" onclick="ctx.lb=null;render()"><div class="fig" onclick="event.stopPropagation()">${f.svg}
+    <div class="cap"><b>${esc(f.title)}</b><span>${esc(f.ru)}</span></div>
+    <ul class="notes">${(f.notes||[]).map(n=>`<li>${n}</li>`).join('')}</ul>
+    <div class="row"><button class="b sm" onclick="ctx.lb=null;render()">Закрыть &nbsp;<kbd>Esc</kbd></button></div></div></div>`;
+}
 
 /* ---------- прогресс ---------- */
 function st(id){ return S.cards[id] || {box:0, seen:0, wrong:0, due:0}; }
@@ -116,73 +195,90 @@ function home(){
   const seen = QUIZ.filter(q=>st(q.id).seen>0).length;
   const dueN = QUIZ.filter(q=>due(q.id)).length;
   const mcWrong = Object.values(S.mc).filter(x=>x.wrong>0).length;
+  const qzWrong = Object.values(S.qz).filter(x=>x.wrong>0).length;
+  const qzSeen = QUIZ.filter(q=>(S.qz[q.id]||{}).seen>0).length;
   const last = S.exams.slice(-5).reverse();
   app.innerHTML = `
   <div class="card">
     <div class="meta">Открытые вопросы (68)</div>
     <div class="bar"><i style="width:${Math.round(learned()/QUIZ.length*100)}%"></i></div>
-    <div class="hint">Выучено ${learned()} из ${QUIZ.length} · пройдено хотя бы раз: ${seen}</div>
+    <div class="hint">Выучено ${learned()} из ${QUIZ.length} · пройдено хотя бы раз: ${seen} · в квизе отвечено: ${qzSeen}</div>
     <div class="stats" style="margin-top:14px">
       <div class="stat"><b>${dueN}</b><span>к повторению</span></div>
       <div class="stat"><b>${learned()}</b><span>в памяти</span></div>
-      <div class="stat"><b>${mcWrong}</b><span>ошибок в тесте</span></div>
+      <div class="stat"><b>${qzWrong}</b><span>ошибок в квизе</span></div>
+      <div class="stat"><b>${mcWrong}</b><span>ошибок в экзамене</span></div>
       <div class="stat"><b>${S.exams.length}</b><span>экзаменов</span></div>
     </div>
     <div class="row">
       <button class="b primary" onclick="go('cards')">Учить карточки</button>
-      <button class="b" onclick="go('exam')">Сдать экзамен</button>
+      <button class="b" onclick="go('quiz')">Квиз по 68</button>
+      <button class="b" onclick="go('exam')">Экзамен 60</button>
+      <button class="b" onclick="go('doc')">Документ</button>
     </div>
   </div>
   <div class="card">
     <div class="meta">Как этим пользоваться</div>
-    <p><b>Карточки</b> — вспоминаешь ответ вслух, потом открываешь эталон. Оценка «Знаю» отодвигает карточку
-    на 1 → 3 → 7 → 21 день, «Повторить» возвращает её в начало. Русский текст — только для понимания,
-    на экзамене отвечать нужно английскими формулировками.</p>
-    <p><b>Экзамен</b> — 30 случайных вопросов с вариантами ответа, порог 80 %. Ошибки автоматически
-    падают в раздел «Ошибки».</p>
+    <p><b>Карточки</b> — вспоминаешь ответ вслух, потом открываешь эталон: короткие тезисы для заучивания,
+    схема, полный текст и русский перевод по кнопке. «Знаю» отодвигает карточку на 1 → 3 → 7 → 21 день,
+    «Повторить» возвращает её в начало. На экзамене отвечать нужно английскими формулировками.</p>
+    <p><b>Квиз 68</b> — те же 68 вопросов, но с четырьмя вариантами ответа. Порядок вариантов перемешивается.
+    Ошибки копятся в «Ошибках». <b>Экзамен 60</b> — отдельный банк из 60 тестовых вопросов, порог 80 %.</p>
+    <p><b>Схемы</b> — все рисунки одним списком. <b>Документ</b> — три PDF (ответы на 68 вопросов, учебное пособие,
+    конспект Study Guide): листаются постранично, есть оглавление и скачивание; у каждой карточки есть ссылка на свою страницу ответов.</p>
     <div class="hint">Прогресс хранится в этом браузере. <a href="#" onclick="reset();return false" style="color:var(--bad)">Сбросить всё</a></div>
   </div>
   ${last.length?`<div class="card"><div class="meta">Последние экзамены</div>${
     last.map(e=>`<div style="padding:6px 0;border-bottom:1px solid var(--line)">
       <b style="color:${e.pct>=80?'var(--ok)':'var(--bad)'}">${e.pct}%</b>
-      <span class="sub"> — ${e.right}/${e.total}, ${new Date(e.t).toLocaleString('ru-RU')}</span></div>`).join('')
+      <span class="sub"> — ${e.right}/${e.total}, ${e.kind==='quiz'?'квиз 68':'экзамен 60'}, ${new Date(e.t).toLocaleString('ru-RU')}</span></div>`).join('')
   }</div>`:''}`;
 }
-function go(m){ document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on', b.dataset.m===m)); mode=m; ctx={}; render(); }
-function reset(){ if(confirm('Удалить весь прогресс?')){ S={cards:{},mc:{},exams:[]}; save(); render(); } }
+function reset(){ if(confirm('Удалить весь прогресс?')){ S={cards:{},mc:{},qz:{},exams:[]}; save(); render(); } }
 
 /* ---------- карточки ---------- */
+function secSelect(cur, onchange){
+  const secs = [...new Set(QUIZ.map(q=>q.section))];
+  return `<select onchange="${onchange}">
+      <option value="all">Все разделы</option>
+      ${secs.map(s=>`<option ${cur===s?'selected':''}>${esc(s)}</option>`).join('')}
+    </select>`;
+}
 function cards(){
   if(!ctx.queue){
-    const secs = [...new Set(QUIZ.map(q=>q.section))];
     const f = ctx.sec || 'all';
     let pool = QUIZ.filter(q=> f==='all' || q.section===f);
     let q = pool.filter(x=>due(x.id));
     if(!q.length) q = pool.slice();
-    ctx.queue = shuffle(q); ctx.i=0; ctx.show=false; ctx.secs=secs;
+    ctx.queue = shuffle(q); ctx.i=0; ctx.show=false;
   }
-  const secSel = `<select onchange="ctx={sec:this.value};render()">
-      <option value="all">Все разделы</option>
-      ${ctx.secs.map(s=>`<option ${ctx.sec===s?'selected':''}>${esc(s)}</option>`).join('')}
-    </select>`;
+  const sel = secSelect(ctx.sec, "ctx={sec:this.value};render()");
   if(ctx.i >= ctx.queue.length){
     app.innerHTML = `<div class="card center"><div class="big">✓</div>
       <p>Круг пройден — ${ctx.queue.length} карточек.</p>
       <div class="row" style="justify-content:center">
         <button class="b primary" onclick="ctx={sec:ctx.sec};render()">Ещё круг</button>
-        <button class="b" onclick="go('exam')">К экзамену</button></div></div>`;
+        <button class="b" onclick="go('quiz')">К квизу</button></div></div>`;
     return;
   }
   const q = ctx.queue[ctx.i], c = st(q.id);
   app.innerHTML = `
   <div class="card">
     <div class="meta">${esc(q.section)} · вопрос ${q.n}
-      <span class="badge">коробка ${c.box}/4</span>
+      <span class="badge">коробка ${c.box}/4</span><span class="sp"></span>
       <span class="timer">${ctx.i+1} / ${ctx.queue.length}</span></div>
     <div class="q">${esc(q.q)}</div>
-    ${ctx.show ? `<div class="ans">${esc(q.a_en)}</div>
-      ${ctx.ru?`<div class="ru">${esc(q.a_ru)}</div>`
-             :`<div class="row"><button class="b" onclick="ctx.ru=1;render()">Показать русский</button></div>`}
+    ${ctx.show ? `<div class="ans">
+        ${keyHtml(q)}
+        ${q.fig?figHtml(q.fig,{onclick:`openFig('${q.fig}')`}):''}
+        <div class="row" style="margin-top:10px;gap:14px">
+          <button class="toggle" onclick="ctx.full=!ctx.full;render()">${ctx.full?'Скрыть полный ответ':'Полный ответ'}</button>
+          <button class="toggle" onclick="ctx.ru=!ctx.ru;render()">${ctx.ru?'Скрыть русский':'Показать русский'}</button>
+          ${docLink(q)}
+        </div>
+        ${ctx.full?`<div class="full">${esc(q.a_en)}</div>`:''}
+        ${ctx.ru?`<div class="ru">${esc(q.a_ru)}</div>`:''}
+      </div>
       <div class="row">
         <button class="b good" onclick="ansCard(1)">Знаю &nbsp;<kbd>1</kbd></button>
         <button class="b hard" onclick="ansCard(0)">Повторить &nbsp;<kbd>2</kbd></button>
@@ -190,15 +286,93 @@ function cards(){
     : `<div class="row"><button class="b primary" onclick="ctx.show=1;render()">Показать ответ &nbsp;<kbd>пробел</kbd></button></div>
        <div class="hint">Сначала сформулируй ответ вслух по-английски — так он запоминается, а не узнаётся.</div>`}
   </div>
-  <div class="card">${secSel}</div>`;
+  <div class="card">${sel}</div>${lightbox()}`;
 }
-function ansCard(good){ rate(ctx.queue[ctx.i].id, good); ctx.i++; ctx.show=false; ctx.ru=0; render(); }
+function ansCard(good){ rate(ctx.queue[ctx.i].id, good); ctx.i++; ctx.show=false; ctx.ru=0; ctx.full=0; render(); }
 
-/* ---------- экзамен ---------- */
+/* ---------- квиз по 68 открытым вопросам ---------- */
+function mkSet(pool){ return pool.map(q=>({q, order:shuffle([0,1,2,3])})); }
+function quiz(){
+  if(!ctx.set){
+    const f = ctx.sec || 'all';
+    const pool = QUIZ.filter(q=> f==='all' || q.section===f);
+    app.innerHTML = `<div class="card">
+      <div class="meta">Квиз по 68 экзаменационным вопросам</div>
+      <p>Те же вопросы, что в карточках, но с четырьмя вариантами ответа. Варианты перемешаны, после ответа —
+      тезисы, схема и разбор по-русски. Проходной балл, как на экзамене, — 80 %.</p>
+      <div class="row" style="align-items:center">${secSelect(ctx.sec,"ctx={sec:this.value};render()")}<span class="hint" style="margin:0">${pool.length} вопросов</span></div>
+      <div class="row">
+        <button class="b primary" onclick="startQuiz(${Math.min(20,pool.length)})">Случайные ${Math.min(20,pool.length)}</button>
+        <button class="b" onclick="startQuiz(${pool.length})">Все ${pool.length}</button>
+        <button class="b" onclick="startQuiz(${pool.length}, true)">По порядку 1 → ${pool.length}</button>
+      </div></div>`;
+    return;
+  }
+  if(ctx.done) return quizResult();
+  const it = ctx.set[ctx.i], q = it.q, picked = ctx.answers[ctx.i];
+  app.innerHTML = `
+  <div class="card">
+    <div class="meta">${esc(q.section)} · вопрос ${q.n}<span class="sp"></span>
+      <span class="timer">${ctx.i+1} / ${ctx.set.length}</span></div>
+    <div class="q">${esc(q.q)}</div>
+    <div style="margin-top:14px">
+      ${it.order.map((oi,j)=>{
+        let cls='';
+        if(picked!=null) cls = oi===q.correct ? 'correct' : (oi===picked ? 'wrong':'');
+        return `<button class="opt ${cls}" onclick="pickQ(${oi})" ${picked!=null?'disabled':''}>
+          <b>${'ABCD'[j]}</b><span>${esc(q.options[oi])}</span></button>`;
+      }).join('')}
+    </div>
+    ${picked!=null?`<div class="ru" style="color:${picked===q.correct?'var(--ok)':'var(--bad)'};font-weight:600">${picked===q.correct?'✓ Верно.':'✗ Неверно.'}</div>
+      <div class="ru">${esc(q.explain_ru)}</div>
+      ${keyHtml(q)}
+      ${q.fig?figHtml(q.fig,{onclick:`openFig('${q.fig}')`}):''}
+      <div class="row" style="align-items:center"><button class="b primary" onclick="nextQz()">${ctx.i+1<ctx.set.length?'Дальше':'Результат'} &nbsp;<kbd>Enter</kbd></button>${docLink(q)}</div>`:''}
+  </div>${lightbox()}`;
+}
+function startQuiz(n, ordered){
+  const f = ctx.sec || 'all';
+  let pool = QUIZ.filter(q=> f==='all' || q.section===f);
+  pool = ordered ? pool.slice() : shuffle(pool.slice()).slice(0,n);
+  ctx.set = mkSet(pool); ctx.answers=[]; ctx.i=0; ctx.t0=Date.now(); ctx.done=false; render();
+}
+function pickQ(oi){
+  const q = ctx.set[ctx.i].q; ctx.answers[ctx.i]=oi;
+  const m = S.qz[q.id] || {seen:0, wrong:0}; m.seen++; if(oi!==q.correct) m.wrong++; else m.wrong=Math.max(0,m.wrong-1);
+  S.qz[q.id]=m; save(); render();
+}
+function nextQz(){ if(ctx.i+1<ctx.set.length){ctx.i++;} else {ctx.done=true; finishQuiz();} render(); window.scrollTo(0,0); }
+function finishQuiz(){
+  const right = ctx.set.filter((it,i)=>ctx.answers[i]===it.q.correct).length;
+  ctx.right=right; ctx.pct=Math.round(right/ctx.set.length*100);
+  S.exams.push({t:Date.now(), right, total:ctx.set.length, pct:ctx.pct, kind:'quiz'}); save();
+}
+function quizResult(){
+  const pass = ctx.pct>=80;
+  app.innerHTML = `<div class="card center">
+    <div class="big" style="color:${pass?'var(--ok)':'var(--bad)'}">${ctx.pct}%</div>
+    <p>${ctx.right} из ${ctx.set.length} · ${pass?'сдано':'не сдано (нужно 80 %)'}</p>
+    <div class="row" style="justify-content:center">
+      <button class="b primary" onclick="ctx={sec:ctx.sec};render()">Ещё раз</button>
+      <button class="b" onclick="go('mistakes')">Разобрать ошибки</button></div>
+  </div>
+  <div class="card"><div class="meta">Разбор</div>
+    ${ctx.set.map((it,i)=>{
+      const q=it.q, ok = ctx.answers[i]===q.correct;
+      return `<div class="list-item" onclick="this.classList.toggle('open')">
+        <div class="t">${ok?'✓':'✗'} ${q.n}. ${esc(q.q)}</div>
+        <div class="d"><b style="color:var(--ok)">${esc(q.options[q.correct])}</b>
+        ${ok?'':`<br><span style="color:var(--bad)">Твой ответ: ${ctx.answers[i]==null?'—':esc(q.options[ctx.answers[i]])}</span>`}
+        <br>${esc(q.explain_ru)}</div></div>`;
+    }).join('')}
+  </div>`;
+}
+
+/* ---------- экзамен (60 тестовых) ---------- */
 function exam(){
   if(!ctx.set){
     app.innerHTML = `<div class="card">
-      <div class="meta">Экзамен</div>
+      <div class="meta">Экзамен — 60 тестовых вопросов</div>
       <p>30 случайных вопросов с вариантами ответа. Проходной балл — 80 % (24 из 30).
       Ответ подсвечивается сразу, разбор — в конце.</p>
       <div class="row">
@@ -213,7 +387,7 @@ function exam(){
   const secs = Math.round((Date.now()-ctx.t0)/1000);
   app.innerHTML = `
   <div class="card">
-    <div class="meta">${esc(q.topic)}
+    <div class="meta">${esc(q.topic)}<span class="sp"></span>
       <span class="timer">${ctx.i+1} / ${ctx.set.length} · ${String(Math.floor(secs/60)).padStart(2,'0')}:${String(secs%60).padStart(2,'0')}</span></div>
     <div class="q">${esc(q.q)}</div>
     <div style="margin-top:14px">
@@ -221,11 +395,11 @@ function exam(){
         let cls='';
         if(picked!=null) cls = j===q.correct ? 'correct' : (j===picked ? 'wrong':'');
         return `<button class="opt ${cls}" onclick="pick(${j})" ${picked!=null?'disabled':''}>
-          <b>${'ABCD'[j]}</b>${esc(o)}</button>`;
+          <b>${'ABCD'[j]}</b><span>${esc(o)}</span></button>`;
       }).join('')}
     </div>
     ${picked!=null?`<div class="ru">${picked===q.correct?'✓ Верно. ':'✗ Правильный ответ — '+'ABCD'[q.correct]+'. '}${esc(q.explain_ru)}</div>
-      <div class="row"><button class="b primary" onclick="nextQ()">${ctx.i+1<ctx.set.length?'Дальше':'Результат'}</button></div>`:''}
+      <div class="row"><button class="b primary" onclick="nextQ()">${ctx.i+1<ctx.set.length?'Дальше':'Результат'} &nbsp;<kbd>Enter</kbd></button></div>`:''}
   </div>`;
 }
 function startExam(n){ ctx.set = shuffle(MC.slice()).slice(0,n); ctx.answers=[]; ctx.i=0; ctx.t0=Date.now(); ctx.done=false; render(); }
@@ -234,11 +408,11 @@ function pick(j){
   const m = S.mc[q.id] || {seen:0, wrong:0}; m.seen++; if(j!==q.correct) m.wrong++; else m.wrong=Math.max(0,m.wrong-1);
   S.mc[q.id]=m; save(); render();
 }
-function nextQ(){ if(ctx.i+1<ctx.set.length){ctx.i++;} else {ctx.done=true; finishExam();} render(); }
+function nextQ(){ if(ctx.i+1<ctx.set.length){ctx.i++;} else {ctx.done=true; finishExam();} render(); window.scrollTo(0,0); }
 function finishExam(){
   const right = ctx.set.filter((q,i)=>ctx.answers[i]===q.correct).length;
   ctx.right=right; ctx.pct=Math.round(right/ctx.set.length*100);
-  S.exams.push({t:Date.now(), right, total:ctx.set.length, pct:ctx.pct}); save();
+  S.exams.push({t:Date.now(), right, total:ctx.set.length, pct:ctx.pct, kind:'exam'}); save();
 }
 function examResult(){
   const pass = ctx.pct>=80;
@@ -263,54 +437,123 @@ function examResult(){
 
 /* ---------- ошибки ---------- */
 function mistakes(){
+  const badQz = QUIZ.filter(q=>(S.qz[q.id]||{}).wrong>0);
   const badMC = MC.filter(q=>(S.mc[q.id]||{}).wrong>0);
   const badQ  = QUIZ.filter(q=>st(q.id).wrong>0 && st(q.id).box<3);
-  if(!badMC.length && !badQ.length){
-    app.innerHTML = `<div class="card center"><div class="big">✓</div><p>Ошибок нет. Пройди экзамен или карточки, чтобы они здесь появились.</p></div>`;
+  if(!badMC.length && !badQ.length && !badQz.length){
+    app.innerHTML = `<div class="card center"><div class="big">✓</div><p>Ошибок нет. Пройди квиз, экзамен или карточки, чтобы они здесь появились.</p></div>`;
     return;
   }
   app.innerHTML = `
-  ${badMC.length?`<div class="card"><div class="meta">Тест — ошибочные вопросы (${badMC.length})</div>
+  ${badQz.length?`<div class="card"><div class="meta">Квиз 68 — ошибочные вопросы (${badQz.length})</div>
+    ${badQz.map(q=>`<div class="list-item" onclick="this.classList.toggle('open')">
+      <div class="t">${q.n}. ${esc(q.q)}</div>
+      <div class="d"><b style="color:var(--ok)">${esc(q.options[q.correct])}</b><br>${esc(q.explain_ru)}</div></div>`).join('')}
+    <div class="row"><button class="b primary" onclick="drillQz()">Прогнать эти вопросы заново</button></div></div>`:''}
+  ${badMC.length?`<div class="card"><div class="meta">Экзамен 60 — ошибочные вопросы (${badMC.length})</div>
     ${badMC.map(q=>`<div class="list-item" onclick="this.classList.toggle('open')">
       <div class="t">${esc(q.q)}</div>
       <div class="d"><b style="color:var(--ok)">${'ABCD'[q.correct]}. ${esc(q.options[q.correct])}</b><br>${esc(q.explain_ru)}</div></div>`).join('')}
     <div class="row"><button class="b primary" onclick="drill()">Прогнать эти вопросы заново</button></div></div>`:''}
   ${badQ.length?`<div class="card"><div class="meta">Карточки, которые не даются (${badQ.length})</div>
     ${badQ.map(q=>`<div class="list-item" onclick="this.classList.toggle('open')">
-      <div class="t">${q.n}. ${esc(q.q)}</div><div class="d">${esc(q.a_en)}<br><br><span style="color:var(--dim)">${esc(q.a_ru)}</span></div></div>`).join('')}
+      <div class="t">${q.n}. ${esc(q.q)}</div><div class="d">${(q.key||[]).map(k=>'• '+esc(k)).join('\n')}<br><br><span style="color:var(--dim)">${esc(q.a_ru)}</span></div></div>`).join('')}
   </div>`:''}`;
 }
 function drill(){ const bad = MC.filter(q=>(S.mc[q.id]||{}).wrong>0); go('exam'); ctx.set=shuffle(bad); ctx.answers=[]; ctx.i=0; ctx.t0=Date.now(); ctx.done=false; render(); }
+function drillQz(){ const bad = QUIZ.filter(q=>(S.qz[q.id]||{}).wrong>0); go('quiz'); ctx.set=mkSet(shuffle(bad)); ctx.answers=[]; ctx.i=0; ctx.t0=Date.now(); ctx.done=false; render(); }
+
+/* ---------- схемы ---------- */
+function figs(){
+  const ids = Object.keys(FIG);
+  const used = {}; QUIZ.forEach(q=>{ if(q.fig){ (used[q.fig]=used[q.fig]||[]).push(q.n); } });
+  app.innerHTML = `<div class="card"><div class="meta">Схемы — ${ids.length}</div>
+    <p class="hint" style="margin-top:0">Нажми на схему, чтобы увеличить. Под каждой — номера вопросов, к которым она относится.</p></div>
+    <div class="figgrid">${ids.map(id=>`<div class="fig" onclick="openFig('${id}')">${FIG[id].svg}
+      <div class="cap"><b>${esc(FIG[id].title)}</b><span>${esc(FIG[id].ru)}</span></div>
+      <div class="cap"><span>${(used[id]||[]).map(n=>'Q'+n).join(', ')||'—'}</span><span>нажми — пояснение</span></div></div>`).join('')}</div>${lightbox()}`;
+}
+
+/* ---------- документы (страницы PDF) ---------- */
+function doc(){
+  const d = DOCS.find(x=>x.id===ctx.d) || DOCS[0]; ctx.d=d.id;
+  const p = Math.min(Math.max(ctx.p||1,1),d.pages); ctx.p=p;
+  const src = n => `${d.dir}p-${String(n).padStart(2,'0')}.jpg`;
+  const cur = d.toc.filter(t=>t[0]<=p).slice(-1)[0];
+  app.innerHTML = `
+  <div class="docs">${DOCS.map(x=>`<button class="dtab ${x.id===d.id?'on':''}" onclick="ctx={d:'${x.id}',p:1};render()">
+      <b>${esc(x.title)}</b><span>${esc(x.sub)}</span></button>`).join('')}</div>
+  <div class="card" style="padding:12px">
+    <div class="meta" style="margin-bottom:8px">${esc(d.title)} — ${d.pages} стр.<span class="sp"></span>
+      <a href="${d.pdf}" download class="badge">⬇ Скачать PDF</a>
+      <a href="${d.pdf}" target="_blank" rel="noopener" class="badge">Открыть в новой вкладке</a></div>
+    <div class="doc">
+      <div class="tb">
+        <button class="b sm" onclick="docGo(${p-1})" ${p<=1?'disabled':''}>◀</button>
+        <span class="pageno">${p} / ${d.pages}</span>
+        <button class="b sm" onclick="docGo(${p+1})" ${p>=d.pages?'disabled':''}>▶</button>
+        <select onchange="docGo(+this.value)" style="min-height:34px;padding:4px 8px;flex:1;min-width:120px">${d.toc.map(([pg,t])=>`<option value="${pg}" ${cur&&cur[0]===pg?'selected':''}>${esc(t)} · стр. ${pg}</option>`).join('')}</select>
+        <button class="b sm" onclick="ctx.zoom=!ctx.zoom;render()">${ctx.zoom?'Уместить':'Увеличить'}</button>
+      </div>
+      <div class="pg ${ctx.zoom?'zoom':''}" id="pg"><img src="${src(p)}" alt="Страница ${p}" draggable="false"></div>
+      <div class="thumbs" id="thumbs">${Array.from({length:d.pages},(_,i)=>`<img src="${src(i+1)}" class="${i+1===p?'on':''}" onclick="docGo(${i+1})" alt="${i+1}" loading="lazy">`).join('')}</div>
+    </div>
+    <div class="hint">Стрелки <kbd>←</kbd> <kbd>→</kbd> или свайп — следующая страница. Список — переход к разделу. Ссылки «стр. N PDF» в карточках ведут в ответы.</div>
+  </div>`;
+  const pg = document.getElementById('pg');
+  let x0=null, y0=null;
+  pg.addEventListener('touchstart', e=>{ x0=e.touches[0].clientX; y0=e.touches[0].clientY; }, {passive:true});
+  pg.addEventListener('touchend', e=>{
+    if(x0==null || ctx.zoom) return;
+    const dx=e.changedTouches[0].clientX-x0, dy=e.changedTouches[0].clientY-y0;
+    if(Math.abs(dx)>60 && Math.abs(dx)>Math.abs(dy)*1.5) docGo(p + (dx<0?1:-1));
+    x0=null;
+  }, {passive:true});
+  const th = document.querySelector('#thumbs img.on'); if(th) th.scrollIntoView({block:'nearest', inline:'center'});
+  new Image().src = src(Math.min(p+1,d.pages));   // предзагрузка следующей
+}
+function docGo(n){ const d=DOCS.find(x=>x.id===ctx.d)||DOCS[0]; if(n<1||n>d.pages) return; ctx.p=n; render(); }
 
 /* ---------- список ---------- */
 function list(){
   const term = (ctx.term||'').toLowerCase();
-  const found = QUIZ.filter(q => !term || (q.q+q.a_en+q.a_ru).toLowerCase().includes(term));
+  const found = QUIZ.filter(q => !term || (q.q+q.a_en+q.a_ru+(q.key||[]).join(' ')).toLowerCase().includes(term));
   app.innerHTML = `<div class="card">
     <input type="text" placeholder="Поиск по вопросам и ответам…" value="${esc(ctx.term||'')}"
-      oninput="ctx.term=this.value;render();document.querySelector('input').focus()" style="width:100%">
+      oninput="ctx.term=this.value;render();const i=document.querySelector('input');i.focus();i.setSelectionRange(i.value.length,i.value.length)" style="width:100%">
     <div class="hint">${found.length} из ${QUIZ.length} · нажми на вопрос, чтобы раскрыть ответ</div>
   </div>
   <div class="card">${found.map(q=>`
-    <div class="list-item" onclick="this.classList.toggle('open')">
+    <div class="list-item" onclick="if(event.target.tagName!=='A')this.classList.toggle('open')">
       <div class="t">${q.n}. ${esc(q.q)}</div>
-      <div class="d">${esc(q.a_en)}<br><br><span style="color:var(--dim)">${esc(q.a_ru)}</span></div>
+      <div class="d">${(q.key||[]).map(k=>'• '+esc(k)).join('\n')}\n\n${esc(q.a_en)}<br><br><span style="color:var(--dim)">${esc(q.a_ru)}</span><br><br>${docLink(q)}</div>
     </div>`).join('')}</div>`;
 }
 
 /* ---------- служебное ---------- */
 function shuffle(a){ for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
-function render(){ ({home,cards,exam,mistakes,list}[mode])(); }
+function render(){ ({home,cards,quiz,exam,mistakes,figs,doc,list}[mode])(); }
 document.addEventListener('keydown', e=>{
+  if(e.target.tagName==='INPUT' || e.target.tagName==='SELECT') return;
+  if(e.key==='Escape' && ctx.lb){ ctx.lb=null; render(); return; }
   if(mode==='cards' && ctx.queue){
     if(e.code==='Space'){ e.preventDefault(); if(!ctx.show){ctx.show=1;render();} }
     if(ctx.show && e.key==='1') ansCard(1);
     if(ctx.show && e.key==='2') ansCard(0);
   }
+  if(mode==='quiz' && ctx.set && !ctx.done){
+    const j = 'abcd'.indexOf(e.key.toLowerCase());
+    if(j>=0 && ctx.answers[ctx.i]==null) pickQ(ctx.set[ctx.i].order[j]);
+    if(e.code==='Enter' && ctx.answers[ctx.i]!=null) nextQz();
+  }
   if(mode==='exam' && ctx.set && !ctx.done){
     const j = 'abcd'.indexOf(e.key.toLowerCase());
     if(j>=0 && ctx.answers[ctx.i]==null) pick(j);
     if(e.code==='Enter' && ctx.answers[ctx.i]!=null) nextQ();
+  }
+  if(mode==='doc'){
+    if(e.key==='ArrowRight') docGo((ctx.p||1)+1);
+    if(e.key==='ArrowLeft') docGo((ctx.p||1)-1);
   }
 });
 
@@ -325,7 +568,7 @@ if(embedded){
       <p>Файл <code>data.json</code> не найден или заблокирован браузером.</p>
       <p>Если открываешь папку локально через <code>file://</code> — запусти
       <code>python3 -m http.server</code> в корне проекта и открой
-      <a href="http://localhost:8000" style="color:var(--acc)">localhost:8000</a>,
+      <a href="http://localhost:8000">localhost:8000</a>,
       либо возьми готовый офлайн-файл <code>dist/forklift-trainer.html</code>.</p></div>`;
   });
 }
