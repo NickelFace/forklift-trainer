@@ -1,5 +1,9 @@
+.git/
+sources/
+dist/
+build/
 README.md
 HANDOFF.md
 wrangler.toml
 .gitignore
-build/
+.assetsignore
